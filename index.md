@@ -8,7 +8,7 @@ Recently I have been interested in bio-mechanics of bipods and the kinematics of
 
 ## [](#header-2)Academic profile
 ### [](#header-3) PhD in Physics (2013-2019)
-[International Centre for Theoretical Sciences, TIFR Bangalore.](http://www.icts.res.in)
+* [International Centre for Theoretical Sciences, TIFR Bangalore.](http://www.icts.res.in)
 
 ### [](#header-3) MS in Fluid Mechanics (2012-2013)
 * [Ecole Polytechnique, Palaisseau.](https://www.polytechnique.edu)
