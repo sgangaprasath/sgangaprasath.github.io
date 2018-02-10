@@ -6,6 +6,8 @@ My research interest lies broadly on topics of **elasticity, geometry and hydrod
 
 Recently I have been interested in bio-mechanics of bipods and the kinematics of their locomotion. Though I am not working on it presently, hope to do so in the near future.
 
+You can reach me through e-mail: ganga.prasath at icts res in
+
 ## [](#header-2)Academic profile
 ### [](#header-3) PhD in Physics (2013-2019)
 * [International Centre for Theoretical Sciences, TIFR Bangalore.](http://www.icts.res.in)
