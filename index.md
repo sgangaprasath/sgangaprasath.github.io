@@ -15,7 +15,7 @@ Recently I have been interested in bio-mechanics of bipods and the kinematics of
 	- _Thesis: Dynamo action in ABC flows: what is the effect of Fourier truncation at low Prandtl number?_
 
 ### [](#header-3) B.Tech in Mechanical Engineering (2008-2012)
-* [Indian Institute of Information Technology Design and Manufacturing, Chennai.](http://iiitdm.ac.in)
+* [IIIT D&M, Kancheepuram.](http://iiitdm.ac.in)
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
