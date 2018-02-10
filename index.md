@@ -19,7 +19,7 @@ Recently I have been interested in bio-mechanics of bipods and the kinematics of
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](another-page).
+[Link to another page](publications).
 
 There should be whitespace between paragraphs.
 
