@@ -1,6 +1,8 @@
 ---
 layout: default
+published: true
 ---
+Welcome to S Ganga Prasath's page:
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
