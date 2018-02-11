@@ -3,7 +3,7 @@ layout: default
 published: true
 ---
 
-### Publications:
+## [](#header-2) Publications
 
 1.  Fabian Brau, **Ganga Prasath, S.**, and Benny Davidovich. _Partial wetting of a highly bendable sheet: Insights from a two-dimensional set-up._ Soft Matter (to be submitted)
 2.  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Relaxation of a highly deformed elastic filament at a fluid interface._ Physical Review Fluids, 1, 033903. [(arXiv:1601.07278)](https://arxiv.org/abs/1601.07278)
