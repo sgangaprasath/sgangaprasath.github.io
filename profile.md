@@ -7,5 +7,8 @@
 * [Ecole Polytechnique, Palaisseau.](https://www.polytechnique.edu)
 	- _Thesis: Dynamo action in ABC flows: what is the effect of Fourier truncation at low Prandtl number?_
     - Advisors: Prof. Marc Brachet, Prof. Stephan Fauve.
+    
+### [](#header-3) B.Tech in Mechanical Engineering (2008-2012)
+* [IIIT D&M, Kancheepuram.](http://iiitdm.ac.in)
 
 [back](./)
