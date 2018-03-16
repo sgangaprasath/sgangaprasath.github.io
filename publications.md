@@ -6,7 +6,7 @@ published: true
 ## [](#header-2) Publications
 
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Geometry driven coiling of an elastic filament on a sphere._ Proceeding of Royal Society A (under preparation).
-*  **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Forgetting history... one step at a time._ SIAM Numerical Analysis (under preparation)
+*  **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Forgetting history... one step at a time._ SIAM Journal on Applied Mathematics (under preparation)
 *  **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Maxey-Riley equation as a modified Robin condition to heat equation: a Unified Transform approach._ Journal of Fluid Mechanics (under preparation).
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Wetting properties of a thin-filament in contact with a floating droplet._ Soft Matter (to be submitted).
 *  Fabian Brau, **Ganga Prasath, S.**, and Benny Davidovich. _Partial wetting of a highly bendable sheet: Insights from a two-dimensional set-up._ Soft Matter (to be submitted).
