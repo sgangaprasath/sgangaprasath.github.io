@@ -8,6 +8,6 @@ Small displacement theories in elasticity have become textbook material but the 
 
 Particles suspended in fluids are ubiquitous starting from colloidal suspension, dust in atmosphere to collection of droplets inside clouds. The paramount hurdle in understanding the dynamics of these particles comes from the complicated nature of the governing equation (Maxey-Riley equations). We are interested in finding new ways to solve this issue without any apriori approximations.
 
-Recently I have been interested in bio-mechanics of bipods and the kinematics of their locomotion as well as physics of sports. Though I am not working on it presently, hope to do so in the near future.
+Recently I have been interested in bio-mechanics of bipods and the kinematics of their locomotion as well as physics of sports. Though I am not working on these topics presently, hope to do so in the near future.
 
 You can reach me through e-mail: ganga.prasath at icts res in
