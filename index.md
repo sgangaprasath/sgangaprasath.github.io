@@ -2,7 +2,7 @@
 layout: default
 published: true
 ---
-My research interest lies in problems related to **elasticity, geometry and hydrodynamics**. During my PhD I have focused on _instabilities in thin elastic structures (sheets, filaments)_ and _dynamics of solid particles in fluid_.
+I am S Ganga Prasath, graduate student at the [International Centre for Theoretical Sciences](www.icts.res.in), Tata Institute of Fundamental Research, Bengaluru. My research interest lies in problems related to **elasticity, geometry and hydrodynamics**. During my PhD I have focused on _instabilities in thin elastic structures (sheets, filaments)_ and _dynamics of solid particles in fluid_.
 
 **Elasticity and geometry**
 
