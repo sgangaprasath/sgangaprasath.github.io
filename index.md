@@ -4,6 +4,8 @@ published: true
 ---
 I am S Ganga Prasath, graduate student at the [International Centre for Theoretical Sciences](www.icts.res.in), Tata Institute of Fundamental Research, Bengaluru. My research interest lies in problems related to **elasticity, geometry and hydrodynamics**. During my PhD I have focused on _instabilities in thin elastic structures (sheets, filaments)_ and _dynamics of solid particles in flows_.
 
+Please see the Research section for a detailed description of the problems I work on. They can broadly be described as follows:
+
 **Elasticity and geometry**
 
 Small displacement theories in elasticity have become textbook material but the coupling of geometry in these theories is weak. Large deformation and geometry bring in fascinating new facets to material behaviour which can then be leveraged for desirable work. These are relevant in phenomenon ranging from differential growth problems in nature, micro-organismic motility, micro-fluidic parcelling of liquid droplets to movement of crop and tree canopies in wind. I look at these instabilities through table top experiments and theory.
