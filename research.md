@@ -12,7 +12,7 @@ Droplets transported through microfluidic devices are prone to interacting with 
 ![wrapping.png]({{site.baseurl}}/wrapping.png)
 
 **Large deformation dynamics**
-Elastic filaments in a viscous fluid under small deformation take infinite time to relax when acted upon by bending and viscous forces. But under large deformation, geometric constraints make the dynamics non-trivial due to a new tangential stress. Using results from a simple model system we try to extend the implications to micro-organismic locomotion.
+Elastic filaments in a viscous fluid under small deformation take infinite time to relax when acted upon by bending and viscous forces. But under large deformation, geometric constraints arising out of material behaviour such as preservation of length make the filament dynamics highly non-linear. We show that the estimates on energy dissipation from linear theory is drasticaly different from the non-linear one and extend implications to micro-organismic locomotion. To our surprise we found out that asymmetric shapes of filament being more unstable than symmetric shapes.
 
 <!--![asymmetric.jpg]({{site.baseurl}}/asymmetric.jpg){:height="50%" width="50%"}-->
 ![relax.png]({{site.baseurl}}/relax.png)
