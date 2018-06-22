@@ -7,3 +7,5 @@ Droplets transported through microfluidic devices are prone to interacting with 
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Wetting properties of a thin-filament in contact with a floating droplet._ Soft Matter (to be submitted).
 *  Fabian Brau, **Ganga Prasath, S.**, and Benny Davidovich. _Wettability of bendable solids:
 Insights from a two-dimensional, inextensible model_. Soft Matter (to be submitted).
+
+[back](./research)
