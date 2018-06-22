@@ -2,8 +2,6 @@
 
 [Instabilities driven by geometry](./coiling)
 
-<a href="https://sgangaprasath.github.io/coiling">Instabilities driven by geometry</a>
+[Filament/Sheet morphologies](./sheet_morph)
 
-<a href="https://sgangaprasath.github.io/sheet_morph">Filament/Sheet morphologies</a>
-
-<a href="https://sgangaprasath.github.io/large_deformation">Large deformation dynamics</a>
+[Large deformation dynamics](./large_deformation)
