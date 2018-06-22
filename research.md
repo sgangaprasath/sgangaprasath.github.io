@@ -1,5 +1,7 @@
 ## Research
 
+[Instabilities driven by geometry](./coiling)
+
 <a href="https://sgangaprasath.github.io/coiling">Instabilities driven by geometry</a>
 
 <a href="https://sgangaprasath.github.io/sheet_morph">Filament/Sheet morphologies</a>
