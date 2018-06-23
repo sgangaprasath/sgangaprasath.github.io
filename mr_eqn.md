@@ -8,3 +8,5 @@ Maxey-Riley equations describe the dynamics of inertial particles in a flow. The
 
 *  Vishal Vasan, **Ganga Prasath, S.**, and Rama Govindarajan. _Boundary-bulk extension ideas applied to fractional differential equations._ SIAM Journal on Applied Mathematics (to be submitted).
 *  **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Maxey-Riley equation as a modified Robin condition to heat equation: a Unified Transform approach._ Journal of Fluid Mechanics (to be submitted).
+
+[back](./research)
