@@ -1,4 +1,4 @@
-## Discussions on Policy, Science & Society, Arts and Humanities
+## Talks on Policy, Science & Society, Arts and Humanities
 
 As part of the student collective at ICTS, I along with [Adhip Agarwala](https://www.icts.res.in/people/adhip-agarwala) organise monthly talks on a variety of topics ranging from policy, science - how it affects the society and arts.
 
