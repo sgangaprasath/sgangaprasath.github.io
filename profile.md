@@ -1,8 +1,8 @@
 ## [](#header-2)Academic profile
 ### [](#header-3) PhD in Physics (2013-2019)
-* [International Centre for Theoretical Sciences, TIFR Bangalore.](http://www.icts.res.in)
+* [International Centre for Theoretical Sciences, TIFR Bengaluru.](http://www.icts.res.in)
 	- Advisors: **Prof. Rama Govindarajan, Prof. Narayanan Menon**.
-    - Collaborator: **Prof. Vishal Vasan (ICTS Bangalore)**, **Dr. Joel Marthelot (Princeton Univ)**
+    - Collaborator: **Prof. Vishal Vasan (ICTS-TIFR Bengaluru)**, **Dr. Joel Marthelot (Princeton Univ)**
 
 ### [](#header-3) MS in Fluid Mechanics (2012-2013)
 * [Ecole Polytechnique, Palaisseau.](https://www.polytechnique.edu)
