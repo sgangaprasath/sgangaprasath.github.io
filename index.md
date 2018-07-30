@@ -2,7 +2,7 @@
 layout: default
 published: true
 ---
-![gangaprasath.jpg]({{site.baseurl}}/gangaprasath.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;" :height="30%" width="30%"}
+![gangaprasath.jpg]({{site.baseurl}}/gangaprasath.jpg){:style="float: left;margin-right: 7px;margin-top: 7px;" :height="30%" width="30%"}
 S Ganga Prasath is a graduate student at the [International Centre for Theoretical Sciences](www.icts.res.in), Tata Institute of Fundamental Research, Bengaluru. His research interests lie in problems related to **elasticity, geometry and hydrodynamics**. His PhD is focused around _instabilities in thin elastic structures (filaments and sheets)_ and _dynamics of solid particles in flows_.
 
 Please see the [Research](./research) section for a detailed description of the problems he works on. They can broadly be described as follows:
