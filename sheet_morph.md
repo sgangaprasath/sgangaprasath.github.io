@@ -1,6 +1,6 @@
 ## Filament/Sheet morphologies
 
-Droplets transported through microfluidic devices are prone to interacting with boundary walls and the contents being polluted. A safe transport mechanism predicates a rigid covering for such small droplets. One way to achieve this is by covering the droplet using thin plastic sheets. Using elasticity theory we explore the phase-space of different shapes a sheet takes when in contact with a liquid droplet. The phase-space is rich with several instabilities which we understand using experiments and asymptotic calculations.
+Droplets transported through microfluidic devices are prone to interacting with boundary walls and the contents being polluted. A safe transport mechanism predicates a solid covering for such small droplets. One way to achieve this is by covering the droplet using thin plastic sheets. Using elasticity theory we explore the phase-space of different shapes a sheet takes when in contact with a liquid droplet. The phase-space is rich with several instabilities which we understand using experiments and asymptotic calculations.
 
 ![wrapping.png]({{site.baseurl}}/wrapping.png)
 
