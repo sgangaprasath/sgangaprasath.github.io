@@ -9,10 +9,10 @@ Please see the [Research](./research) section for a detailed description of the 
 
 **Elasticity and geometry**
 
-Small displacement theories in elasticity have become textbook material but the coupling of geometry in these theories is weak. Large deformation and geometry bring in fascinating new facets to material behaviour which can then be leveraged for desirable work. These are relevant in phenomenon ranging from differential growth problems in nature, micro-organismic motility, micro-fluidic parcelling of liquid droplets to movement of crop and tree canopies in wind. I look at these instabilities through table top experiments and theory.
+Small displacement theories in elasticity have become textbook material but the coupling of geometry in these theories is weak. Large deformation and geometry bring in fascinating new facets to material behaviour which can then be leveraged for desirable behaviour. These are relevant in phenomena ranging from differential growth problems in nature, micro-organismic motility, micro-fluidic parcelling of liquid droplets to movement of crop and tree canopies in wind. I look at these instabilities through table top experiments and theory.
 
 **Hydrodynamics of particles**
 
-Particles suspended in fluids are ubiquitous starting from colloidal suspension, phytoplankton motion in ocean, suspended particulate matter in atmosphere to collection of droplets inside clouds. The paramount hurdle in understanding the dynamics of these particles comes from the complicated nature of the governing equation (Maxey-Riley equations). I am interested in finding new ways to solve this issue without any apriori approximations.
+Particles suspended in fluids are ubiquitous, examples include colloidal suspension, phytoplankton motion in ocean, suspended particulate matter in the atmosphere and collection of droplets inside clouds. The paramount hurdle in understanding the dynamics of these particles comes from the complicated nature of the governing equation (Maxey-Riley equations). I am interested in finding new ways to solve them without any ad-hoc approximations.
 
 You can reach him through e-mail: ganga.prasath at icts res in
