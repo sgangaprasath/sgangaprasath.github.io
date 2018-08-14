@@ -7,6 +7,6 @@ Motion of elastic filaments in a viscous fluid under small deformation is govern
 
 **Publications**
 
-**Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Relaxation of a highly deformed elastic filament at a fluid interface._ Physical Review Fluids, 1, 033903. [(arXiv:1601.07278)](https://arxiv.org/abs/1601.07278)
+**Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Relaxation of a highly deformed elastic filament at a fluid interface._ Physical Review Fluids, 1, 033903. [[arXiv:1601.07278]](https://arxiv.org/abs/1601.07278)
 
 [back](./research)
