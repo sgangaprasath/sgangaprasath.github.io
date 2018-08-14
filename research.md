@@ -3,6 +3,7 @@
 **Elasticity and geometry:**
 
 <!-- [Instabilities driven by geometry](./coiling) -->
+[Instabilities driven by geometry](./coiling)
 
 [Filament/Sheet morphologies](./sheet_morph)
 
