@@ -6,6 +6,7 @@ When a stress-free filament is floated on a think flat film, it takes the shape 
 
 **Publications**
 
-**Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Geometry driven coiling of an elastic filament on a spherical bubble._ Proceedings of Royal Society A (under preparation).
+<!--**Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Geometry driven coiling of an elastic filament on a spherical bubble._ Proceedings of Royal Society A (under preparation).-->
+**Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Geometry driven coiling of an elastic filament on a spherical bubble._ (work in progress).
 
 [back](./research)
