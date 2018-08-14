@@ -7,8 +7,8 @@ published: true
 
 <!--*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Geometry driven coiling of an elastic filament on a spherical bubble._ Proceedings of Royal Society A (under preparation).-->
 *  Vishal Vasan, **Ganga Prasath, S.**, and Rama Govindarajan. _Boundary-bulk extension ideas applied to fractional differential equations._ SIAM Journal on Applied Mathematics (under preparation).
-*  **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Maxey-Riley equation as a modified Robin condition to heat equation: a Unified Transform approach._ Journal of Fluid Mechanics (to be submitted).
-*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Wetting properties of a thin-filament in contact with a floating droplet._ Soft Matter (to be submitted).
+*  **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Maxey-Riley equation as a modified Robin condition to heat equation: a Unified Transform approach._ Journal of Fluid Mechanics (to be submitted soon).
+*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Wetting properties of a thin-filament in contact with a floating droplet._ Soft Matter (to be submitted soon).
 *  Fabian Brau, **Ganga Prasath, S.**, and Benny Davidovich. _Wettability of bendable solids:
 Insights from a two-dimensional, inextensible model_. Soft Matter (to be submitted).
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Relaxation of a highly deformed elastic filament at a fluid interface._ Physical Review Fluids, 1, 033903. [[arXiv:1601.07278]](https://arxiv.org/abs/1601.07278)
