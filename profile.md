@@ -4,7 +4,7 @@
 	- Advisors: **Prof. Rama Govindarajan, Prof. Narayanan Menon**.
     - Collaborators: **Prof. Vishal Vasan (ICTS-TIFR Bengaluru)**, **Dr. Joel Marthelot (Princeton Univ)**
 
-### [](#header-3) MS in Fluid Mechanics (2012-2013)
+### [](#header-3) MS in Fluid Mechanics (2012-2013) (Charpak fellowship by Institut Francais)
 * [Ecole Polytechnique, Palaisseau.](https://www.polytechnique.edu)
 	- _Thesis: Dynamo action in ABC flows: what is the effect of Fourier truncation at low Prandtl number?_
     - Advisors: **Prof. Marc Brachet (ENS Paris), Prof. Stephane Fauve (ENS Paris)**.
