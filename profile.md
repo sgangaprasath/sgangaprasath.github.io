@@ -5,7 +5,7 @@
     - Collaborators: **Prof. Vishal Vasan (ICTS-TIFR Bengaluru)**, **Dr. Joel Marthelot (Princeton Univ)**
 
 ### [](#header-3) MS in Fluid Mechanics (2012-2013)
-* Recipient of _Charpak fellowship_ by Institut Francais
+* Recipient of the _Charpak fellowship_ by Institut Francais.
 * [Ecole Polytechnique, Palaisseau.](https://www.polytechnique.edu)
 	- _Thesis: Dynamo action in ABC flows: what is the effect of Fourier truncation at low Prandtl number?_
     - Advisors: **Prof. Marc Brachet (ENS Paris), Prof. Stephane Fauve (ENS Paris)**.
