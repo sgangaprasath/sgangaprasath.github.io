@@ -1,6 +1,6 @@
 ## Large deformation dynamics of filaments
 
-The motion of elastic filaments in a viscous fluid under small deformation is governed by a linear force balance equation where viscous force opposes bending force. But under large deformation, geometric constraints arising out of material behaviour, such as conservation of length, make the filament dynamics highly non-linear. We show that the estimates on energy dissipation from linear theory is drasticaly different from the non-linear one and extend implications to micro-organismic locomotion. To our surprise we also find that asymmetric shapes of filament relax rapidly to symmetric shapes.
+The motion of elastic filaments in a viscous fluid under small deformation is governed by a linear force balance equation where viscous force opposes bending force. But under large deformation, geometric constraints arising out of material behaviour, such as conservation of length, make the filament dynamics highly non-linear. We show that the estimates on energy dissipation from linear theory is drastically different from the non-linear one and extend implications to micro-organismic locomotion. To our surprise we also find that asymmetric shapes of filament relax rapidly to symmetric shapes.
 
 <!--![asymmetric.jpg]({{site.baseurl}}/asymmetric.jpg){:height="50%" width="50%"}-->
 ![relax.png]({{site.baseurl}}/relax.png)
