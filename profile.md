@@ -11,8 +11,7 @@
     - Advisors: **Prof. Marc Brachet (ENS Paris), Prof. Stephane Fauve (ENS Paris)**.
     
 ### [](#header-3) B.Tech in Mechanical Engineering (2008-2012)
-* Best thesis award for report titled _"Control of effects of vortex shedding
-using active and passive mechanisms"_.
+* Recipient of Best thesis award
 * [IIIT D&M, Kancheepuram.](http://iiitdm.ac.in)
 	- _Thesis: Control of vortex shedding using active and passive mechanisms._
     - Advisor: **Prof. S. Jayavel**.
