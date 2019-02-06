@@ -1,5 +1,5 @@
 ## [](#header-2)Academic profile
-### [](#header-3) PhD in Physics (2013-2018)
+### [](#header-3) PhD in Physics (2013-2019)
 * [International Centre for Theoretical Sciences, TIFR Bengaluru.](http://www.icts.res.in)
 	- Advisors: **Prof. Rama Govindarajan, Prof. Narayanan Menon**.
     - Collaborators: **Prof. Vishal Vasan (ICTS-TIFR Bengaluru)**, **Dr. Joel Marthelot (Princeton Univ)**
