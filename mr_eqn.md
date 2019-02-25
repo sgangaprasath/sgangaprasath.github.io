@@ -8,6 +8,6 @@ The Maxey-Riley equations describe the dynamics of inertial particles in a flow 
 
 *  Vishal Vasan, **Ganga Prasath, S.**, and Rama Govindarajan. _Boundary-bulk extension ideas applied to fractional differential equations._ SIAM Journal on Applied Mathematics (under preparation).
 *  **Ganga Prasath, S.**, Vishal Vasan, and Rama Govindarajan. _Accurate solution method for the Maxey-Riley equation, and the effects of Basset history._
-Submitted to the Journal of Fluid Mechanics. [[arXiv:1808.08769]](http://arxiv.org/abs/1808.08769)
+Accepted for publication in the Journal of Fluid Mechanics. [[arXiv:1808.08769]](http://arxiv.org/abs/1808.08769)
 
 [back](./research)
