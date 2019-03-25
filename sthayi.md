@@ -14,5 +14,7 @@ List of speakers and title:
 5. 14th September 2018: **Prof. Sabyasachi Chatterjee**, _Higher education: sharing certain concerns_.
 6. 21st September 2018: **Mr. David Devadas**, _Kashmir: uprisings, state responses and geopolitical factors over the past three decades_.
 7. 26th October 2018: **Jana Natya Manch**, _Hindi play: Tathagat_.
-8. 19th January 2018: Discussion with **Dr. Suvrat Raju**, _Documentary: We have not come here to die_.
-9. 6th February 2018: **Dr. T.N. Prakash Kammardi**, _Un-remunerative price, income insecurity, and agrarian crisis - The case of Karnataka, India._
+8. 19th January 2019: Discussion with **Dr. Suvrat Raju**, _Documentary: We have not come here to die_.
+9. 6th February 2019: **Dr. T.N. Prakash Kammardi**, _Un-remunerative price, income insecurity, and agrarian crisis - The case of Karnataka, India_.
+10. 8th March 2019: **Ms. Lakshmi Parvathy**, _The journey towards justice (story of formation of transgender welfare board)_.
+11. 23th March 2019: **Mr. D Raghunandan**, _Science & Technology and future development of India_.
