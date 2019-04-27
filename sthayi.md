@@ -1,3 +1,5 @@
+![sthayi_title.png]({{site.baseurl}}/sthayi_title.png)
+
 ## Talks on Policy, Science & Society, Arts and Humanities
 
 As part of the student collective at ICTS, I along with [Adhip Agarwala](https://www.icts.res.in/people/adhip-agarwala) and [Abhishodh Prakash](https://sites.google.com/view/abhishodh/home?authuser=0) organise monthly talk on a variety of topics ranging from policy, science - how it affects society and arts.
