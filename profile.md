@@ -2,7 +2,7 @@
 ### [](#header-3) PhD in Physics (2013-2019)
 * [International Centre for Theoretical Sciences, TIFR Bengaluru.](http://www.icts.res.in)
 	- Advisors: **Prof. Rama Govindarajan, Prof. Narayanan Menon**.
-    - Collaborators: **Prof. Vishal Vasan (ICTS-TIFR Bengaluru)**, **Dr. Joel Marthelot (Princeton Univ)**
+    - Collaborators: **Prof. Vishal Vasan (ICTS-TIFR Bengaluru)**, **Dr. Joel Marthelot (Aix-Marseille Univ)**
 
 ### [](#header-3) MS in Fluid Mechanics (2012-2013)
 * Recipient of the _Charpak fellowship_ by Institut Francais.
