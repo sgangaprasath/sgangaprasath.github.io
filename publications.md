@@ -9,6 +9,7 @@ published: true
 *  Vishal Vasan, **Ganga Prasath, S.**, and Rama Govindarajan. _Boundary-bulk extension ideas applied to fractional differential equations._ SIAM Journal on Applied Mathematics (under preparation).
 *  **Ganga Prasath, S.**, Vishal Vasan, and Rama Govindarajan. _Accurate solution method for the Maxey-Riley equation, and the effects of Basset history._ 
 Journal of Fluid Mechanics, 10.1017/jfm.2019.194. [[arXiv:1808.08769]](http://arxiv.org/abs/1808.08769)
+![focus.png]({{site.baseurl}}/focus.png)
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Wetting properties of a thin-filament in contact with a floating droplet._ Soft Matter (to be submitted soon).
 *  Fabian Brau, **Ganga Prasath, S.**, and Benny Davidovich. _Wettability of bendable solids:
 Insights from a two-dimensional, inextensible model_. Soft Matter (to be submitted).
