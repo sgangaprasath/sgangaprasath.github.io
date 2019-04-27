@@ -19,3 +19,4 @@ List of speakers and title:
 9. 6th February 2019: **Dr. T.N. Prakash Kammardi**, _Un-remunerative price, income insecurity, and agrarian crisis - The case of Karnataka, India_.
 10. 8th March 2019: **Ms. Lakshmi Parvathy**, _The journey towards justice (story of formation of transgender welfare board)_.
 11. 23th March 2019: **Mr. D Raghunandan**, _Science & Technology and future development of India_.
+12. 30th March 2019: **Mr. Somnath Waghmare**, _The battle of Bhima Koregaon - an unending journey_.
