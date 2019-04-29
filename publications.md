@@ -8,8 +8,8 @@ published: true
 <!--*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Geometry driven coiling of an elastic filament on a spherical bubble._ Proceedings of Royal Society A (under preparation).-->
 *  Vishal Vasan, **Ganga Prasath, S.**, and Rama Govindarajan. _Boundary-bulk extension ideas applied to fractional differential equations._ SIAM Journal on Applied Mathematics (under preparation).
 *  **Ganga Prasath, S.**, Vishal Vasan, and Rama Govindarajan. _Accurate solution method for the Maxey-Riley equation, and the effects of Basset history._ 
-Journal of Fluid Mechanics, 10.1017/jfm.2019.194. [[URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/accurate-solution-method-for-the-maxeyriley-equation-and-the-effects-of-basset-history/C4E30D782CEA2AA72333825A97B1953C) [[arXiv:1808.08769]](http://arxiv.org/abs/1808.08769)
-![focus.png]({{site.baseurl}}/focus.png)(Selected for _Focus on Fluids_){:height="80%" width="80%"}
+Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids_) [[URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/accurate-solution-method-for-the-maxeyriley-equation-and-the-effects-of-basset-history/C4E30D782CEA2AA72333825A97B1953C) [[arXiv:1808.08769]](http://arxiv.org/abs/1808.08769)
+![focus.png]({{site.baseurl}}/focus.png){:height="80%" width="80%"}
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Wetting properties of a thin-filament in contact with a floating droplet._ Soft Matter (to be submitted soon).
 *  Fabian Brau, **Ganga Prasath, S.**, and Benny Davidovich. _Wettability of bendable solids:
 Insights from a two-dimensional, inextensible model_. Soft Matter (to be submitted).
