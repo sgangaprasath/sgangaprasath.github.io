@@ -22,3 +22,4 @@ List of speakers and title:
 12. 30th March 2019: **Mr. Somnath Waghmare**, _The battle of Bhima Koregaon - an unending journey_.
 13. 3rd May 2019: **Ms. Aditi Ramola**, _Global perspectives in waste management_ followed by discussion with **MR. Rajesh Babu** on _Sustainable waste management practices: issues and solutions_.
 14. 14th June 2019: **Dr. Leena Wadia**, _Highlights of the draft National Education Policy 2019_.
+15. 1st July 2019: **Mr. Snehashish Mitra**, _Citizenship of India, legitimacy in Assam: Unresolved crisis of post-partition borderlands_.
