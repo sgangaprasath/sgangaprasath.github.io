@@ -1,4 +1,8 @@
 ## [](#header-2)Academic profile
+### [](#header-3) Post-doctoral research (2019-*)
+* [School of Engineering and Applied Sciences, Harvard University](http://www.seas.harvard.edu)
+	- Advisors: **Prof. L Mahadevan**.
+
 ### [](#header-3) PhD in Physics (2013-2019)
 * [International Centre for Theoretical Sciences, TIFR Bengaluru.](http://www.icts.res.in)
 	- Advisors: **Prof. Rama Govindarajan, Prof. Narayanan Menon**.
