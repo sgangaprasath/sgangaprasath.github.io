@@ -5,7 +5,7 @@ published: true
 ![gangaprasath.jpg]({{site.baseurl}}/gangaprasath.jpg){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"}
 I have completed my graduate studies in Physics at the [International Centre for Theoretical Sciences](www.icts.res.in), Tata Institute of Fundamental Research, Bengaluru. I worked on problems related to **elasticity, geometry and hydrodynamics** for my PhD, particularly around _instabilities in thin elastic structures (filaments and sheets)_ and _dynamics of solid particles in fluid flows_.
 
-Please see the [Research](./research) section for a detailed description of the problems I work on. They can broadly be described as follows:
+Please see the [Research](./research) section for a detailed description of the problems I worked on during my PhD. They can broadly be described as follows:
 
 **Elasticity and geometry**
 
@@ -15,6 +15,6 @@ Small displacement theories in elasticity have become textbook material but the 
 
 Particles suspended in fluids are ubiquitous, examples include colloidal suspension, phytoplankton motion in ocean, suspended particulate matter in the atmosphere and collection of droplets inside clouds. The paramount hurdle in understanding the dynamics of these particles comes from the complicated nature of the governing equation (Maxey-Riley equations). I am interested in finding new ways to solve them without any ad-hoc approximations.
 
-I am starting my post-doc at 
+I will be a post-doc in [Mahadevan's lab](https://www.seas.harvard.edu/softmat/index.html) starting August, 2019.
 
 You can reach me through e-mail: s.gangaprasath1 at gmail com
