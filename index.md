@@ -3,9 +3,9 @@ layout: default
 published: true
 ---
 ![gangaprasath.jpg]({{site.baseurl}}/gangaprasath.jpg){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"}
-I am currently a post-doc in [Mahadevan's lab](https://www.seas.harvard.edu/softmat/index.html) working on collective social behaviour of ants, physics of decision making and healing in functional networks.
+I am currently a post-doc in [Mahadevan's lab](https://www.seas.harvard.edu/softmat/index.html) working on robotics inspired by collective social behaviour of ants, building artificial functional networks, and physics of decision making.
 
-I have completed my PhD in Physics at the [International Centre for Theoretical Sciences](www.icts.res.in), Tata Institute of Fundamental Research, Bengaluru. I worked on problems related to **elasticity, geometry and hydrodynamics** for my PhD, particularly around _instabilities in thin elastic structures (filaments and sheets)_ and _dynamics of solid particles in fluid flows_.
+I completed my PhD in Physics at the [International Centre for Theoretical Sciences](www.icts.res.in), Tata Institute of Fundamental Research, Bengaluru. There I worked on problems related to **elasticity, geometry and hydrodynamics**, particularly around _instabilities in thin elastic structures (filaments and sheets)_ and _dynamics of solid particles in fluid flows_.
 
 Please see the [Research](./research) section for a detailed description of the problems I worked on during my PhD.
 
