@@ -1,7 +1,7 @@
 ## Talks on Policy, Science & Society, Arts and Humanities
 ![sthayi_title.png]({{site.baseurl}}/sthayi_title.png)
 
-When I was at ICTS, as part of the student collective, I along with [Adhip Agarwala](https://www.icts.res.in/people/adhip-agarwala), Abha Jeurkar and [Abhishodh Prakash](https://sites.google.com/view/abhishodh/home?authuser=0) used to organise monthly talk on a variety of topics ranging from policy, science - how it affects society and arts.
+When I was at ICTS, as part of the student collective, I along with [Adhip Agarwala](https://www.icts.res.in/people/adhip-agarwala), Abha Jeurkar and [Abhishodh Prakash](https://sites.google.com/view/abhishodh/home?authuser=0) used to organise monthly talks on a variety of topics ranging from policy, science - how it affects society and arts.
 
 Through these talks we tried to engage the scientific community in a conversation with specialists in a given field or an issue. These discussions aimed at getting informed, to think and if possible even address pertinent questions that surround us.
 
