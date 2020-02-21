@@ -1,5 +1,7 @@
-## Current Research 
+## Current Research
+
 [Collective robotics](./robotics)
+
 [Functional materials](./material)
 
 ## During PhD
