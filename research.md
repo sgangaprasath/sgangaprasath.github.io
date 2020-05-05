@@ -4,6 +4,8 @@
 
 [Functional materials](./material)
 
+[Decision making](./psychophysics)
+
 ## During PhD
 
 **Elasticity and geometry:**
