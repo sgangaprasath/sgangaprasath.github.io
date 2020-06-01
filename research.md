@@ -1,6 +1,6 @@
 ## Current Research
 
-[Collective robotics](./robotics)
+[Collective behaviour and robotics](./robotics)
 
 [Functional materials](./material)
 
