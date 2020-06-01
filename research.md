@@ -2,7 +2,7 @@
 
 [Collective behaviour and robotics](./robotics)
 
-[Functional materials](./material)
+[Smart materials](./material)
 
 [Decision making](./psychophysics)
 
@@ -17,6 +17,6 @@
 
 [Large deformation dynamics](./large_deformation)
 
-**Hydrodynamics of particles in a flow**
+**Hydrodynamics of particles in flow**
 
 [Dealing with Basset-history integral](./mr_eqn)
