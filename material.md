@@ -1,2 +1,4 @@
 ## Smart material
 Meta-materials leverage geometry to achieve deviant physical properties. The many examples of such materials pervade the art and architecture world with origami and kirigami being the archetypes. We introduce a new class of "Neutrally Stable" materials called **Liberlamina** with zero-stiffness that can be assembled to produce positive, negative and zero Poisson ratio. And these materials can morph between a tunable family of states without energy expenditure. We realise these structures experimentally using 3D printed structures and show that all deformations are indeed free.
+
+[back](./research)
