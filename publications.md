@@ -4,7 +4,7 @@ published: true
 ---
 
 ## [](#header-2) Publications
-
+*  M. Serra, S. al-Mosleh, **S. Ganga Prasath**, V. Raju, S. Mantena, J. Chandra, S. Iams, L. Mahadevan. _Optimal policies for mitigating pandemic costs._ [[arXiv:2007.11178]](http://arxiv.org/abs/2007.11178)
 <!--*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Geometry driven coiling of an elastic filament on a spherical bubble._ Proceedings of Royal Society A (under preparation).-->
 *  Vishal Vasan, **Ganga Prasath, S.**, and Rama Govindarajan. _Boundary-bulk extension ideas applied to fractional differential equations. (under preparation)
 <!--_ SIAM Journal on Applied Mathematics-->
