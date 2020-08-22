@@ -5,6 +5,7 @@ published: true
 
 ## [](#header-2) Publications
 
+* **Ganga Prasath, S.**, Vishal Vasan. _A primer on Unified Transform Method_. (under preparation)
 * **Ganga Prasath, S.**, Gaurav Chaudhary, Mahadevan, L. _Memory-free materials_. (under preparation)
 * **Ganga Prasath, S.**, Mahadevan, L. _Rheomergy: Flow mediated communication for collective response_. (under preparation)
 * **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Coiling instability on a sphere_. (under preparation)
