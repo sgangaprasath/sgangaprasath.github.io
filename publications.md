@@ -8,7 +8,7 @@ published: true
 * **Ganga Prasath, S.**, Vishal Vasan. _A primer on Unified Transform Method_. (under preparation)
 * **Ganga Prasath, S.**, Gaurav Chaudhary, Mahadevan, L. _Memory-free materials_. (under preparation)
 * **Ganga Prasath, S.**, Mahadevan, L. _Rheomergy: Flow mediated communication for collective response_. (under preparation)
-* **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Coiling instability on a sphere_. (under preparation)
+* **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Shapes of a filament on top of a bubble_. (under preparation)
 * Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _A unified transform approach to history effects_. (under preparation)
 *  M. Serra, S. al-Mosleh, **S. Ganga Prasath**, V. Raju, S. Mantena, J. Chandra, S. Iams, L. Mahadevan. _Optimal policies for mitigating pandemic costs._ [[arXiv:2007.11178]](http://arxiv.org/abs/2007.11178)
 <!--*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Geometry driven coiling of an elastic filament on a spherical bubble._ Proceedings of Royal Society A (under preparation).-->
