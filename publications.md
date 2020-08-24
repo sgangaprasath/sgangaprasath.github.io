@@ -16,6 +16,7 @@ published: true
 *  Fabian Brau, **Ganga Prasath, S.**, and Benny Davidovich. _Wettability of bendable solids:
 Insights from a two-dimensional, inextensible model_.
 <!--_ SIAM Journal on Applied Mathematics-->
+
 ## [](#header-2) Published/Preprints
 *  M. Serra, S. al-Mosleh, **S. Ganga Prasath**, V. Raju, S. Mantena, J. Chandra, S. Iams, L. Mahadevan. _Optimal policies for mitigating pandemic costs._ [[arXiv:2007.11178]](http://arxiv.org/abs/2007.11178)
 *  **Ganga Prasath, S.**, Vishal Vasan, and Rama Govindarajan. _Accurate solution method for the Maxey-Riley equation, and the effects of Basset history._ 
