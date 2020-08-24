@@ -13,9 +13,9 @@ Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids
 
 ## [](#header-2) Under preparation
 
-* **Ganga Prasath, S.**, Vishal Vasan. _A primer on Unified Transform Method_.
-* **Ganga Prasath, S.**, Gaurav Chaudhary, Mahadevan, L. _Memory-free materials_.
-* **Ganga Prasath, S.**, Mahadevan, L. _Rheomergy: Flow mediated communication for collective response_.
+* **Ganga Prasath, S.**, and Vishal Vasan. _A primer on Unified Transform Method_.
+* **Ganga Prasath, S.**, Gaurav Chaudhary, and Mahadevan, L. _Memory-free materials_.
+* **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Flow mediated communication for collective response_.
 * **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Shapes of a filament on top of a bubble_.
 * Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _A unified transform approach to history effects_.
 <!--*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Geometry driven coiling of an elastic filament on a spherical bubble._ Proceedings of Royal Society A (under preparation).-->
