@@ -1,6 +1,6 @@
 ## Dealing with the Basset-history integral
 
-The Maxey-Riley equations describe the dynamics of inertial particles in a flow field. These are integro-differential equations in particle velocity, and a particle's velocity at a given time instant depends on the particle velocity along the entire trajectory of the particle starting from the initial time instant. This non-local term called the Basset history integral has presented a technical difficulty in understanding the particle dynamics. We show that we can map the history integral as Neumann condition to 1-D heat equation, thus making the problem local in time. Using this map we find analytical solution to several flow scenarios and also develop a spectrally accurate numerical scheme for arbitrary non-linear flow fields.
+The Maxey-Riley equations describe the dynamics of inertial particles in a flow field. These are integro-differential equations in particle velocity, and a particle's velocity at a given time instant depends on the particle velocity along the entire trajectory of the particle starting from the initial time instant. This non-local term called the Basset history integral has presented a technical difficulty in understanding the particle dynamics. We made the problem local in time leveraging a special map and using the map we find exact solution to several flow scenarios. For complex flow scenarios we develop a spectrally accurate numerical scheme without accruing memory costs.
 
 ![mr_eqn.png]({{site.baseurl}}/mr_eqn.png)
 
