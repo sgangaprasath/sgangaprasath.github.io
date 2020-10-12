@@ -6,7 +6,7 @@ Droplets transported through microfluidic devices are prone to interacting with 
 
 **Publications**
 *  **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Wetting and wrapping of a floating droplet by a thin
-elastic filament._ [arXiv:2010.04599](http://arxiv.org/abs/2010.04599)
+elastic filament._ [[arXiv:2010.04599]](http://arxiv.org/abs/2010.04599)
 *  Fabian Brau, **Ganga Prasath, S.**, and Benny Davidovich. _Wettability of bendable solids:
 Insights from a two-dimensional, inextensible model_. (to be submitted)
 
