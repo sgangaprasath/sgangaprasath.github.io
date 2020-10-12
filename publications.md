@@ -3,6 +3,8 @@ layout: default
 published: true
 ---
 ## [](#header-2) Published/Preprints
+* **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Wetting and wrapping of a floating droplet by a thin
+elastic filament._ [arXiv:2010.04599](http://arxiv.org/abs/2010.04599)
 *  M. Serra, S. al-Mosleh, **S. Ganga Prasath**, V. Raju, S. Mantena, J. Chandra, S. Iams, L. Mahadevan. _Optimal policies for mitigating pandemic costs._ [[arXiv:2007.11178]](http://arxiv.org/abs/2007.11178)
 *  **Ganga Prasath, S.**, Vishal Vasan, and Rama Govindarajan. _Accurate solution method for the Maxey-Riley equation, and the effects of Basset history._ 
 Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids_) [[URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/accurate-solution-method-for-the-maxeyriley-equation-and-the-effects-of-basset-history/C4E30D782CEA2AA72333825A97B1953C) [[arXiv:1808.08769]](http://arxiv.org/abs/1808.08769) [[Focus URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/solving-the-inertial-particle-equation-with-memory/80362CEF656BFEBB060C4F535CFDC68D)
@@ -16,7 +18,6 @@ Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids
 * **Ganga Prasath, S.**, and Vishal Vasan. _A primer on Unified Transform Method_.
 * **Ganga Prasath, S.**, Gaurav Chaudhary, and Mahadevan, L. _Memory-free materials_.
 * **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Flow mediated communication for collective response_.
-* **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Shapes of a filament on top of a bubble_.
 * Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _A unified transform approach to history effects_.
 <!--*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Geometry driven coiling of an elastic filament on a spherical bubble._ Proceedings of Royal Society A (under preparation).-->
 *  Vishal Vasan, **Ganga Prasath, S.**, and Rama Govindarajan. _Boundary-bulk extension ideas applied to fractional differential equations_.
