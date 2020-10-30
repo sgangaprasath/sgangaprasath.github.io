@@ -20,6 +20,6 @@ List of speakers and title:
 10. 8th March 2019: **Ms. Lakshmi Parvathy**, _The journey towards justice (story of formation of transgender welfare board)_.
 11. 23th March 2019: **Mr. D Raghunandan**, _Science & Technology and future development of India_.
 12. 30th March 2019: **Mr. Somnath Waghmare**, _The battle of Bhima Koregaon - an unending journey_.
-13. 3rd May 2019: **Ms. Aditi Ramola**, _Global perspectives in waste management_ followed by discussion with **MR. Rajesh Babu** on _Sustainable waste management practices: issues and solutions_.
+13. 3rd May 2019: **Ms. Aditi Ramola**, _Global perspectives in waste management_ followed by discussion with **Mr. Rajesh Babu** on _Sustainable waste management practices: issues and solutions_.
 14. 14th June 2019: **Dr. Leena Wadia**, _Highlights of the draft National Education Policy 2019_.
 15. 1st July 2019: **Mr. Snehashish Mitra**, _Citizenship of India, legitimacy in Assam: Unresolved crisis of post-partition borderlands_.
