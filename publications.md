@@ -14,7 +14,7 @@ elastic filament._ (accepted Soft Matter) [[arXiv:2010.04599]](http://arxiv.org/
 Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids_) [[URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/accurate-solution-method-for-the-maxeyriley-equation-and-the-effects-of-basset-history/C4E30D782CEA2AA72333825A97B1953C) [[arXiv:1808.08769]](http://arxiv.org/abs/1808.08769) [[Focus URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/solving-the-inertial-particle-equation-with-memory/80362CEF656BFEBB060C4F535CFDC68D)
 ![focus.png]({{site.baseurl}}/focus.png){:height="80%" width="80%"}
 
-**2016*
+**2016**
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Relaxation of a highly deformed elastic filament at a fluid interface._ Physical Review Fluids, 1, 033903. [[URL]](https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.1.033903) [[arXiv:1601.07278]](https://arxiv.org/abs/1601.07278)
 
 **Pre-2015**
