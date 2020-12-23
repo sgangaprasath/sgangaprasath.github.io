@@ -6,7 +6,7 @@ published: true
 
 **2020**
 * **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Wetting and wrapping of a floating droplet by a thin
-elastic filament._ (accepted Soft Matter) [[arXiv:2010.04599]](http://arxiv.org/abs/2010.04599)
+elastic filament._ [[arXiv:2010.04599]](http://arxiv.org/abs/2010.04599) [[URL]](https://pubs.rsc.org/en/content/articlelanding/2021/sm/d0sm01863e)
 *  M. Serra, S. al-Mosleh, **S. Ganga Prasath**, V. Raju, S. Mantena, J. Chandra, S. Iams, L. Mahadevan. _Optimal policies for mitigating pandemic costs._ [[arXiv:2007.11178]](http://arxiv.org/abs/2007.11178)
 
 **2019**
