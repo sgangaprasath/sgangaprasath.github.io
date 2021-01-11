@@ -15,7 +15,7 @@ Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids
 ![focus.png]({{site.baseurl}}/focus.png){:height="80%" width="80%"}
 
 **2016**
-*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Relaxation of a highly deformed elastic filament at a fluid interface._ Physical Review Fluids, 1, 033903. [[URL]](https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.1.033903) [[arXiv:1601.07278]](https://arxiv.org/abs/1601.07278)
+*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Relaxation of a highly deformed elastic filament at a fluid interface._ Physical Review Fluids, 1, 033903. [[arXiv:1601.07278]](https://arxiv.org/abs/1601.07278) [[URL]](https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.1.033903)
 
 **Pre-2015**
 * **Ganga Prasath, S.**, Stephane Fauve, and Marc Brachet. _Dynamo action by turbulence in absolute equilibrium._ Europhysics Letters, 106(2), 29002. [[URL]](https://iopscience.iop.org/article/10.1209/0295-5075/106/29002) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/EPL_2014.pdf)
