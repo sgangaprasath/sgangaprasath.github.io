@@ -23,6 +23,8 @@ Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids
 
 ## [](#header-2) Under preparation
 
+* **Ganga Prasath, S.**, Souvik Mandal, Fabio Giardina, Venkatesh Murthy, and Mahadevan, L. _Cooperative escape in Camponotus pennsylvanicus_.
+* Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L. _Speed-Accuracy tradeoffs in Roulette betting_.
 * **Ganga Prasath, S.**, and Vishal Vasan. _A primer on Unified Transform Method_.
 * **Ganga Prasath, S.**, Gaurav Chaudhary, and Mahadevan, L. _Memory-free materials_.
 * **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Flow mediated communication for collective response_.
