@@ -1,22 +1,22 @@
 ## Current Research
 
-[Collective robotics](./robotics)
+[Robotics and neuromechanics](./robotics)
 
-[Smart materials](./material)
+[Advanced materials](./material)
 
-[Decision making](./psychophysics)
+<!-- [Decision making](./psychophysics)-->
 
 ## During PhD
 
 **Elasticity and geometry:**
 
 <!-- [Instabilities driven by geometry](./coiling) -->
-[Instabilities driven by geometry](./coiling)
+[Geometry driven instability](./coiling)
 
-[Filament/Sheet morphologies](./sheet_morph)
+[Filament/Sheet mechanics](./sheet_morph)
 
-[Large deformation dynamics](./large_deformation)
+[Elasto-dynamics](./large_deformation)
 
-**Hydrodynamics of particles in flow**
+**Hydrodynamics**
 
-[Dealing with Basset-history integral](./mr_eqn)
+[Rigid objects in flow](./mr_eqn)
