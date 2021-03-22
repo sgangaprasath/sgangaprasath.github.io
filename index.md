@@ -5,9 +5,9 @@ published: true
 <!--![gangaprasath.jpg]({{site.baseurl}}/gangaprasath.jpg){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"}-->
 ![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am currently a post-doc in [Mahadevan's lab](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/) working on designing advanced functional materials and bio-inspired robotics.
 
-I completed my PhD in Physics at the [International Centre for Theoretical Sciences](https://www.icts.res.in), Tata Institute of Fundamental Research, Bengaluru. There I worked on problems related to **elasticity, geometry and hydrodynamics**, particularly around _instabilities in thin elastic structures (filaments and sheets)_ and _dynamics of solid particles in fluid flows_.
+I completed my PhD in Physics at the [International Centre for Theoretical Sciences](https://www.icts.res.in), Tata Institute of Fundamental Research, Bengaluru. There I worked on problems related to elasticity, geometry and hydrodynamics, particularly around _instabilities in thin elastic structures (filaments and sheets)_ and also on _dynamics of rigid particles in fluid flows_.
 
-Please see the [Research](./research) section for a detailed description of my research.
+[Research](./research) section has more details on my projects.
 
 <!--They can broadly be described as follows:
 
@@ -19,4 +19,4 @@ Small displacement theories in elasticity have become textbook material but the 
 
 Particles suspended in fluids are ubiquitous, examples include colloidal suspension, phytoplankton motion in ocean, suspended particulate matter in the atmosphere and collection of droplets inside clouds. The paramount hurdle in understanding the dynamics of these particles comes from the complicated nature of the governing equation (Maxey-Riley equations). I am interested in finding new ways to solve them without any ad-hoc approximations.-->
 
-You can reach me through e-mail: gangaprasath at seas dot harvard dot edu
+You can contact me over e-mail: gangaprasath at seas dot harvard dot edu
