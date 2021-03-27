@@ -3,7 +3,7 @@ layout: default
 published: true
 ---
 <!--![gangaprasath.jpg]({{site.baseurl}}/gangaprasath.jpg){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"}-->
-![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am currently a post-doc in [Mahadevan's lab](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/) working on designing **advanced materials and bio-inspired robotics**.
+![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am currently a post-doc in [Mahadevan's lab](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/) working on mechanics of **soft materials and bio-inspired robotics**.
 
 I completed my PhD in Physics at the [International Centre for Theoretical Sciences](https://www.icts.res.in), Tata Institute of Fundamental Research, Bengaluru. There I worked on problems related to elasticity, geometry and hydrodynamics, particularly around _instabilities in thin elastic structures (filaments and sheets)_ and also on _dynamics of rigid particles in fluid flows_.
 
