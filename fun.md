@@ -14,3 +14,12 @@
 katex.render("c = \\pm\\sqrt{a^2 + b^2}", element, {
     throwOnError: false
 });
+
+katex.render(String.raw`c = \pm\sqrt{a^2 + b^2}`, element, {
+    throwOnError: false
+});
+
+var html = katex.renderToString("c = \\pm\\sqrt{a^2 + b^2}", {
+    throwOnError: false
+});
+// '<span class="katex">...</span>'
