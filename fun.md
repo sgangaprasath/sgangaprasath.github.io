@@ -26,8 +26,4 @@ katex.render(String.raw`c = \pm\sqrt{a^2 + b^2}`, element, {
 var html = katex.renderToString("c = \\pm\\sqrt{a^2 + b^2}", {
     throwOnError: false
 });
-<div class="math">
-f(x) = \sqrt{1+x} \quad (x \ge  -1)  </div>
-<p>Some other text here. </p>
-<div class="math">
-f(x) = \sqrt{1+x}, \quad x \ge -1  </div>
+$$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
