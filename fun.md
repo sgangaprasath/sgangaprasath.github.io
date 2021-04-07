@@ -10,20 +10,6 @@
 <!--Paintings-->
 
 <!--Music-->
+$$\partial_t c + \nabla_{||} \cdot(u_f c) = D_p \nabla_{||}^2 c + k_+ \varrho - k_- c$$
 
-\relax{x} = \int_{-\infty}^\infty
-    \f\hat\xi\,e^{2 \pi i \xi x}
-    \,d\xi
-
-katex.render("c = \\pm\\sqrt{a^2 + b^2}", element, {
-    throwOnError: false
-});
-
-katex.render(String.raw`c = \pm\sqrt{a^2 + b^2}`, element, {
-    throwOnError: false
-});
-
-var html = katex.renderToString("c = \\pm\\sqrt{a^2 + b^2}", {
-    throwOnError: false
-});
 $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
