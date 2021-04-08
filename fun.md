@@ -9,17 +9,13 @@
 -->
 <!--Paintings-->
 
-<!--Music
-$$\partial_t c + \nabla_{||} \cdot(u_f c) = D_p \nabla_{||}^2 c + k_+ \varrho - k_- c$$
-
-$$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$-->
-
 ## Bifurcation analysis
-	[Elastic systems](./elastInstab)
-    [Hydrodynamic systems](./hydInstab)
+
+[Elastic systems](./elastInstab)
+[Hydrodynamic systems](./hydInstab)
     
-## Interesting ideas
-	G\"omb\"oc
+## Paraphernalia to pick the brain
+G\"omb\"oc
     
 ## Music
 
