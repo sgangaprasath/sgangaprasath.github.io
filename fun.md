@@ -15,9 +15,12 @@ $$\partial_t c + \nabla_{||} \cdot(u_f c) = D_p \nabla_{||}^2 c + k_+ \varrho - 
 $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$-->
 
 ## Bifurcation analysis
-	Elasticity
-    Hydrodynamic
+	[Elastic systems](./elastInstab)
+    [Hydrodynamic systems](./hydInstab)
+    
 ## Interesting ideas
 	G\"omb\"oc
+    
 ## Music
+
 ## Graphic design
