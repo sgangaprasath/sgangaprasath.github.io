@@ -9,10 +9,10 @@
 -->
 <!--Paintings-->
 
-## Bifurcation analysis
+## Tutorials
 
-[Elastic systems](./elastInstab)
-[Hydrodynamic systems](./hydInstab)
+[Instabilities in elastic systems](./elastInstab)
+[Hydrodynamic instabilities](./hydInstab)
     
 ## Paraphernalia to pick the brain
 G\"omb\"oc
