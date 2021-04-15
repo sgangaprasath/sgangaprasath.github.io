@@ -1,5 +1,7 @@
-## Filament/Sheet morphologies
+## Filament/Sheet mechanics
 
+
+**Filament/sheet wrapping a liquid droplet**
 Droplets transported through microfluidic devices are prone to interacting with boundary walls and the contents being polluted. A safe transport mechanism predicates a solid covering for such small droplets. One way to achieve this is by covering the droplet using thin plastic sheets. Using elasticity theory we explore the phase-space of different shapes a sheet takes when in contact with a liquid droplet. The phase-space is rich with several instabilities which we understand using experiments and asymptotic calculations.
 
 ![wrapping.png]({{site.baseurl}}/wrapping.png)
@@ -9,5 +11,17 @@ Droplets transported through microfluidic devices are prone to interacting with 
 elastic filament._ Soft Matter, 10.1039/D0SM01863E. [[arXiv:2010.04599]](http://arxiv.org/abs/2010.04599) [[URL]](https://pubs.rsc.org/en/content/articlelanding/2021/sm/d0sm01863e)
 *  Fabian Brau, **Ganga Prasath, S.**, and Benny Davidovich. _Wettability of bendable solids:
 Insights from a two-dimensional, inextensible model_. (to be submitted)
+
+**Geometry driven coiling of a filament**
+
+When a stress-free filament is floated on a thin flat film, it takes the shape of a staight line as this configuration has minimum energy. On the other hand confining it to non-planar surfaces with finite Gaussian curvature forces it to take bent shapes. Are these shapes special in any manner? We explore this question through experiments on soap films and develop theory accounting for geometry effects.
+
+![0_06.png]({{site.baseurl}}/0_06.png){:height="50%" width="50%"}
+
+**Publications**
+
+<!--**Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Geometry driven coiling of an elastic filament on a spherical bubble._ Proceedings of Royal Society A (under preparation).-->
+**Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on the surface of a bubble._ (to be sumbitted).
+
 
 [back](./research)
