@@ -2,7 +2,7 @@
 
 [Robotics and neuromechanics](./robotics)
 
-[Advanced materials](./material)
+[Smart materials](./material)
 
 <!-- [Decision making](./psychophysics)-->
 
