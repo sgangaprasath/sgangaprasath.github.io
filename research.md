@@ -11,11 +11,11 @@
 **Elasticity and geometry:**
 
 <!-- [Instabilities driven by geometry](./coiling) -->
-[Geometry driven instability](./coiling)
+<!-- [Geometry driven instability](./coiling) -->
 
 [Filament/Sheet mechanics](./sheet_morph)
 
-[Elasto-dynamics](./large_deformation)
+<!-- [Elasto-dynamics](./large_deformation) -->
 
 **Hydrodynamics**
 
