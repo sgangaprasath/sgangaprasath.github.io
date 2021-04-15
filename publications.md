@@ -25,7 +25,7 @@ Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids
 
 * **Ganga Prasath, S.**, Gaurav Chaudhary, and Mahadevan, L. _Totimorphic rigid-plastic structural assemblies_ (under review).
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on a bubble_(to be submitted).
-<!--*  **Ganga Prasath, S.**, Souvik Mandal, Fabio Giardina, Venkatesh Murthy, and Mahadevan, L. _Mechanism of cooperative escape in ants_.
+<!--*  Ganga Prasath, S.**, Souvik Mandal, Fabio Giardina, Venkatesh Murthy, and Mahadevan, L. _Mechanism of cooperative escape in ants_.
 * Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L. _Speed-Accuracy tradeoffs in Roulette betting_.
 * **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Fluid flow mediated collective response_.
 * Fabio Giardina, **Ganga Prasath, S.**, and Mahadevan, L. _Perspective: Embodiment through physical laws in soft-robotics_.
