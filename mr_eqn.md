@@ -1,6 +1,6 @@
 ## Rigid objects in flow
 
-The Maxey-Riley equations describe the dynamics of inertial particles in a flow field. These are integro-differential equations in particle velocity, and a particle's velocity at a given time instant depends on the particle velocity along the entire trajectory of the particle starting from the initial time instant. This non-local term called the Basset history integral has presented a technical difficulty in understanding the particle dynamics. We made the problem local in time leveraging a special map and using the map we find exact solution to several flow scenarios. For complex flow scenarios we develop a spectrally accurate numerical scheme without accruing memory costs.
+Particles in a viscous fluid experience a variety of forces whose evolution is described by the Maxey-Riley equation. The particle velocity at every instant depends on the entire trajectory it has traversed due to the viscosity of the medium. How does a particle's history affect its evolution? We develop analytical and efficient numerical tools to understand this long standing question.
 
 ![mr_eqn.png]({{site.baseurl}}/mr_eqn.png)
 
