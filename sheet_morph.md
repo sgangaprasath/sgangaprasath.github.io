@@ -1,6 +1,6 @@
 ## Filament/Sheet mechanics
 
-## Large deformation dynamics of filaments
+## Filament dynamics in viscous environment
 
 The motion of elastic filaments in a viscous fluid under small deformation is governed by a linear force balance equation where viscous force opposes bending force. But under large deformation, geometric constraints arising out of material behaviour, such as conservation of length, make the filament dynamics non-linear. How does this non-linearity affect the filament dynamics? We probe this question using experiments and numerical simulation.
 
