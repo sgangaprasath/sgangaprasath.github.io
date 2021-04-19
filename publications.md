@@ -4,6 +4,10 @@ published: true
 ---
 ## [](#header-2) Published/Preprints
 
+**2021**
+* **Ganga Prasath(+), S.**, Gaurav Chaudhary(+), and Mahadevan, L. _Totimorphic rigid-plastic structural assemblies_ (under review).
+*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on a bubble_ (under review).
+
 **2020**
 * **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Wetting and wrapping of a floating droplet by a thin
 elastic filament._ Soft Matter, 10.1039/D0SM01863E. [[arXiv:2010.04599]](http://arxiv.org/abs/2010.04599) [[URL]](https://pubs.rsc.org/en/content/articlelanding/2021/sm/d0sm01863e)
@@ -23,8 +27,8 @@ Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids
 
 ## [](#header-2) Under preparation
 
-* **Ganga Prasath, S.**, Gaurav Chaudhary, and Mahadevan, L. _Totimorphic rigid-plastic structural assemblies_ (under review).
-*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on a bubble_(to be submitted).
+(+) - Equal contribution
+
 
 
 <!--  Ganga Prasath, S., Souvik Mandal, Fabio Giardina, Venkatesh Murthy, and Mahadevan, L. _Mechanism of cooperative escape in ants_.
