@@ -5,7 +5,7 @@ published: true
 ## [](#header-2) Published/Preprints
 
 **2021**
-* **Ganga Prasath(+), S.**, Gaurav Chaudhary(+), and Mahadevan, L. _Totimorphic rigid-plastic structural assemblies_ (under review).
+* **Ganga Prasath, S(+).**, Gaurav Chaudhary(+), and Mahadevan, L. _Totimorphic rigid-plastic structural assemblies_ (under review).
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on a bubble_ (under review).
 
 **2020**
@@ -31,10 +31,10 @@ Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids
 
 
 
-<!--  Ganga Prasath, S., Souvik Mandal, Fabio Giardina, Venkatesh Murthy, and Mahadevan, L. _Mechanism of cooperative escape in ants_.
+* **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. _Mechanism of cooperative escape in ants_.
 * Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L. _Speed-Accuracy tradeoffs in Roulette betting_.
 * **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Fluid flow mediated collective response_.
-* Fabio Giardina, **Ganga Prasath, S.**, and Mahadevan, L. _Perspective: Embodiment through physical laws in soft-robotics_.
+<!--  * Fabio Giardina, **Ganga Prasath, S.**, and Mahadevan, L. _Perspective: Embodiment through physical laws in soft-robotics_.
 * Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Transient dynamics of a moving rigid surface_.
 * **Ganga Prasath, S.**, Divya Jaganathan, and Vishal Vasan. _A primer on Unified Transform Method_.
 *  Vishal Vasan, **Ganga Prasath, S.**, and Rama Govindarajan. _Boundary-bulk extension ideas applied to fractional differential equations_.
