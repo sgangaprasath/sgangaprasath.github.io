@@ -6,7 +6,7 @@ published: true
 
 **2021**
 * **Ganga Prasath, S(+).**, Gaurav Chaudhary(+), and Mahadevan, L. _Totimorphic rigid-plastic structural assemblies_ (under review).
-*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on a bubble_ (under review).
+*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on a bubble_ [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212).
 
 **2020**
 * **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Wetting and wrapping of a floating droplet by a thin
