@@ -3,11 +3,11 @@ layout: default
 published: true
 ---
 <!--![gangaprasath.jpg]({{site.baseurl}}/gangaprasath.jpg){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"}-->
-![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am currently a post-doc in the [Applied Math group](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/). My research interests are in understanding the mechanics of **soft materials** and physics of **biomimetic robotics**.
+![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am an experimentalist with a currently a post-doc in the [Applied Math group](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/). My research interests are in understanding the mechanics of **soft materials** and physics of **biomimetic robotics**.
 
-My PhD work at the [International Centre for Theoretical Sciences](https://www.icts.res.in), Tata Institute of Fundamental Research, Bengaluru was on problems around _instabilities in thin elastic structures (filaments and sheets)_ and also on _dynamics of rigid particles in fluid flows_.
+My PhD work at the [International Centre for Theoretical Sciences - TIFR](https://www.icts.res.in), Bengaluru was on problems around _instabilities in thin elastic structures (filaments and sheets)_ and also on _dynamics of rigid particles in fluid flows_.
 
-[Research](./research) section has more details on my projects.
+[Research](./research) page has more details on my projects.
 
 <!--They can broadly be described as follows:
 
