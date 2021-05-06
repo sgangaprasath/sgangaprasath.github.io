@@ -1,6 +1,6 @@
 ## Current Research
 
-[Robotics and neuromechanics](./robotics)
+[Biomimetic Robotics](./robotics)
 
 [Smart materials](./material)
 
