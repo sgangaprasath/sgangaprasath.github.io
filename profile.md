@@ -13,12 +13,8 @@
 * Recipient of the _Charpak fellowship_ by Institut Francais.
 * [Ecole Polytechnique, Palaisseau.](https://www.polytechnique.edu)
 	- [Thesis](https://drive.google.com/file/d/191LhINv_6u4mhgZZgJZj5BbPv4PT4iYS/view?usp=sharing)_: Dynamo action in ABC flows: what is the effect of Fourier truncation at low Prandtl number?_
-    - Advisors: **Prof. Marc Brachet (ENS Paris), Prof. Stephane Fauve (ENS Paris)**.
     
 ### [](#header-3) B.Tech in Mechanical Engineering (2008-2012)
 * Recipient of the institute's _Best thesis award_.
-* [IIIT D&M, Kancheepuram.](http://iiitdm.ac.in)
-	- _Thesis: Control of vortex shedding using active and passive mechanisms._
-    - Advisor: **Prof. S. Jayavel**.
 
 [back](./)
