@@ -3,7 +3,7 @@ layout: default
 published: true
 ---
 <!--![gangaprasath.jpg]({{site.baseurl}}/gangaprasath.jpg){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"}-->
-![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am currently a post-doc in the [Soft Math group](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/). I am an experimentalist (also do simple calculations) with interests in mechanics of **soft materials** and physics of **biomimetic robotics**.
+![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am currently a post-doc in the [Soft Math group](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/). I am an experimentalist (also do simple calculations) with interests in mechanics of **soft materials** and physics of **biomimetic robots**.
 
 My PhD work at [ICTS - TIFR](https://www.icts.res.in), Bengaluru was on problems around _instabilities in thin elastic structures (filaments and sheets)_ and also on _dynamics of rigid particles in fluid flows_.
 
