@@ -16,5 +16,6 @@
     
 ### [](#header-3) B.Tech in Mechanical Engineering (2008-2012)
 * Recipient of the institute's _Best thesis award_.
+* [Indian Institute of Information Technology, Chennai.](https://www.iiitdm.ac.in)
 
 [back](./)
