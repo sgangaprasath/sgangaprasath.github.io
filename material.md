@@ -1,7 +1,7 @@
 ## Smart materials
 
 ## Totimorphs - infinitely morphable structures
-Morphable structures are often realized by using microscopic degrees of freedom to sculpt the free energy landscape of a material structure. The ability to design such a free energy landscape is limited by the constraints implied by the connectivity and geometry of the elastic structure. We explore a new class of pre-stressed materials that we call totimorphs, which are infinitely morphable because of a flat energy landscape. We describe a mechanism by which a unit of zero stiffness structure can be assembled to create objects that can morph into multiple arbitrarily complex target shapes. We fabricate prototypes of the designed structures and show that our design strategy opens up new possibilities for fabricating functional material structures.
+Morphable structures are realized by using microscopic degrees of freedom to sculpt the free energy landscape of a material structure. The ability to design such a free energy landscape is limited by the constraints of topology and geometry of the structure. We explore a new class of pre-stressed materials which are infinitely morphable because of a flat energy landscape. We create an assembly that can be morphed into arbitrarily complex target shapes. The fabricated prototypes show that our design strategy opens up new possibilities for fabricating functional material structures.
 
 **Publications**
 * **Ganga Prasath, S(+).**, Gaurav Chaudhary(+), and Mahadevan, L. _Totimorphic rigid-plastic structural assemblies_ (under review).
