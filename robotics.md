@@ -1,4 +1,4 @@
-## Robotics
+## Biomimetic Robotics
 
 ## Collective cooperation
 What are the sufficient rules for cooperation? Can cooperation arise only out of mechanistic interactions? We explore the minimal set of behavioural rules required for cooperation in a robotic platform consisting of ant-like robots that can both physically interact and communicate through a virtual pheromone field. The different phases of cooperation provide new insights into how the biological world might behave as a super-organism with only simple behavioural rules.
