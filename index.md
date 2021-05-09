@@ -19,4 +19,4 @@ Small displacement theories in elasticity have become textbook material but the 
 
 Particles suspended in fluids are ubiquitous, examples include colloidal suspension, phytoplankton motion in ocean, suspended particulate matter in the atmosphere and collection of droplets inside clouds. The paramount hurdle in understanding the dynamics of these particles comes from the complicated nature of the governing equation (Maxey-Riley equations). I am interested in finding new ways to solve them without any ad-hoc approximations.-->
 
-You can contact me over e-mail: gangaprasath at seas dot harvard dot edu
+You can contact me here: gangaprasath at seas dot harvard dot edu
