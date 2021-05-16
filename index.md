@@ -3,9 +3,9 @@ layout: default
 published: true
 ---
 <!--![gangaprasath.jpg]({{site.baseurl}}/gangaprasath.jpg){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"}-->
-![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am currently a post-doc in the [Soft Math group](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/). I am interested in the physics of **embodied intelligence** of animals and replicating them in robots. I also work on designing **smart materials** with high predictive capability by introducing strong coupling with geometry to design better robots. To this end I use experiments with animals as well as robotic systems, and mathematical models supplemented with theoretical and numerical analysis to gain insights into the phenomena.
+![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am currently a post-doc in the [Applied Math group](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/). I am interested in the **embodied intelligence** of animals and finding ways to replicate them in robots. I also work on designing **smart materials** with high predictive capability by introducing strong coupling with geometry for use in robotics. To this end I use experiments with animals as well as robotic systems, and mathematical models supplemented with theoretical and numerical analysis to gain insights into the phenomena.
 
-My PhD work at [ICTS - TIFR](https://www.icts.res.in), Bengaluru was on problems around _instabilities in thin elastic structures (filaments and sheets)_ and also on _dynamics of rigid particles in fluid flows_.
+My [PhD work](https://drive.google.com/file/d/18Jo4n4aU79etWbhs4fPXq2DOnauR8BoI/view?usp=sharing)_ at [ICTS - TIFR](https://www.icts.res.in), Bengaluru was on problems around _instabilities in thin elastic structures (filaments and sheets)_ and also on _dynamics of rigid particles in fluid flows_.
 
 [Research](./research) page has more details on my projects.
 
