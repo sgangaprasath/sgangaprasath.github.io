@@ -1,6 +1,6 @@
 ## Current Research
 
-[Biomimetic Robotics](./robotics)
+[Embodied intelligence](./robotics)
 
 [Smart materials](./material)
 
