@@ -3,7 +3,7 @@ layout: default
 published: true
 ---
 <!--![gangaprasath.jpg]({{site.baseurl}}/gangaprasath.jpg){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"}-->
-![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am currently a post-doc in the [Soft Math group](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/). I use experiments, theory and numerics to investigate **intelligent animal behavior** arising out of their interaction amongst themselves or with the natural world and translate it to **robotics**. I also work on creating **smart materials** with high predictive capability by introducing strong coupling with geometry to design better robots.
+![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am currently a post-doc in the [Soft Math group](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/). I am interested in the physics of **embodied intelligence** in animals and replicating them in robots. I also work on designing **smart materials** with high predictive capability by introducing strong coupling with geometry to design better robots. To this end I use experiments with animals as well as robotic systems, and mathematical models supplemented with theoretical and numerical analysis to gain insights into the phenomena.
 
 My PhD work at [ICTS - TIFR](https://www.icts.res.in), Bengaluru was on problems around _instabilities in thin elastic structures (filaments and sheets)_ and also on _dynamics of rigid particles in fluid flows_.
 
