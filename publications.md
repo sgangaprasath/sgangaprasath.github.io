@@ -28,6 +28,7 @@ Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids
 ## [](#header-2) Under preparation
 
 * **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. _Mechanism of cooperative escape in ants_.
+* **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L. _Phases of collective task execution in robotic ants_.
 * Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L. _Speed-Accuracy tradeoffs in Roulette betting_.
 * Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Transient dynamics of a moving rigid surface_.
 
