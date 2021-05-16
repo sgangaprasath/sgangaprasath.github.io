@@ -5,7 +5,7 @@ published: true
 ## [](#header-2) Published/Preprints
 
 **2021**
-* **Ganga Prasath, S(+).**, Gaurav Chaudhary(+), and Mahadevan, L. _Totimorphic rigid-plastic structural assemblies_ (under revision in Proc. Natl. Acad. Sci).
+* **Ganga Prasath, S(+).**, Gaurav Chaudhary(+), and Mahadevan, L. _Totimorphic rigid-plastic structural assemblies_ (under revision in PNAS).
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on a bubble._ [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212)
 
 **2020**
