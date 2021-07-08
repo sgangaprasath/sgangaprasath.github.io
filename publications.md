@@ -3,15 +3,14 @@ layout: default
 published: true
 ---
 ## [](#header-2) Under preparation
-
-* **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. _Mechanism of cooperative escape in ants_.
-* **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L. _Phases of collective task execution in robotic ants_.
+* **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L. _Collective construction in robotic ants_.
 * Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L. _Speed-Accuracy tradeoffs in Roulette betting_.
 * Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Transient dynamics of a moving rigid surface_.
 
 ## [](#header-2) Published/Preprints
 
 **2021**
+* **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. _Cooperative escape in ants and robots_.
 * **Ganga Prasath, S(+).**, Gaurav Chaudhary(+), and Mahadevan, L. _Totimorphic rigid-plastic structural assemblies_ (under revision in PNAS).
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on a bubble._ [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212)
 
