@@ -12,7 +12,7 @@ published: true
 **2021**
 * **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. _Cooperative escape in ants and robots_.
 * **Ganga Prasath, S(+).**, Gaurav Chaudhary(+), and Mahadevan, L. _Totimorphic rigid-plastic structural assemblies_ (under revision in PNAS).
-*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on a bubble._ [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212)
+*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on a bubble._ Proc. Roy. Soc. A. [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212)
 
 **2020**
 * **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Wetting and wrapping of a floating droplet by a thin
