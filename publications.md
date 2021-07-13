@@ -10,7 +10,7 @@ published: true
 ## [](#header-2) Published/Preprints
 
 **2021**
-* **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. _Cooperative escape in ants and robots_.
+* **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. _Cooperative escape in ants and robots_ [[biorXiv:2021.07.12.451633]](https://doi.org/10.1101/2021.07.12.451633).
 * **Ganga Prasath, S(+).**, Gaurav Chaudhary(+), and Mahadevan, L. _Totimorphic rigid-plastic structural assemblies_ (under revision in PNAS).
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on a bubble._ Proc. Roy. Soc. A. [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212)
 
