@@ -3,9 +3,11 @@ layout: default
 published: true
 ---
 ## [](#header-2) Under preparation
-* **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L. _Collective construction in robotic ants_.
 * Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L. _Speed-Accuracy tradeoffs in Roulette betting_.
 * Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Transient dynamics of a moving rigid surface_.
+* **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L. _Collective construction in robotic ants_.
+* **Ganga Prasath, S.(+)**, Aditi Chankrabarti(+), and Mahadevan, L. _Branching in soft gels_.
+* **Ganga Prasath, S.(+)**, and Mahadevan, L. _Rheomergy: Fluid flow mediated collective response_.
 
 ## [](#header-2) Published/Preprints
 
