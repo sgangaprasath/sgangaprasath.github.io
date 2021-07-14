@@ -2,13 +2,6 @@
 layout: default
 published: true
 ---
-## [](#header-2) Under preparation
-* Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L. _Speed-Accuracy tradeoffs in Roulette betting_.
-* Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Transient dynamics of a moving rigid surface_.
-* **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L. _Collective construction in robotic ants_.
-* **Ganga Prasath, S.(+)**, Aditi Chankrabarti(+), and Mahadevan, L. _Branching in soft gels_.
-* **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Fluid flow mediated collective response_.
-
 ## [](#header-2) Published/Preprints
 
 **2021**
@@ -33,6 +26,12 @@ Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids
 * **Ganga Prasath, S.**, Stephane Fauve, and Marc Brachet. _Dynamo action by turbulence in absolute equilibrium._ Europhysics Letters, 106(2), 29002. [[URL]](https://iopscience.iop.org/article/10.1209/0295-5075/106/29002) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/EPL_2014.pdf)
 * **Ganga Prasath, S.**, Sudharsan, M., Vinodh Kumar, V., Diwakar, S. V., Sundararajan, T., and Tiwari, S. _Effects of aspect ratio and orientation on the wake characteristics of low Reynolds number flow over a triangular prism._ Journal of Fluids and Structures, 46, 59-76. [[URL]](https://www.sciencedirect.com/science/article/pii/S0889974613002909) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/JFS_2013.pdf)
 
+## [](#header-2) Under preparation
+* Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L. _Speed-Accuracy tradeoffs in Roulette betting_.
+* Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Transient dynamics of a moving rigid surface_.
+* **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L. _Collective construction in robotic ants_.
+* **Ganga Prasath, S.(+)**, Aditi Chankrabarti(+), and Mahadevan, L. _Branching in soft gels_.
+* **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Fluid flow mediated collective response_.
 
 <!--  * **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Fluid flow mediated collective response_.
 * Fabio Giardina, **Ganga Prasath, S.**, and Mahadevan, L. _Perspective: Embodiment through physical laws in soft-robotics_.
