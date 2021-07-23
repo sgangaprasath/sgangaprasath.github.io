@@ -8,9 +8,6 @@ published: true
 My [PhD work](https://drive.google.com/file/d/18Jo4n4aU79etWbhs4fPXq2DOnauR8BoI/view?usp=sharing) at [ICTS - TIFR](https://www.icts.res.in), Bengaluru was on problems around _instabilities in thin elastic structures (filaments and sheets)_ and also on _dynamics of rigid particles in fluid flows_.
 
 [Research](./research) page has more details on my projects.
-<div class='jekyll-twitter-plugin' align="center">
-    		{% twitter https://twitter.com/anaik96 maxwidth=500 limit=5 %}
-</div>
 <!--They can broadly be described as follows:
 
 **Elasticity and geometry**
