@@ -2,12 +2,12 @@
 ### [](#header-3) Post-doctoral research (2019-*)
 * [School of Engineering and Applied Sciences, Harvard University.](http://www.seas.harvard.edu)
 	- [Applied Math group](https://www.seas.harvard.edu/softmat/): **Prof. L Mahadevan**
-    - Collaborator: [**Prof. Venkatesh N. Murthy**](https://vnmurthylab.org)
+    - [Collaborator](https://vnmurthylab.org): **Prof. Venkatesh N. Murthy**
 
 ### [](#header-3) PhD in Physics (2013-2019)
 * [International Centre for Theoretical Sciences, TIFR Bengaluru.](http://www.icts.res.in)
 	- [Thesis](https://drive.google.com/file/d/18Jo4n4aU79etWbhs4fPXq2DOnauR8BoI/view?usp=sharing)_: Mechanics of filaments and spherical particles: role of elasticity and hydrodynamic interaction._
-	- Advisors: [**Prof. Rama Govindarajan**](https://www.icts.res.in/people/rama-govindarajan), [**Prof. Narayanan Menon**](https://blogs.umass.edu/nmenon/).
+	- Advisors: **Prof. Rama Govindarajan, Prof. Narayanan Menon**.
     - Collaborators: **Prof. Vishal Vasan (ICTS-TIFR Bengaluru)**, **Dr. Joel Marthelot (Aix-Marseille Univ)**
 
 ### [](#header-3) MS in Fluid Mechanics (2012-2013)
