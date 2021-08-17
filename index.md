@@ -10,4 +10,4 @@ My [PhD work](https://drive.google.com/file/d/18Jo4n4aU79etWbhs4fPXq2DOnauR8BoI/
 
 You can contact me here: gangaprasath at seas dot harvard dot edu
 
-![sgp.png]({{site.baseurl}}/Combined.png){:style="float: left;margin-left: 7px;margin-top: 7px;" :height="35%" width="35%"}
+![sgp.png]({{site.baseurl}}/Combined.png){:style="float: left;margin-left: 7px;margin-top: 7px;" :height="60%" width="60%"}
