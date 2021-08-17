@@ -1,7 +1,7 @@
-## Embodied intelligence
+## Robotics and Animal behaviour
 
-## Cooperative task execution
-What are the sufficient rules for cooperation? Can cooperation arise only out of mechanistic interactions? How is collective decision reflected in day-to-day tasks? We probe aspects of cooperation in carpenter ants and identify a minimal set of behavioural rules required for cooperation and test it in a robotic platform consisting of ant-like robots that can both physically interact and communicate through a virtual pheromone field. The different phases of cooperation and tasks provide new insights into how the biological world might behave as a super-organism with only local behavioural rules.
+## Mechanism behind cooperation
+What are the sufficient rules for cooperation? Can cooperation arise only out of mechanistic interactions? How is collective decision reflected in tasks? We probe aspects of these questions using a colony of carpenter ants and replicate the cooperative behaviour in a robotic platform consisting of ant-like robots that can communicate with each other and physically interact with its environment. More details are available in the article attached below.
 
 ![trifecta.png]({{site.baseurl}}/trifecta.png){:height="80%" width="80%"}
 
