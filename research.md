@@ -1,6 +1,6 @@
 ## Current Research
 
-[Embodied intelligence](./robotics)
+[Robotics + Animal behaviour](./robotics)
 
 [Smart materials](./material)
 
