@@ -12,7 +12,7 @@ published: true
 **2020**
 * **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Wetting and wrapping of a floating droplet by a thin
 elastic filament._ Soft Matter, 10.1039/D0SM01863E. [[arXiv:2010.04599]](http://arxiv.org/abs/2010.04599) [[URL]](https://pubs.rsc.org/en/content/articlelanding/2021/sm/d0sm01863e)
-*  M. Serra, S. al-Mosleh, **S. Ganga Prasath**, V. Raju, S. Mantena, J. Chandra, S. Iams, L. Mahadevan. _Optimal policies for mitigating pandemic costs._ [[arXiv:2007.11178]](http://arxiv.org/abs/2007.11178)
+*  M. Serra(+), S. al-Mosleh(+), **S. Ganga Prasath(+)**, V. Raju(+), S. Mantena, J. Chandra, S. Iams, L. Mahadevan. _Optimal policies for mitigating pandemic costs._ [[arXiv:2007.11178]](http://arxiv.org/abs/2007.11178)
 
 **2019**
 *  **Ganga Prasath, S.**, Vishal Vasan, and Rama Govindarajan. _Accurate solution method for the Maxey-Riley equation, and the effects of Basset history._ 
@@ -28,7 +28,7 @@ Journal of Fluid Mechanics, 10.1017/jfm.2019.194. (Selected for _Focus on Fluids
 
 ## [](#header-2) Under preparation
 * **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Phases of collective response through self-propelled flow in social animals_.
-* **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L. _Collective construction in robotic ants_.
+* Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L. _Collective construction in robotic ants_.
 * Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Transient dynamics of a moving rigid surface_.
 * Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L. _Speed-Accuracy tradeoffs in Roulette betting_.
 * **Ganga Prasath, S.(+)**, Aditi Chankrabarti(+), and Mahadevan, L. _Branching in soft gels_.
