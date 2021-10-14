@@ -6,7 +6,7 @@ published: true
 
 **2021**
 * **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. _Cooperative escape in ants and robots._ [[biorXiv:2021.07.12.451633]](https://doi.org/10.1101/2021.07.12.451633).
-* **Ganga Prasath, S(+).**, Gaurav Chaudhary(+), and Mahadevan, L. _Totimorphic assemblies from neutrally-stable units._ [[URL]](https://www.pnas.org/content/118/42/e2107003118) (patent filed).
+* **Ganga Prasath, S(+).**, Gaurav Chaudhary(+), and Mahadevan, L. _Totimorphic assemblies from neutrally-stable units._ Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118. [[URL]](https://www.pnas.org/content/118/42/e2107003118) (patent filed).
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on the surface of a bubble._ Proc. Roy. Soc. A, 10.1098/rspa.2021.0353. [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212) [[URL]](https://doi.org/10.1098/rspa.2021.0353)
 
 **2020**
