@@ -6,7 +6,9 @@ published: true
 
 **2021**
 * **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. _Cooperative escape in ants and robots._ [[biorXiv:2021.07.12.451633]](https://doi.org/10.1101/2021.07.12.451633).
-* Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L. _Totimorphic assemblies from neutrally-stable units._ Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118. [[arXiv:2110.08216]](https://arxiv.org/abs/2110.08216) [[URL]](https://www.pnas.org/content/118/42/e2107003118) (patent filed).
+* Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L. _Totimorphic assemblies from neutrally-stable units._ Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118. [[arXiv:2110.08216]](https://arxiv.org/abs/2110.08216) [[URL]](https://www.pnas.org/content/118/42/e2107003118) [[Harvard Press]](https://www.seas.harvard.edu/news/2021/10/shape-shifting-materials-infinite-possibilities).
+![Screen Shot 2021-10-21 at 4.47.15 PM.png]({{site.baseurl}}/Screen Shot 2021-10-21 at 4.47.15 PM.png){:height="80%" width="80%"}
+
 *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on the surface of a bubble._ Proc. Roy. Soc. A, 10.1098/rspa.2021.0353. [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212) [[URL]](https://doi.org/10.1098/rspa.2021.0353)
 
 **2020**
