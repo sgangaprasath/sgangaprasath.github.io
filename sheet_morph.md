@@ -9,7 +9,7 @@ The motion of elastic filaments in a viscous fluid under small deformation is go
 
 **Publications**
 
-**Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Relaxation of a highly deformed elastic filament at a fluid interface._ Physical Review Fluids, 1, 033903. [[arXiv:1601.07278]](https://arxiv.org/abs/1601.07278)
+**Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Relaxation of a highly deformed elastic filament at a fluid interface._ Physical Review Fluids, 1, 033903. [[arXiv:1601.07278]](https://arxiv.org/abs/1601.07278) [[URL]](https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.1.033903)
 
 ## Wrapping a liquid droplet
 Droplets transported through microfluidic devices are prone to interacting with boundary walls and the contents being polluted. A safe transport mechanism predicates a solid covering for such small droplets. One way to achieve this is by covering the droplet using thin plastic sheets. What is the phase space of different shapes a sheet can take when in contact with a liquid droplet? We understand this morphological phase space of the droplet-sheet system using experiments and asymptotic calculations.
@@ -30,7 +30,7 @@ When a stress-free filament is floated on a thin flat film, it takes the shape o
 
 **Publications**
 
-* **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on the surface of a bubble._ Proc. Roy. Soc. A, 10.1098/rspa.2021.0353. [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212) [[URL]](https://doi.org/10.1098/rspa.2021.0353)
+**Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on the surface of a bubble._ Proc. Roy. Soc. A, 10.1098/rspa.2021.0353. [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212) [[URL]](https://doi.org/10.1098/rspa.2021.0353)
 
 
 
