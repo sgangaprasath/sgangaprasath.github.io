@@ -2,7 +2,7 @@
 ### [](#header-3) Post-doctoral research (2019-*)
 * [School of Engineering and Applied Sciences, Harvard University.](http://www.seas.harvard.edu)
 	- [Applied Math group](https://www.seas.harvard.edu/softmat/): **Prof. L Mahadevan**
-    - [Collaborator](https://vnmurthylab.org): **Prof. Venkatesh N. Murthy**
+    - Collaborator: **Prof. Venkatesh N. Murthy (MCB-Harvard)**
 
 ### [](#header-3) PhD in Physics (2013-2019)
 * [International Centre for Theoretical Sciences, TIFR Bengaluru.](http://www.icts.res.in)
