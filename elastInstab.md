@@ -6,4 +6,6 @@ $$ x' = \cos \theta$$
 
 $$ y' = \sin \theta$$
 
+$$ \int_0^\infty y \ d x = \Gamma$$
+
 [back](./research)
