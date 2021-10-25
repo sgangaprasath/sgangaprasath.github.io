@@ -3,6 +3,8 @@
 ## Totimorphs - infinitely morphable structures
 Morphable structures are realized by using microscopic degrees of freedom to sculpt the free energy landscape of a material structure. The ability to design such a free energy landscape is limited by the constraints of topology and geometry of the structure. We explore a new class of pre-stressed materials which are infinitely morphable because of a flat energy landscape. We create an assembly that can be morphed into arbitrarily complex target shapes. The fabricated prototypes show that our design strategy opens up new possibilities for fabricating functional material structures.
 
+![Helix.jpg]({{site.baseurl}}/Helix.jpg){:height="80%" width="80%"}
+
 **Publications**
 * Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L. _Totimorphic assemblies from neutrally-stable units._ Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118. [[arXiv:2110.08216]](https://arxiv.org/abs/2110.08216) [[URL]](https://www.pnas.org/content/118/42/e2107003118)
 
