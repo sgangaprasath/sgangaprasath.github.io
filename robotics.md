@@ -3,7 +3,7 @@
 **Mechanism behind cooperation**
 What are the sufficient rules for cooperation? Can cooperation arise only out of mechanistic interactions? How is collective decision reflected in tasks? We identify the interaction rules that result in cooperation in a colony of carpenter ants and replicate the cooperative behaviour in a robotic platform consisting of ant-like robots that can communicate with each other and physically interact with its environment. Further details are available in the article attached below.
 
-![Ants.jpg]({{site.baseurl}}/Ants.jpg){:height="80%" width="100%"}
+![tri.jpg]({{site.baseurl}}/tri.jpg){:height="80%" width="100%"}
 
 **Publications**
 
