@@ -13,11 +13,11 @@ These are some of the "outside work" projects that I am currently working on.
 
 ### Tutorials
 
-[auto-07p for elastic instabilities](./elastInstab)
+- [auto-07p for elastic instabilities](./elastInstab)
 
 ### Climate change
 
-[Project பருவநிலை](./paruvanilai)
+- [Project பருவநிலை](./paruvanilai)
 
 <!-- [Hydrodynamic instabilities](./hydInstab) -->
     
@@ -36,6 +36,6 @@ G\"omb\"oc
 
 ## Past projects
 
-[Sthay@ICTS](./sthayi)
+- [Sthay@ICTS](./sthayi)
 
 [back](./)
