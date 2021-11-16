@@ -37,5 +37,6 @@ G\"omb\"oc
 ## Past projects
 
 - [Sthayi@ICTS](./sthayi)
+- [Pixel & Paint](https://colorpixel.tumblr.com/archive)
 
 [back](./)
