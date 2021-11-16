@@ -36,6 +36,6 @@ G\"omb\"oc
 
 ## Past projects
 
-- [Sthay@ICTS](./sthayi)
+- [Sthayi@ICTS](./sthayi)
 
 [back](./)
