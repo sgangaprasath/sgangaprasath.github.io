@@ -1,4 +1,4 @@
-## Some of my dabbles
+## Fun Projects
 
 <!--Science
 1. Gomboc
@@ -9,12 +9,12 @@
 -->
 <!--Paintings-->
 
-## Tutorials
+### Tutorials
 
-[Instabilities in elastic systems](./elastInstab)
-[Hydrodynamic instabilities](./hydInstab)
+[Using auto-07p for elastic instabilities](./elastInstab)
+<!-- [Hydrodynamic instabilities](./hydInstab) -->
     
-## Paraphernalia to pick the brain
+<!--## Paraphernalia to pick the brain
 G\"omb\"oc
 
 % \f is defined as #1f(#2) using the macro
@@ -25,5 +25,6 @@ G\"omb\"oc
 ## Music
 
 ## Graphic design
+-->
 
 [back](./)
