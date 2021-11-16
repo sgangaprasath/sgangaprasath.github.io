@@ -1,5 +1,7 @@
 ## Current Projects
+
 These are some of the "outside work" projects that I am currently working on.
+
 <!--Science
 1. Gomboc
 2. Singularities
@@ -11,7 +13,7 @@ These are some of the "outside work" projects that I am currently working on.
 
 ### Tutorials
 
-[Using auto-07p for elastic instabilities](./elastInstab)
+[auto-07p for elastic instabilities](./elastInstab)
 
 ### Climate change
 
