@@ -34,4 +34,8 @@ G\"omb\"oc
 ## Graphic design
 -->
 
+## Past projects
+
+[Sthay@ICTS](./sthayi)
+
 [back](./)
