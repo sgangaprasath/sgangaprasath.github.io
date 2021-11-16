@@ -1,6 +1,6 @@
 ## Current Projects
 
-These are some of the "outside work" projects that I am currently working on.
+Here are a few projects that I am/was interested, that keep/kept me occupied. You might find them useful/entertaining or not.
 
 <!--Science
 1. Gomboc
