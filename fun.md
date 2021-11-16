@@ -19,8 +19,11 @@ Here are a few projects that I am/was interested, that keep/kept me occupied. Yo
 
 - [Project பருவநிலை](./paruvanilai)
 
-<!-- [Hydrodynamic instabilities](./hydInstab) -->
-    
+## Past projects
+
+- [Sthayi@ICTS](./sthayi)
+- [Pixel & Paint](https://colorpixel.tumblr.com/archive)
+   
 <!--## Paraphernalia to pick the brain
 G\"omb\"oc
 
@@ -34,9 +37,6 @@ G\"omb\"oc
 ## Graphic design
 -->
 
-## Past projects
 
-- [Sthayi@ICTS](./sthayi)
-- [Pixel & Paint](https://colorpixel.tumblr.com/archive)
 
 [back](./)
