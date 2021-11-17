@@ -13,7 +13,7 @@ Here are a few projects that I am/was interested, that keep/kept me occupied. Yo
 
 ### Tutorials
 
-- [auto-07p for elastic instabilities](./elastInstab)
+- [Elastic instabilities using auto-07p](./elastInstab)
 
 ### Climate change
 
