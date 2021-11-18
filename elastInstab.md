@@ -7,7 +7,7 @@ a numerical continuation package. These elastic instability problems, as we shal
 
 In this series we will be discussing 5 example problems, each with certain unique aspect in terms of implementing it in `auto-07p` associated with the type of problem. It will become clear what I mean by this as we go over the examples.
 
-We begin by introducing the `auto-07p` framework [here](./).
+We begin by introducing the `auto-07p` framework [here](./autoFw.html).
 
 The problems we will be looking at (and the unique aspect of each example in terms of `auto-07p` implementation) are
 
