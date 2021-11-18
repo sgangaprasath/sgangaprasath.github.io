@@ -30,14 +30,14 @@ We begin by introducing the `auto-07p` framework [here](./).
 
 The problems we will be looking at are
 
--   [Bending of an *elastica*](./)
+-   [Bending of an *elastica*](./) - bifurcation diagram, solution
 
--   Buckling of a sheet
+-   Buckling of a sheet - two parameter continuation
 
--   Beam with oscillating forcing
+-   Beam with oscillating forcing - eigen-value problem
 
--   Growth of a sheet
+-   Growth of a sheet - integral constraint
 
--   Periodic solutions to sheet deformation
+-   Periodic solutions to sheet deformation - homotopy continuation
 
 [back](./fun)
