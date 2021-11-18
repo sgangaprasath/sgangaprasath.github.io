@@ -1,6 +1,8 @@
 Current Projects
 ----------------
 
+![DLab-01.png]({{site.baseurl}}/DLab-01.png)
+
 Here are a few projects that I am/was interested, that keep/kept me occupied. You might find them useful/entertaining or not.
 
 <!--Science
