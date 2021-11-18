@@ -17,7 +17,7 @@ Here are a few projects that I am/was interested, that keep/kept me occupied. Yo
 
 ### Climate change
 
-- [Project பருவநிலை](./paruvanilai) (coming soon...)
+- [Project climate crisis - பருவநிலை பேரழிவு](./paruvanilai) (coming soon...)
 
 ## Past projects
 
@@ -36,7 +36,5 @@ G\"omb\"oc
 
 ## Graphic design
 -->
-
-
 
 [back](./)
