@@ -11,7 +11,7 @@ We begin by introducing the `auto-07p` framework [here](./autoFw.html).
 
 The problems we will be looking at (and the unique aspect of each example in terms of `auto-07p` implementation) are
 
--   (18-Nov-21)[Bending of an *elastica*](./elastica.html) - bifurcation diagram, solution
+-   (18-Nov-21) [Bending of an *elastica*](./elastica.html) - bifurcation diagram, solution
 
 -   Buckling of a sheet - two parameter continuation
 
