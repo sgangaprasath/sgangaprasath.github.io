@@ -1,4 +1,5 @@
-## Current Projects
+Current Projects
+----------------
 
 Here are a few projects that I am/was interested, that keep/kept me occupied. You might find them useful/entertaining or not.
 
@@ -19,7 +20,8 @@ Here are a few projects that I am/was interested, that keep/kept me occupied. Yo
 
 - [Project climate crisis - பருவநிலை பேரழிவு](./paruvanilai) (coming soon...)
 
-## Past projects
+Past projects
+-------------
 
 - [Sthayi@ICTS](./sthayi)
 - [Pixel & Paint](https://colorpixel.tumblr.com/archive)
