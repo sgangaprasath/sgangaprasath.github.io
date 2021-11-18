@@ -6,7 +6,7 @@ published: true
 
 My [PhD work](https://drive.google.com/file/d/18Jo4n4aU79etWbhs4fPXq2DOnauR8BoI/view?usp=sharing) at [ICTS - TIFR](https://www.icts.res.in), Bengaluru was on problems around _instabilities in thin elastic structures (filaments and sheets)_ and also on _dynamics of rigid particles in fluid flows_.
 
-[Research](./research) page has more details on my projects.
+[Research](./research) page has more details on my research projects and [D's lab](./fun) has some of the fun projects.
 
 You can contact me here: gangaprasath at seas dot harvard dot edu
 
