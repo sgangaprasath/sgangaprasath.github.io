@@ -28,7 +28,7 @@ this as we go over the examples.
 
 We begin by introducing the `auto-07p` framework [here](./).
 
-The problems we will be looking at (and the unique aspect of example in terms of `auto-07p` implementation) are
+The problems we will be looking at (and the unique aspect of each example in terms of `auto-07p` implementation) are
 
 -   [Bending of an *elastica*](./) - bifurcation diagram, solution
 
