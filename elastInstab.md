@@ -26,7 +26,7 @@ certain unique aspect in terms of implementing it in `auto-07p`
 associated with the type of problem. It will become clear what I mean by
 this as we go over the examples.
 
-We begin by introducing the `auto-07p` framework [here](./autoFw).
+We begin by introducing the `auto-07p` framework [here](./).
 
 The problems we will be looking at are
 
