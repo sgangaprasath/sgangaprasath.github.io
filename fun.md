@@ -5,15 +5,6 @@ Current Projects
 
 Here are a few projects that I am/was interested, that keep/kept me occupied. You might find them useful/entertaining or not.
 
-<!--Science
-1. Gomboc
-2. Singularities
-3. Linear and non-linear
-4. Patterns, patterns, patterns
-5. When the history comes to bite...
--->
-<!--Paintings-->
-
 ### Tutorials
 
 - [Elastic instabilities using auto-07p](./elastInstab)
@@ -28,6 +19,16 @@ Past projects
 - [Sthayi@ICTS](./sthayi)
 - [Pixel & Paint](https://colorpixel.tumblr.com/archive)
    
+ 
+<!--Science
+1. Gomboc
+2. Singularities
+3. Linear and non-linear
+4. Patterns, patterns, patterns
+5. When the history comes to bite...
+-->
+<!--Paintings-->
+  
 <!--## Paraphernalia to pick the brain
 G\"omb\"oc
 
