@@ -13,7 +13,7 @@ The problems we will be looking at (and the unique aspect of each example in ter
 
 -   (18-Nov-21) [Bending of an *elastica*](./elastica.html) - bifurcation diagram, solution
 
--   Buckling of a sheet - two parameter continuation
+-   (24-Nov-21) [Buckling of a sheet](./fvk.html) - two parameter continuation
 
 -   Beam with oscillating forcing - eigen-value problem
 
