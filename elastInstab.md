@@ -15,7 +15,7 @@ The problems we will be looking at (and the unique aspect of each example in ter
 
 -   (24-Nov-21) [Buckling of a sheet](./fvk.html) - two parameter continuation
 
--   Beam with oscillating forcing - eigen-value problem
+-   Oscillating beam - eigen-value problem
 
 -   Growth of a sheet - integral constraint
 
