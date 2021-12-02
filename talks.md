@@ -1,5 +1,6 @@
 ## Invited Talks/Conferences
 
+- Dec, 2021 - New England Complex Fluids 2020 talk on "Dynamics of cooperation in ants and robots"
 - Mar, 2021 - International Workshop on Embodied Intelligence talk on "Emergent cooperation in robotic ants"
 - Dec, 2020 - New England Complex Fluids 2020 talk on "Magnetic sand castles"
 - Nov, 2020 - APS-DFD 2020 talk on "Building magnetic sand castles"
