@@ -11,7 +11,7 @@ Here are a few projects that I am/was interested, that keep/kept me occupied. Yo
 
 ### Climate change
 
-- [Project climate crisis - பருவநிலை பேரழிவு](./paruvanilai) (coming soon...)
+- [Project climate crisis - பருவநிலை பேரழிவு](https://paruvanilai.wordpress.com)
 
 Past projects
 -------------
