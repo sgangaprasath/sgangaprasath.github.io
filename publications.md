@@ -10,8 +10,7 @@ published: true
 * _Totimorphic assemblies from neutrally-stable units._
 	Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L. Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118.
 [[arXiv]](https://arxiv.org/abs/2110.08216) [[URL]](https://www.pnas.org/content/118/42/e2107003118)
-	
-    Press coverage: [[Harvard Press]](https://www.seas.harvard.edu/news/2021/10/shape-shifting-materials-infinite-possibilities) [[Crimson]](https://www.thecrimson.com/article/2021/11/2/seas-shape-shifting-material)	
+Press coverage: [[Harvard Press]](https://www.seas.harvard.edu/news/2021/10/shape-shifting-materials-infinite-possibilities) [[Crimson]](https://www.thecrimson.com/article/2021/11/2/seas-shape-shifting-material)	
    ![SEASBanner.png]({{site.baseurl}}/figs/seas.jpg){:height="80%" width="80%"}
 * _Shapes of a filament on the surface of a bubble._
 	**Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. Proc. Roy. Soc. A, 10.1098/rspa.2021.0353. [[arXiv]](https://arxiv.org/abs/2104.09212) [[URL]](https://doi.org/10.1098/rspa.2021.0353)
@@ -24,8 +23,7 @@ published: true
 
 **2019**
 * _Accurate solution method for the Maxey-Riley equation, and the effects of Basset history._ 	**Ganga Prasath, S.**, Vishal Vasan, and Rama Govindarajan. Journal of Fluid Mechanics, 10.1017/jfm.2019.194. [[arXiv]](http://arxiv.org/abs/1808.08769) [[URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/accurate-solution-method-for-the-maxeyriley-equation-and-the-effects-of-basset-history/C4E30D782CEA2AA72333825A97B1953C)
-
-	Press coverage: [[Focus URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/solving-the-inertial-particle-equation-with-memory/80362CEF656BFEBB060C4F535CFDC68D) [[ICTS News]](https://www.icts.res.in/news/icts-scientists’-research-highlighted-journal-fluid-mechanics)
+Press coverage: [[Focus URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/solving-the-inertial-particle-equation-with-memory/80362CEF656BFEBB060C4F535CFDC68D) [[ICTS News]](https://www.icts.res.in/news/icts-scientists’-research-highlighted-journal-fluid-mechanics)
 	![focus.png]({{site.baseurl}}/focus.png){:height="80%" width="80%"}
 
 **2016**
