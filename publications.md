@@ -21,11 +21,11 @@ elastic filament.**_ **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and
 ![focus.png]({{site.baseurl}}/focus.png){:height="80%" width="80%"}
 
 **2016**
-  *  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Relaxation of a highly deformed elastic filament at a fluid interface._ Physical Review Fluids, 1, 033903. [[arXiv:1601.07278]](https://arxiv.org/abs/1601.07278) [[URL]](https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.1.033903)
+* _**Relaxation of a highly deformed elastic filament at a fluid interface.**_ **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. Physical Review Fluids, 1, 033903. [[arXiv:1601.07278]](https://arxiv.org/abs/1601.07278) [[URL]](https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.1.033903)
 
 **Miscellaneous**
-* **Ganga Prasath, S.**, Stephane Fauve, and Marc Brachet. _Dynamo action by turbulence in absolute equilibrium._ Europhysics Letters, 106(2), 29002. [[URL]](https://iopscience.iop.org/article/10.1209/0295-5075/106/29002) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/EPL_2014.pdf)
-* **Ganga Prasath, S.**, Sudharsan, M., Vinodh Kumar, V., Diwakar, S. V., Sundararajan, T., and Tiwari, S. _Effects of aspect ratio and orientation on the wake characteristics of low Reynolds number flow over a triangular prism._ Journal of Fluids and Structures, 46, 59-76. [[URL]](https://www.sciencedirect.com/science/article/pii/S0889974613002909) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/JFS_2013.pdf)
+* _**Dynamo action by turbulence in absolute equilibrium.**_ **Ganga Prasath, S.**, Stephane Fauve, and Marc Brachet. Europhysics Letters, 106(2), 29002. [[URL]](https://iopscience.iop.org/article/10.1209/0295-5075/106/29002) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/EPL_2014.pdf)
+* _**Effects of aspect ratio and orientation on the wake characteristics of low Reynolds number flow over a triangular prism.**_ **Ganga Prasath, S.**, Sudharsan, M., Vinodh Kumar, V., Diwakar, S. V., Sundararajan, T., and Tiwari, S. Journal of Fluids and Structures, 46, 59-76. [[URL]](https://www.sciencedirect.com/science/article/pii/S0889974613002909) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/JFS_2013.pdf)
 
 ## [](#header-2) Under preparation
 * **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Collective patterning via active flow-based recruitment_.
