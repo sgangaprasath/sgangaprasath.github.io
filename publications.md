@@ -10,7 +10,6 @@ published: true
 * _Totimorphic assemblies from neutrally-stable units._
 	Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L. Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118.
 [[arXiv]](https://arxiv.org/abs/2110.08216) [[URL]](https://www.pnas.org/content/118/42/e2107003118)
-
 	Press coverage: [[Harvard Press]](https://www.seas.harvard.edu/news/2021/10/shape-shifting-materials-infinite-possibilities) [[Crimson]](https://www.thecrimson.com/article/2021/11/2/seas-shape-shifting-material)	
    ![SEASBanner.png]({{site.baseurl}}/SEASBanner.png){:height="80%" width="80%"}
 * _Shapes of a filament on the surface of a bubble._
