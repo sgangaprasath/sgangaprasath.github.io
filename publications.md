@@ -37,16 +37,11 @@ published: true
 	**Ganga Prasath, S.**, Sudharsan, M., Vinodh Kumar, V., Diwakar, S. V., Sundararajan, T., and Tiwari, S. Journal of Fluids and Structures, 46, 59-76. [[URL]](https://www.sciencedirect.com/science/article/pii/S0889974613002909) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/JFS_2013.pdf)
 
 ## [](#header-2) Under preparation
-* _Rheomergy: Collective patterning via active flow-based recruitment_.
-	**Ganga Prasath, S.**, and Mahadevan, L. 
-* _**Collective construction in robotic ants.**_
-	Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L.
-* _**Transient dynamics of a moving rigid surface._**
-	Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan.
-* _**Speed-Accuracy tradeoffs in Roulette betting.**_
-	Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L.
-* _**Vasculaziation in soft gels.**_
-	**Ganga Prasath, S.(+)**, Aditi Chakrabarti(+), and Mahadevan, L.
+* _Rheomergy: Collective patterning via active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. 
+* _Collective construction in robotic ants._ Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L.
+* _Transient dynamics of a moving rigid surface._ Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan.
+* _Speed-Accuracy tradeoffs in Roulette betting._ Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L.
+* _Vasculaziation in soft gels._ **Ganga Prasath, S.(+)**, Aditi Chakrabarti(+), and Mahadevan, L.
 
 
 <!--  * **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Fluid flow mediated collective response_.
