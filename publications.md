@@ -9,7 +9,7 @@ published: true
 	**Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633)
 * _Totimorphic assemblies from neutrally-stable units._
 	Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L. Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118.
-[[arXiv:2110.08216]](https://arxiv.org/abs/2110.08216) [[URL]](https://www.pnas.org/content/118/42/e2107003118)
+[[arXiv]](https://arxiv.org/abs/2110.08216) [[URL]](https://www.pnas.org/content/118/42/e2107003118)
 
 	Press coverage: [[Harvard Press]](https://www.seas.harvard.edu/news/2021/10/shape-shifting-materials-infinite-possibilities) [[Crimson]](https://www.thecrimson.com/article/2021/11/2/seas-shape-shifting-material)	
    ![SEASBanner.png]({{site.baseurl}}/SEASBanner.png){:height="80%" width="80%"}
