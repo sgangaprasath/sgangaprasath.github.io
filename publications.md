@@ -25,18 +25,26 @@ M. Serra(+), S. al-Mosleh(+), **S. Ganga Prasath(+)**, V. Raju(+), S. Mantena, J
 ![focus.png]({{site.baseurl}}/focus.png){:height="80%" width="80%"}
 
 **2016**
-* _**Relaxation of a highly deformed elastic filament at a fluid interface.**_ **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. Physical Review Fluids, 1, 033903. [[arXiv:1601.07278]](https://arxiv.org/abs/1601.07278) [[URL]](https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.1.033903)
+* _**Relaxation of a highly deformed elastic filament at a fluid interface.**_
+**Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. Physical Review Fluids, 1, 033903. [[arXiv:1601.07278]](https://arxiv.org/abs/1601.07278) [[URL]](https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.1.033903)
 
 **Miscellaneous**
-* _**Dynamo action by turbulence in absolute equilibrium.**_ **Ganga Prasath, S.**, Stephane Fauve, and Marc Brachet. Europhysics Letters, 106(2), 29002. [[URL]](https://iopscience.iop.org/article/10.1209/0295-5075/106/29002) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/EPL_2014.pdf)
-* _**Effects of aspect ratio and orientation on the wake characteristics of low Reynolds number flow over a triangular prism.**_ **Ganga Prasath, S.**, Sudharsan, M., Vinodh Kumar, V., Diwakar, S. V., Sundararajan, T., and Tiwari, S. Journal of Fluids and Structures, 46, 59-76. [[URL]](https://www.sciencedirect.com/science/article/pii/S0889974613002909) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/JFS_2013.pdf)
+* _**Dynamo action by turbulence in absolute equilibrium.**_
+**Ganga Prasath, S.**, Stephane Fauve, and Marc Brachet. Europhysics Letters, 106(2), 29002. [[URL]](https://iopscience.iop.org/article/10.1209/0295-5075/106/29002) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/EPL_2014.pdf)
+* _**Effects of aspect ratio and orientation on the wake characteristics of low Reynolds number flow over a triangular prism.**_
+**Ganga Prasath, S.**, Sudharsan, M., Vinodh Kumar, V., Diwakar, S. V., Sundararajan, T., and Tiwari, S. Journal of Fluids and Structures, 46, 59-76. [[URL]](https://www.sciencedirect.com/science/article/pii/S0889974613002909) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/JFS_2013.pdf)
 
 ## [](#header-2) Under preparation
-* **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Collective patterning via active flow-based recruitment_.
-* Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L. _Collective construction in robotic ants_.
-* Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan. _Transient dynamics of a moving rigid surface_.
-* Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L. _Speed-Accuracy tradeoffs in Roulette betting_.
-* **Ganga Prasath, S.(+)**, Aditi Chakrabarti(+), and Mahadevan, L. _Branching in soft gels_.
+* _**Rheomergy: Collective patterning via active flow-based recruitment_**.
+**Ganga Prasath, S.**, and Mahadevan, L. 
+* _**Collective construction in robotic ants.**_
+Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L.
+* _**Transient dynamics of a moving rigid surface._**
+Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan.
+* _**Speed-Accuracy tradeoffs in Roulette betting.**_
+Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L.
+* _**Vasculaziation in soft gels.**_
+**Ganga Prasath, S.(+)**, Aditi Chakrabarti(+), and Mahadevan, L.
 
 
 <!--  * **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Fluid flow mediated collective response_.
