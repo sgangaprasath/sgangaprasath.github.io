@@ -5,15 +5,15 @@ published: true
 ## [](#header-2) Published/Preprints
 
 **2021**
-* **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. _Cooperative escape in ants and robots._ [[biorXiv:2021.07.12.451633]](https://doi.org/10.1101/2021.07.12.451633).
-* Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L. _Totimorphic assemblies from neutrally-stable units._ Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118.
+* _**Cooperative escape in ants and robots.**_ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv:2021.07.12.451633]](https://doi.org/10.1101/2021.07.12.451633).
+* _**Totimorphic assemblies from neutrally-stable units.**_ Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L. Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118.
 [[arXiv:2110.08216]](https://arxiv.org/abs/2110.08216) [[URL]](https://www.pnas.org/content/118/42/e2107003118) [[Harvard Press]](https://www.seas.harvard.edu/news/2021/10/shape-shifting-materials-infinite-possibilities) [[Crimson]](https://www.thecrimson.com/article/2021/11/2/seas-shape-shifting-material)	
    ![SEASBanner.png]({{site.baseurl}}/SEASBanner.png){:height="80%" width="80%"}
-*  **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. _Shapes of a filament on the surface of a bubble._ Proc. Roy. Soc. A, 10.1098/rspa.2021.0353. [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212) [[URL]](https://doi.org/10.1098/rspa.2021.0353)
+* _**Shapes of a filament on the surface of a bubble.**_ **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. Proc. Roy. Soc. A, 10.1098/rspa.2021.0353. [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212) [[URL]](https://doi.org/10.1098/rspa.2021.0353)
 
 **2020**
-* **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. _Wetting and wrapping of a floating droplet by a thin
-elastic filament._ Soft Matter, 10.1039/D0SM01863E. [[arXiv:2010.04599]](http://arxiv.org/abs/2010.04599) [[URL]](https://pubs.rsc.org/en/content/articlelanding/2021/sm/d0sm01863e)
+* _**Wetting and wrapping of a floating droplet by a thin
+elastic filament.**_ **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. Soft Matter, 10.1039/D0SM01863E. [[arXiv:2010.04599]](http://arxiv.org/abs/2010.04599) [[URL]](https://pubs.rsc.org/en/content/articlelanding/2021/sm/d0sm01863e)
 *  M. Serra(+), S. al-Mosleh(+), **S. Ganga Prasath(+)**, V. Raju(+), S. Mantena, J. Chandra, S. Iams, L. Mahadevan. _Optimal policies for mitigating pandemic costs._ [[arXiv:2007.11178]](http://arxiv.org/abs/2007.11178)
 
 **2019**
