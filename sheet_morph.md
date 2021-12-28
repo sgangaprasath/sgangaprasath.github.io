@@ -21,9 +21,6 @@ Droplets transported through microfluidic devices are prone to interacting with 
 * _Wetting and wrapping of a floating droplet by a thin
 elastic filament._ **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan.  Soft Matter, 10.1039/D0SM01863E. [[arXiv]](http://arxiv.org/abs/2010.04599) [[URL]](https://pubs.rsc.org/en/content/articlelanding/2021/sm/d0sm01863e)
 
-*  Fabian Brau, **Ganga Prasath, S.**, and Benny Davidovich. _Wettability of bendable solids:
-Insights from a two-dimensional, inextensible model_. (to be submitted)
-
 ## Coiling on a spherical bubble
 
 When a stress-free filament is floated on a thin flat film, it takes the shape of a staight line as this configuration has minimum energy. On the other hand confining it to non-planar surfaces with finite Gaussian curvature forces it to take bent shapes. Are these shapes special in any manner? We explore this question through experiments on soap films and develop a simplified theory that accounts for the effects of geometric confinement.
