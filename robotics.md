@@ -8,8 +8,8 @@ What are the sufficient rules for cooperation? Can cooperation arise only out of
 
 **Publications**
 
-* **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. _Cooperative escape in ants and robots._ [[biorXiv:2021.07.12.451633]](https://doi.org/10.1101/2021.07.12.451633).
+* _Cooperative escape in ants and robots._ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633).
 
-* **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L. _Phases of collective task execution in robotic ants_.
+* _Phases of collective task execution in robotic ants._ **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L.
 
 [back](./research)
