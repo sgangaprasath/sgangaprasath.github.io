@@ -6,7 +6,7 @@ Morphable structures are realized by using microscopic degrees of freedom to scu
 ![Helix.jpg]({{site.baseurl}}/Helix.jpg){:height="80%" width="100%"}
 
 **Publications**
-* Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L. _Totimorphic assemblies from neutrally-stable units._ Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118. [[arXiv:2110.08216]](https://arxiv.org/abs/2110.08216) [[URL]](https://www.pnas.org/content/118/42/e2107003118)
+* _Totimorphic assemblies from neutrally-stable units._ Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L.  Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118. [[arXiv]](https://arxiv.org/abs/2110.08216) [[URL]](https://www.pnas.org/content/118/42/e2107003118)
 
 ## Functional soft gel vascular networks
 Vascularization, the formation of a branched network of vessels, enables the transport of nutrients and removal of wastes in biological organisms. In plants and animals, vascularization is self-organized in response to biochemical and biophysical cues. We use flow induced channelization in a crosslinkable gel to enable the controlled formation of synthetic vasculature in soft frangible tissue-like materials. This allows us to control and guide the formation of both divergent and convergent channel patterns, hierarchical formation of thick and thin capillaries, all the while being space-filling.
