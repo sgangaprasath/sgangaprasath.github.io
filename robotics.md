@@ -1,4 +1,5 @@
 ## Robotics and Animal behaviour
+Tibergen in 1963 laid out the fundamental questions for the field of animal behaviour. They are identifying the function, evolution, causation and development of a particular behavior. Such a framework, however, has yet to appear for robotics. One solution to resolve this void is to understand the behaviour of animals and use the insights we gain towards a specific function in robots.
 
 **Mechanism behind cooperation**
 What are the sufficient rules for cooperation? Can cooperation arise only out of mechanistic interactions? How is collective decision reflected in tasks? We identify the interaction rules that result in cooperation in a colony of carpenter ants and replicate the cooperative behaviour in a robotic platform consisting of ant-like robots that can communicate with each other and physically interact with its environment. Further details are available in the article attached below.
