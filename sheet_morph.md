@@ -17,6 +17,7 @@ Droplets transported through microfluidic devices are prone to interacting with 
 ![wrapping.png]({{site.baseurl}}/wrapping.png)
 
 **Publications**
+
 * _Wetting and wrapping of a floating droplet by a thin
 elastic filament._ **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan.  Soft Matter, 10.1039/D0SM01863E. [[arXiv:2010.04599]](http://arxiv.org/abs/2010.04599) [[URL]](https://pubs.rsc.org/en/content/articlelanding/2021/sm/d0sm01863e)
 
