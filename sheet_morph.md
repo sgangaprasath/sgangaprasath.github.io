@@ -9,7 +9,7 @@ The motion of elastic filaments in a viscous fluid under small deformation is go
 
 **Publications**
 
-* _Relaxation of a highly deformed elastic filament at a fluid interface._ **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon.  Physical Review Fluids, 1, 033903. [[arXiv:1601.07278]](https://arxiv.org/abs/1601.07278) [[URL]](https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.1.033903)
+* _Relaxation of a highly deformed elastic filament at a fluid interface._ **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon.  Physical Review Fluids, 1, 033903. [[arXiv]](https://arxiv.org/abs/1601.07278) [[URL]](https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.1.033903)
 
 ## Wrapping a liquid droplet
 Droplets transported through microfluidic devices are prone to interacting with boundary walls and the contents being polluted. A safe transport mechanism predicates a solid covering for such small droplets. One way to achieve this is by covering the droplet using thin plastic sheets. What is the phase space of different shapes a sheet can take when in contact with a liquid droplet? We understand this morphological phase space of the droplet-sheet system using experiments and asymptotic calculations.
@@ -19,7 +19,7 @@ Droplets transported through microfluidic devices are prone to interacting with 
 **Publications**
 
 * _Wetting and wrapping of a floating droplet by a thin
-elastic filament._ **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan.  Soft Matter, 10.1039/D0SM01863E. [[arXiv:2010.04599]](http://arxiv.org/abs/2010.04599) [[URL]](https://pubs.rsc.org/en/content/articlelanding/2021/sm/d0sm01863e)
+elastic filament._ **Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan.  Soft Matter, 10.1039/D0SM01863E. [[arXiv]](http://arxiv.org/abs/2010.04599) [[URL]](https://pubs.rsc.org/en/content/articlelanding/2021/sm/d0sm01863e)
 
 *  Fabian Brau, **Ganga Prasath, S.**, and Benny Davidovich. _Wettability of bendable solids:
 Insights from a two-dimensional, inextensible model_. (to be submitted)
@@ -32,7 +32,7 @@ When a stress-free filament is floated on a thin flat film, it takes the shape o
 
 **Publications**
 
-* _Shapes of a filament on the surface of a bubble._ **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon.  Proc. Roy. Soc. A, 10.1098/rspa.2021.0353. [[arXiv:2104.09212]](https://arxiv.org/abs/2104.09212) [[URL]](https://doi.org/10.1098/rspa.2021.0353)
+* _Shapes of a filament on the surface of a bubble._ **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon.  Proc. Roy. Soc. A, 10.1098/rspa.2021.0353. [[arXiv]](https://arxiv.org/abs/2104.09212) [[URL]](https://doi.org/10.1098/rspa.2021.0353)
 
 
 
