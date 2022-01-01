@@ -4,7 +4,6 @@ Tibergen in 1963 laid out the fundamental questions for the field of animal beha
 **Cooperative task execution**
 What are the sufficient rules for cooperation? Can cooperation arise only out of mechanistic interactions? How is collective decision reflected in tasks? Can we leverage cooperation for a particular task? We identify the interaction rules between the agents and the environment, mediated through communication channels that result in cooperation in a colony of carpenter ants and replicate the behaviour in a robotic platform consisting of ant-like robots that can communicate with each other and physically interact with its environment. Using this understanding we show that robots can collectively perform both construction and de-construction with simple changes in behavioral rules. See the article for further details.
 
-![tri.jpg]({{site.baseurl}}/tri.jpg){:height="80%" width="90%"}
 ![Rants.png]({{site.baseurl}}/Rants.png){:height="80%" width="90%"}
 
 
