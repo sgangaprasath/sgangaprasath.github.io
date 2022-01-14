@@ -38,7 +38,8 @@ published: true
 
 ## [](#header-2) Under preparation
 * _Rheomergy: Collective patterning via active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. 
-* _Collective construction in robotic ants._ Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L.
+* _Self-organized construction in phototactic robot collectives._ Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L.
+* _Role of stretching in gait selection in primitive organisms._ **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L.
 * _Transient dynamics of a moving rigid surface._ Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan.
 * _Speed-Accuracy tradeoffs in Roulette betting._ Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L.
 * _Vasculaziation in soft gels._ **Ganga Prasath, S.(+)**, Aditi Chakrabarti(+), and Mahadevan, L.
