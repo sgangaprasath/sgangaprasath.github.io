@@ -7,7 +7,6 @@ published: true
 **2022**
 * _Wetting of an elastic sheet subject to external tension._ Gregory Kozyref, Benny Davidovitch, **Ganga Prasath, S.(+)**, Guillaume Palumbo, and Fabian Brau. [[arXiv]](https://arxiv.org/abs/2201.10925)
 
-
 **2021**
 * _Cooperative escape in ants and robots._ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633)
 
