@@ -39,7 +39,7 @@ published: true
 * _Effects of aspect ratio and orientation on the wake characteristics of low Reynolds number flow over a triangular prism._
 	**Ganga Prasath, S.**, Sudharsan, M., Vinodh Kumar, V., Diwakar, S. V., Sundararajan, T., and Tiwari, S. Journal of Fluids and Structures, 46, 59-76. [[URL]](https://www.sciencedirect.com/science/article/pii/S0889974613002909) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/JFS_2013.pdf)
 
-## [](#header-2) Under preparation
+## [](#header-2) In preparation
 * _Rheomergy: Collective patterning via active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. 
 * _Self-organized construction in phototactic robot collectives._ Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L.
 * _Neuromechanics of limbless locomotion in viscous environments._ **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L.
