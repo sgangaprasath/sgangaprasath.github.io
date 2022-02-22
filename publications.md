@@ -6,6 +6,7 @@ published: true
 
 **2022**
 * _Wetting of an elastic sheet subject to external tension._ Gregory Kozyref, Benny Davidovitch, **Ganga Prasath, S.**, Guillaume Palumbo, and Fabian Brau. [[arXiv]](https://arxiv.org/abs/2201.10925)
+* _Rheomergy: Collective behavior mediated by active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. [[arXiv]](https://arxiv.org/abs/2201.10925)
 
 **2021**
 * _Cooperative escape in ants and robots._ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633)
@@ -40,7 +41,6 @@ published: true
 	**Ganga Prasath, S.**, Sudharsan, M., Vinodh Kumar, V., Diwakar, S. V., Sundararajan, T., and Tiwari, S. Journal of Fluids and Structures, 46, 59-76. [[URL]](https://www.sciencedirect.com/science/article/pii/S0889974613002909) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/JFS_2013.pdf)
 
 ## [](#header-2) In preparation
-* _Rheomergy: Collective patterning via active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. 
 * _Self-organized construction in phototactic robot collectives._ Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L.
 * _Neuromechanics of limbless locomotion in viscous environments._ **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L.
 * _Transient dynamics of a moving rigid surface._ Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan.
