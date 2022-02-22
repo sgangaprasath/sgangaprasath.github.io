@@ -17,8 +17,6 @@ The problems we will be looking at (and the unique aspect of each example in ter
 
 -   Oscillating beam - eigen-value problem
 
--   Growth of a sheet - integral constraint
-
 -   Periodic solutions to sheet deformation - homotopy continuation
 
 [back](./fun)
