@@ -5,7 +5,7 @@ published: true
 ## [](#header-2) Published/Preprints
 
 **2022**
-* _Rheomergy: Collective behavior mediated by active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. [[arXiv]](https://arxiv.org/abs/2201.10925)
+* _Rheomergy: Collective behavior mediated by active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. [[arXiv]](http://arxiv.org/abs/2202.11654)
 
 * _Wetting of an elastic sheet subject to external tension._ Gregory Kozyref, Benny Davidovitch, **Ganga Prasath, S.**, Guillaume Palumbo, and Fabian Brau. [[arXiv]](https://arxiv.org/abs/2202.11654)
 
