@@ -1,4 +1,4 @@
-## Invited Talks/Conferences
+## Talks/Conferences
 - Mar, 2022 - Seminars on "Mechanics of soft and geometric materials and Patterns & adaptability" at Department of Condensed Matter Physics & Materials Science, TIFR Mumbai
 - Jan, 2022 - Seminar on "Towards adaptable systems" at Engineering Mechanics Unit, JNCASR Bangalore
 - Dec, 2021 - Climate Study group talk on "Climate crisis", ICTS-TIFR Bengaluru
