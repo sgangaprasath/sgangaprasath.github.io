@@ -2,7 +2,7 @@
 layout: default
 published: true
 ---
-![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am currently a post-doc in the [Applied Math group](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/). My broad interest lies in extending the pattern formation paradigm (which is often blind to the function of the pattern) with function particularly in the context of **animal and robot behavior** as well as **smart-material** design.
+![sgp.png]({{site.baseurl}}/sgp.png){:style="float: right;margin-left: 7px;margin-top: 7px;" :height="30%" width="30%"} I am currently a post-doc in the [Applied Math group](https://www.seas.harvard.edu/softmat/index.html) at [SEAS, Harvard](https://seas.harvard.edu/). My current interest lies in extending the pattern formation paradigm (which is blind to the function of the pattern) with function particularly in the context of **animal and robot behavior** as well as **smart-material** design. To this end I perform experiments with animals, build laboratory scale physical models and construct mathematical models to gain insights into a particular phenomena.
 
 <!-- material understanding the process of intelligent **decision making in animals** and leveraging it for designing **behavior of robots**. I also work on developing **smart materials** that leverage geometry for predictive response, aimed towards creating better robots. To this end I perform experiments with animals, build laboratory scale physical models and construct mathematical models to gain insights into a particular phenomena. -->
 
