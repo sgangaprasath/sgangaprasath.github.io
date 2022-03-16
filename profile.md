@@ -11,12 +11,12 @@
     - Collaborators: **Prof. Vishal Vasan (ICTS-TIFR Bengaluru)**, **Dr. Joel Marthelot (Aix-Marseille Univ)**
 
 ### [](#header-3) M.S. in Fluid Mechanics (2012-2013)
-* Recipient of the _Charpak fellowship_ by Institut Francais.
 * [Ecole Polytechnique, Palaisseau.](https://www.polytechnique.edu)
 	- [Thesis](https://drive.google.com/file/d/191LhINv_6u4mhgZZgJZj5BbPv4PT4iYS/view?usp=sharing)_: Dynamo action in ABC flows: what is the effect of Fourier truncation at low Prandtl number?_
+* Recipient of the _Charpak fellowship_ by Institut Francais.
     
 ### [](#header-3) B.Tech in Mechanical Engineering (2008-2012)
-* Recipient of the institute's _Best thesis award_.
 * [Indian Institute of Information Technology, Chennai.](https://www.iiitdm.ac.in)
+* Recipient of the institute's _Best thesis award_.
 
 [back](./)
