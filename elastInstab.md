@@ -15,7 +15,7 @@ We begin by introducing the framework [here](./autoFw.html). Please click this l
 
 -   (24-Nov-21) [Buckling of a sheet](./fvk.html) - two parameter continuation
 
--   (04-Apr-22) Oscillating beam - eigen-value problem
+-   (04-Apr-22) Oscillating beam - eigen-value problem, homotopy continuation
 
 -   (04-Apr-22) Undulatory propulsion on land - periodic solution
 
