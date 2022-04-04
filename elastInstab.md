@@ -17,6 +17,6 @@ We begin by introducing the framework [here](./autoFw.html). Please click this l
 
 -   (04-Apr-22) Oscillating beam - eigen-value problem
 
--   (04-Apr-22) Periodic solutions to sheet deformation - homotopy continuation
+-   (04-Apr-22) Undulatory propulsion on land - periodic solution
 
 [back](./fun)
