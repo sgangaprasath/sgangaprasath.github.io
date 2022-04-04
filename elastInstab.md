@@ -19,4 +19,6 @@ We begin by introducing the framework [here](./autoFw.html). Please click this l
 
 -   (04-Apr-22) Undulatory propulsion on land - periodic solution
 
+![Tutorial Cover](../autoTutorial/figs/cover.jpeg)
+
 [back](./fun)
