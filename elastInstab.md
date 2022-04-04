@@ -9,9 +9,7 @@ a numerical continuation package. The purpose of this tutorial really is to intr
 
 In this 4 part series we will be discussing problems each with an unique aspect in terms of implementation in `auto-07p`. It will become clear what I mean by this as we go over the examples.
 
-We begin by introducing the framework [here](./autoFw.html). Please click this link and go over it before you start reading the tutorial problems. The relevant codes used in these tutorials are available [here](https://github.com/sgangaprasath/autoTutorial).
-
-The problems we will be looking at (and the focus of each example in `auto-07p` implementation) are
+We begin by introducing the framework [here](./autoFw.html). Please click this link and go over it before you start reading the tutorial problems. The relevant codes used in these tutorials are available [here](https://github.com/sgangaprasath/autoTutorial). The problems we will be looking at (and the focus of each example in `auto-07p` implementation) are
 
 -   (18-Nov-21) [Bending of an *elastica*](./elastica.html) - bifurcation diagram, solution
 
