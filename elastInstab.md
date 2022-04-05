@@ -17,7 +17,9 @@ We begin by introducing the framework [here](./autoFw.html). Please click this l
 
 -   (04-Apr-22) [Oscillating beam](./oscillating.html) - eigen-value problem, homotopy continuation
 
--   (04-Apr-22) [Undulatory propulsion on land](./snake.html) - many parameter system, periodic solution, homotopy continuation, adding new boundary boundary conditions
+-   (05-Apr-22) [Undulatory propulsion on land](./snake.html) - many parameter system, periodic solution, homotopy continuation, adding new boundary boundary conditions
+
+You can find the entire tutorial collection in pdf format [here]({{site.baseurl}}/pubs/autoTutorial.pdf).
 
 ![Tutorial Cover]({{site.baseurl}}/figs/cover.jpeg)
 
