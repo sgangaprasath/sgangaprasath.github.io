@@ -1,7 +1,7 @@
 Current Projects
 ----------------
 
-![DLab-01.png]({{site.baseurl}}/DLab-01.png)
+![DLab-01.png]({{site.baseurl}}/figs/DLab-01.png)
 
 Here are a few projects that I am/was interested, that keep/kept me occupied. You might find them useful/entertaining or not.
 
@@ -18,8 +18,8 @@ Past projects
 
 - [Sthayi@ICTS](./sthayi)
 - [Pixel & Paint](https://colorpixel.tumblr.com/archive)
-   
- 
+
+
 <!--Science
 1. Gomboc
 2. Singularities
@@ -28,7 +28,7 @@ Past projects
 5. When the history comes to bite...
 -->
 <!--Paintings-->
-  
+
 <!--## Paraphernalia to pick the brain
 G\"omb\"oc
 
@@ -36,7 +36,7 @@ G\"omb\"oc
 \f\relax{x} = \int_{-\infty}^\infty
     \f\hat\xi\,e^{2 \pi i \xi x}
     \,d\xi
-    
+
 ## Music
 
 ## Graphic design
