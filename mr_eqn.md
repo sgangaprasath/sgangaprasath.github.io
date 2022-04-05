@@ -2,7 +2,7 @@
 
 Particles in a viscous fluid experience a variety of forces whose evolution is described by the Maxey-Riley equation. The particle velocity at every instant depends on the entire trajectory it has traversed due to the viscosity of the medium. How does a particle's history affect its evolution? We develop analytical and efficient numerical tools to understand this long standing question.
 
-![mr_eqn.png]({{site.baseurl}}/mr_eqn.png)
+![mr_eqn.png]({{site.baseurl}}/figs/mr_eqn.png)
 
 **Publications**
 
