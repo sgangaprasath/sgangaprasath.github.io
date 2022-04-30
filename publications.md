@@ -51,10 +51,7 @@ published: true
 
 <!--  * **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Fluid flow mediated collective response_.
 * Fabio Giardina, **Ganga Prasath, S.**, and Mahadevan, L. _Perspective: Embodiment through physical laws in soft-robotics_.
-* **Ganga Prasath, S.**, Divya Jaganathan, and Vishal Vasan. _A primer on Unified Transform Method_.
-*  Fabian Brau, **Ganga Prasath, S.**, and Benny Davidovich. _Wettability of bendable solids:
-Insights from a two-dimensional, inextensible model_.-->
-
+* **Ganga Prasath, S.**, Divya Jaganathan, and Vishal Vasan. _A primer on Unified Transform Method_.-->
 
 (+) - Equal contribution
 
