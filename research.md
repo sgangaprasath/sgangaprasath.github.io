@@ -11,3 +11,5 @@
 [Rigid objects in flow](./mr_eqn)
 
 [![sgp.png]({{site.baseurl}}/figs/robotics.png){:style="float: left;margin-left: 7px;margin-top: 7px;" :height="95%" width="95%"}](./robotics)
+
+[back](./index)
