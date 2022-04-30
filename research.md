@@ -10,4 +10,4 @@
 
 [Rigid objects in flow](./mr_eqn)
 
-![sgp.png]({{site.baseurl}}/figs/banner.jpg){:style="float: left;margin-left: 7px;margin-top: 7px;" :height="95%" width="95%"}
+![sgp.png]({{site.baseurl}}/figs/robotics.png)(./robotics){:style="float: left;margin-left: 7px;margin-top: 7px;" :height="95%" width="95%"}
