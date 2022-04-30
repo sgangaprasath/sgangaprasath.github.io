@@ -1,8 +1,10 @@
 ## Research areas
 
-[Robotics + Animal behaviour](./robotics)
+[![robotics.png]({{site.baseurl}}/figs/robotics.png){:style="float: left;margin-left: 7px;margin-top: 7px;" :height="95%" width="80%"}](./robotics)
 
-[Smart materials](./material)
+[![animal.png]({{site.baseurl}}/figs/animal.png){:style="float: left;margin-left: 7px;margin-top: 7px;" :height="95%" width="80%"}](./robotics)
+
+[![smart.png]({{site.baseurl}}/figs/smart.png){:style="float: left;margin-left: 7px;margin-top: 7px;" :height="95%" width="80%"}](./material)
 
 **Elasticity, Hydrodynamics**
 
@@ -10,6 +12,5 @@
 
 [Rigid objects in flow](./mr_eqn)
 
-[![sgp.png]({{site.baseurl}}/figs/robotics.png){:style="float: left;margin-left: 7px;margin-top: 7px;" :height="95%" width="95%"}](./robotics)
 
 [back](./index)
