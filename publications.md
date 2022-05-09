@@ -23,7 +23,7 @@ published: true
 	**Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. Soft Matter, 10.1039/D0SM01863E. [[arXiv]](http://arxiv.org/abs/2010.04599) [[URL]](https://pubs.rsc.org/en/content/articlelanding/2021/sm/d0sm01863e)
 
 * _Optimal policies for mitigating pandemic costs._
-	M. Serra(+), S. al-Mosleh(+), **S. Ganga Prasath(+)**, V. Raju(+), S. Mantena, J. Chandra, S. Iams, L. Mahadevan. [[arXiv]](http://arxiv.org/abs/2007.11178)
+	M. Serra(+), S. al-Mosleh(+), **S. Ganga Prasath(+)**, V. Raju(+), S. Mantena, J. Chandra, S. Iams, L. Mahadevan. Accepted in Phys. Biol. [[arXiv]](http://arxiv.org/abs/2007.11178)
 
 **2019**
 * _Accurate solution method for the Maxey-Riley equation, and the effects of Basset history._ 	**Ganga Prasath, S.**, Vishal Vasan, and Rama Govindarajan. Journal of Fluid Mechanics, 10.1017/jfm.2019.194. [[arXiv]](http://arxiv.org/abs/1808.08769) [[URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/accurate-solution-method-for-the-maxeyriley-equation-and-the-effects-of-basset-history/C4E30D782CEA2AA72333825A97B1953C) [[Focus URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/solving-the-inertial-particle-equation-with-memory/80362CEF656BFEBB060C4F535CFDC68D) [[ICTS News]](https://www.icts.res.in/news/icts-scientists’-research-highlighted-journal-fluid-mechanics)
