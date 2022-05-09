@@ -1,6 +1,6 @@
 ## Talks/Conferences
 - May, 2022 - Short talk on "Synthesizing collective behavior" at Physics of Living Systems center at MIT
-- May, 2022 - Kavli Seminar on "Totimorphic metamaterial" at SEAS, Harvard University
+- May, 2022 - Kavli Seminar on "When anglepoise lamp, origami and chebyshev-net meet" at SEAS, Harvard University
 - Mar, 2022 - Seminars on "Mechanics of soft and geometric materials and Patterns & adaptability" at Department of Condensed Matter Physics & Materials Science, TIFR Mumbai
 - Jan, 2022 - Seminar on "Towards adaptable systems" at Engineering Mechanics Unit, JNCASR Bangalore
 - Dec, 2021 - Climate Study group talk on "Climate crisis", ICTS-TIFR Bengaluru
