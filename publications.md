@@ -44,7 +44,6 @@ published: true
 ## [](#header-2) In preparation
 * _Collective phototactic robotectonics._ Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L.
 * _Vasculaziation in soft gels._ **Ganga Prasath, S.(+)**, Aditi Chakrabarti(+), and Mahadevan, L.
-* _Neuromechanics of limbless locomotion in viscous environments._ **Ganga Prasath, S.(+)**, Fabio Giardina(+), and Mahadevan, L.
 * _Transient dynamics of a moving rigid surface._ Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan.
 * _Speed-Accuracy tradeoffs in Roulette betting._ Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L.
 
