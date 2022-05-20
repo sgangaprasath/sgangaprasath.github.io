@@ -2,16 +2,19 @@
 layout: default
 published: true
 ---
-## [](#header-2) Published/Preprints
+## [](#header-2) Preprints
 
-**2022**
+* _Cooperative escape in ants and robots._ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633)
 * _Rheomergy: Collective behavior mediated by active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. [[arXiv]](http://arxiv.org/abs/2202.11654)
-
 * _Wetting of an elastic sheet subject to external tension._ Gregory Kozyref, Benny Davidovitch, **Ganga Prasath, S.**, Guillaume Palumbo, and Fabian Brau. [[arXiv]](https://arxiv.org/abs/2202.11654)
 
-**2021**
-* _Cooperative escape in ants and robots._ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633)
+## [](#header-2) Published
 
+**2022**
+* _Optimal policies for mitigating pandemic costs._
+	M. Serra(+), S. al-Mosleh(+), **S. Ganga Prasath(+)**, V. Raju(+), S. Mantena, J. Chandra, S. Iams, L. Mahadevan. Accepted in Phys. Biol. [[arXiv]](http://arxiv.org/abs/2007.11178)
+
+**2021**
 * _Totimorphic assemblies from neutrally-stable units._ Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L. Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118.
 [[arXiv]](https://arxiv.org/abs/2110.08216) [[URL]](https://www.pnas.org/content/118/42/e2107003118) [[Harvard Press]](https://www.seas.harvard.edu/news/2021/10/shape-shifting-materials-infinite-possibilities) [[Crimson]](https://www.thecrimson.com/article/2021/11/2/seas-shape-shifting-material)
    ![SEASBanner.png]({{site.baseurl}}/figs/seas.jpg){:height="80%" width="80%"}
@@ -21,9 +24,6 @@ published: true
 **2020**
 * _Wetting and wrapping of a floating droplet by a thin elastic filament._
 	**Ganga Prasath, S.**, Joel Marthelot, Narayanan Menon, and Rama Govindarajan. Soft Matter, 10.1039/D0SM01863E. [[arXiv]](http://arxiv.org/abs/2010.04599) [[URL]](https://pubs.rsc.org/en/content/articlelanding/2021/sm/d0sm01863e)
-
-* _Optimal policies for mitigating pandemic costs._
-	M. Serra(+), S. al-Mosleh(+), **S. Ganga Prasath(+)**, V. Raju(+), S. Mantena, J. Chandra, S. Iams, L. Mahadevan. Accepted in Phys. Biol. [[arXiv]](http://arxiv.org/abs/2007.11178)
 
 **2019**
 * _Accurate solution method for the Maxey-Riley equation, and the effects of Basset history._ 	**Ganga Prasath, S.**, Vishal Vasan, and Rama Govindarajan. Journal of Fluid Mechanics, 10.1017/jfm.2019.194. [[arXiv]](http://arxiv.org/abs/1808.08769) [[URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/accurate-solution-method-for-the-maxeyriley-equation-and-the-effects-of-basset-history/C4E30D782CEA2AA72333825A97B1953C) [[Focus URL]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/solving-the-inertial-particle-equation-with-memory/80362CEF656BFEBB060C4F535CFDC68D) [[ICTS News]](https://www.icts.res.in/news/icts-scientists’-research-highlighted-journal-fluid-mechanics)
@@ -47,12 +47,6 @@ published: true
 * _Transient dynamics of a moving rigid surface._ Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan.
 * _Speed-Accuracy tradeoffs in Roulette betting._ Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L.
 
-
-<!--  * **Ganga Prasath, S.**, and Mahadevan, L. _Rheomergy: Fluid flow mediated collective response_.
-* Fabio Giardina, **Ganga Prasath, S.**, and Mahadevan, L. _Perspective: Embodiment through physical laws in soft-robotics_.
-* **Ganga Prasath, S.**, Divya Jaganathan, and Vishal Vasan. _A primer on Unified Transform Method_.-->
-
 (+) - Equal contribution
-
 
 [back](./)
