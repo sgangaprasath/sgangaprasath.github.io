@@ -1,4 +1,5 @@
 ## Talks/Conferences
+- June, 2022 - Seminar on "Patterns for adaptability" at Raman Research Institute, Bangalore
 - May, 2022 - Kavli Seminar on "When anglepoise lamp, origami and chebyshev-net meet" at SEAS, Harvard University
 - May, 2022 - Short talk on "Synthesizing collective behavior" at Physics of Living Systems center at MIT
 - Mar, 2022 - Seminars on "Mechanics of soft and geometric materials and Patterns & adaptability" at Department of Condensed Matter Physics & Materials Science, TIFR Mumbai
