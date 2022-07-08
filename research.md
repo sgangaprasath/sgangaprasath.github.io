@@ -1,10 +1,8 @@
 ## Research areas
-[![robotics.png]({{site.baseurl}}/figs/robotics.png){:style="float: left;margin-left: 7px;margin-top: 7px;" : width="100%"}](./robotics)
 
-[![animal.png]({{site.baseurl}}/figs/animal.png){:style="float: left;margin-left: 7px;margin-top: 7px;" : width="100%"}](./robotics)
+[Robotics/Animal behavior](./robotics)
 
-[![smart.png]({{site.baseurl}}/figs/smart.png){:style="float: left;margin-left: 7px;margin-top: 7px;" : width="100%"}](./material)
-
+[Smart materials](./material)
 
 **Elasticity, Hydrodynamics**
 
