@@ -11,8 +11,8 @@ published: true
 ## [](#header-2) Published
 
 **2022**
-* _Optimal policies for mitigating pandemic costs._
-	M. Serra(+), S. al-Mosleh(+), **S. Ganga Prasath(+)**, V. Raju(+), S. Mantena, J. Chandra, S. Iams, L. Mahadevan. Accepted in Phys. Biol. [[arXiv]](http://arxiv.org/abs/2007.11178)
+* _Optimal policies for mitigating pandemic costs: a minimal model._
+	M. Serra(+), S. al-Mosleh(+), **S. Ganga Prasath(+)**, V. Raju(+), S. Mantena, J. Chandra, S. Iams, L. Mahadevan. Phys. Biol., 10.1088/1478-3975/ac7e9e. [[arXiv]](http://arxiv.org/abs/2007.11178) [[URL]](https://iopscience.iop.org/article/10.1088/1478-3975/ac7e9e)
 
 **2021**
 * _Totimorphic assemblies from neutrally-stable units._ Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L. Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118.
