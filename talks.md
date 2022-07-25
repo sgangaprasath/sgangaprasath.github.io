@@ -1,23 +1,23 @@
 ## Talks/Conferences
-- June, 2022 - Seminar on "Patterns for adaptability" at Raman Research Institute, Bangalore
-- May, 2022 - Kavli Seminar on "When anglepoise lamp, origami and chebyshev-net meet" at SEAS, Harvard University
-- May, 2022 - Short talk on "Synthesizing collective behavior" at Physics of Living Systems center at MIT
-- Mar, 2022 - Seminars on "Mechanics of soft and geometric materials and Patterns & adaptability" at Department of Condensed Matter Physics & Materials Science, TIFR Mumbai
-- Jan, 2022 - Seminar on "Towards adaptable systems" at Engineering Mechanics Unit, JNCASR Bangalore
-- Dec, 2021 - Climate Study group talk on "Climate crisis", ICTS-TIFR Bengaluru
-- Dec, 2021 - New England Complex Fluids 2021 talk on "Dynamics of cooperation in ants and robots"
-- Nov, 2021 - Seminar on "Patterns and adaptability" at Department of Mechanical Engineering, IIT Hyderabad
-- Oct, 2021 - Seminar on "From patterns to function" at Department of Chemical Engineering, IIT Bombay
-- Sep, 2021 - Seminar on "Adaptability from patterns" at Department of Mechanical Engineering, IISc Bangalore
-- Sep, 2021 - Seminar on "Functional aspects of patterns" at Department of Mechanical Engineering, IIT Madras
-- Aug, 2021 - Seminar on "Towards designing adaptable systems" at Department of Physics, IISER Bhopal
-- Mar, 2021 - International Workshop on Embodied Intelligence talk on "Emergent cooperation in robotic ants"
-- Dec, 2020 - New England Complex Fluids 2020 talk on "Magnetic sand castles"
-- Nov, 2020 - APS-DFD 2020 talk on "Building magnetic sand castles"
-- Feb, 2020 - Condensed Matter Kids' seminar on "Wetting and wrapping of a sheet by a droplet" at Department of Physics, Harvard University
-- Sep, 2019 - Kavli Seminar on "Heat equation, Dirichlet-Neumann map and domain extension" at SEAS, Harvard University
-- Nov, 2018 - APS-DFD 2018 talk on "Coiling of an elastic filament on a spherical bubble"
-- Dec, 2016 - CompFlu (Complex Fluids) on "Relaxation of a highly deformed elastic filament at a fluid interface" at Indian Institute of Technology, Hyderabad
-- Nov, 2015 - APS-March meeting talk on "Large-deformation dynamics of an elastic filament at a fluid interface"
+- June, 2022 - Seminar on  **Patterns for adaptability** at _Raman Research Institute, Bangalore_
+- May, 2022 - Kavli Seminar on **When anglepoise lamp, origami and chebyshev-net meet** at _SEAS, Harvard University_
+- May, 2022 - Short talk on **Synthesizing collective behavior** at _Physics of Living Systems@MIT_
+- Mar, 2022 - Seminars on **Mechanics of soft and geometric materials and Patterns & adaptability** at _Department of Condensed Matter Physics & Materials Science, TIFR Mumbai_
+- Jan, 2022 - Seminar on **Towards adaptable systems** at _Engineering Mechanics Unit, JNCASR Bangalore_
+- Dec, 2021 - Climate Study group talk on **Climate crisis**, _ICTS-TIFR Bengaluru_
+- Dec, 2021 - _New England Complex Fluids 2021_ talk on **Dynamics of cooperation in ants and robots**
+- Nov, 2021 - Seminar on **Patterns and adaptability** at _Department of Mechanical Engineering, IIT Hyderabad_
+- Oct, 2021 - Seminar on **From patterns to function** at _Department of Chemical Engineering, IIT Bombay–
+- Sep, 2021 - Seminar on **Adaptability from patterns** at _Department of Mechanical Engineering, IISc Bangalore_
+- Sep, 2021 - Seminar on **Functional aspects of patterns** at _Department of Mechanical Engineering, IIT Madras_
+- Aug, 2021 - Seminar on **Towards designing adaptable systems** at _Department of Physics, IISER Bhopal_
+- Mar, 2021 - _International Workshop on Embodied Intelligence_ talk on **Emergent cooperation in robotic ants**
+- Dec, 2020 - _New England Complex Fluids 2020_ talk on **Magnetic sand castles**
+- Nov, 2020 - _APS-DFD_ 2020 talk on **Building magnetic sand castles**
+- Feb, 2020 - Condensed Matter Kids' seminar on **Wetting and wrapping of a sheet by a droplet** at _Department of Physics, Harvard University_
+- Sep, 2019 - Kavli Seminar on **Heat equation, Dirichlet-Neumann map and domain extension** at _SEAS, Harvard University_
+- Nov, 2018 - _APS-DFD_ 2018 talk on **Coiling of an elastic filament on a spherical bubble**
+- Dec, 2016 - CompFlu 2016 (Complex Fluids) on **Relaxation of a highly deformed elastic filament at a fluid interface** at _Indian Institute of Technology, Hyderabad_
+- Nov, 2015 - _APS-March_ meeting talk on **Large-deformation dynamics of an elastic filament at a fluid interface**
 
 [back](./)
