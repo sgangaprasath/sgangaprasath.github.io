@@ -1,5 +1,6 @@
 ## Talks/Conferences
-- June, 2022 - Seminar on  **Patterns for adaptability** at _Raman Research Institute, Bangalore_
+- August, 2022 - Seminar on **Patterns as a route towards adaptability** at _Department of Physics, IIT Bombay_
+- June, 2022 - Seminar on **Patterns for adaptability** at _Raman Research Institute, Bangalore_
 - May, 2022 - Kavli Seminar on **When anglepoise lamp, origami and chebyshev-net meet** at _SEAS, Harvard University_
 - May, 2022 - Short talk on **Synthesizing collective behavior** at _Physics of Living Systems@MIT_
 - Mar, 2022 - Seminars on **Mechanics of soft and geometric materials and Patterns & adaptability** at _Department of Condensed Matter Physics & Materials Science, TIFR Mumbai_
@@ -7,7 +8,7 @@
 - Dec, 2021 - Climate Study group talk on **Climate crisis**, _ICTS-TIFR Bengaluru_
 - Dec, 2021 - _New England Complex Fluids 2021_ talk on **Dynamics of cooperation in ants and robots**
 - Nov, 2021 - Seminar on **Patterns and adaptability** at _Department of Mechanical Engineering, IIT Hyderabad_
-- Oct, 2021 - Seminar on **From patterns to function** at _Department of Chemical Engineering, IIT Bombay–
+- Oct, 2021 - Seminar on **From patterns to function** at _Department of Chemical Engineering, IIT Bombay_
 - Sep, 2021 - Seminar on **Adaptability from patterns** at _Department of Mechanical Engineering, IISc Bangalore_
 - Sep, 2021 - Seminar on **Functional aspects of patterns** at _Department of Mechanical Engineering, IIT Madras_
 - Aug, 2021 - Seminar on **Towards designing adaptable systems** at _Department of Physics, IISER Bhopal_
