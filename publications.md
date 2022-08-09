@@ -44,10 +44,10 @@ published: true
 ## [](#header-2) In preparation
 * _Collective phototactic robotectonics._ Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L.
 * _Branching in soft gels._ **Ganga Prasath, S.(+)**, Aditi Chakrabarti(+), and Mahadevan, L.
-<!--* _Dynamics of control and failure in one-leg balance._ **Ganga Prasath, S.**, Owen Berger, and Mahadevan, L.-->
-<!--* _Optimal control near a tipping point._ **Ganga Prasath, S.**, Vishaal Krishnan, and Mahadevan, L.
-* _Transient dynamics of a moving rigid surface._ Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan.
-* _Speed-Accuracy tradeoffs in Roulette betting._ Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L.-->
+<!-- _Dynamics of control and failure in one-leg balance._ **Ganga Prasath, S.**, Owen Berger, and Mahadevan, L.-->
+<!-- _Optimal control near a tipping point._ **Ganga Prasath, S.**, Vishaal Krishnan, and Mahadevan, L. -->
+<!-- _Transient dynamics of a moving rigid surface._ Divya Jaganathan, **Ganga Prasath, S.**, Rama Govindarajan, and Vishal Vasan.-->
+<!-- _Speed-Accuracy tradeoffs in Roulette betting._ Siheng Chen, **Ganga Prasath, S.**, and Mahadevan, L.-->
 
 (+) - Equal contribution
 
