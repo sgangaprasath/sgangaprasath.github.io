@@ -7,6 +7,7 @@ published: true
 * _Rheomergy: Collective behavior mediated by active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. [[arXiv]](http://arxiv.org/abs/2202.11654)
 * _Wetting of an elastic sheet subject to external tension._ Gregory Kozyref, Benny Davidovitch, **Ganga Prasath, S.**, Guillaume Palumbo, and Fabian Brau. [[arXiv]](https://arxiv.org/abs/2201.10925)
 * _Cooperative escape in ants and robots._ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633)
+* _Collective phototactic robotectonics._ Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L. [[arXiv]](https://doi.org/10.1101/2021.07.12.451633)
 
 ## [](#header-2) Published
 
@@ -42,7 +43,6 @@ published: true
 	**Ganga Prasath, S.**, Sudharsan, M., Vinodh Kumar, V., Diwakar, S. V., Sundararajan, T., and Tiwari, S. Journal of Fluids and Structures, 46, 59-76. [[URL]](https://www.sciencedirect.com/science/article/pii/S0889974613002909) [(pdf)](https://github.com/sgangaprasath/Publications/raw/master/JFS_2013.pdf)
 
 ## [](#header-2) In preparation
-* _Collective phototactic robotectonics._ Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L.
 * _Branching in soft gels._ **Ganga Prasath, S.(+)**, Aditi Chakrabarti(+), and Mahadevan, L.
 <!-- _Dynamics of control and failure in one-leg balance._ **Ganga Prasath, S.**, Owen Berger, and Mahadevan, L.-->
 <!-- _Optimal control near a tipping point._ **Ganga Prasath, S.**, Vishaal Krishnan, and Mahadevan, L. -->
