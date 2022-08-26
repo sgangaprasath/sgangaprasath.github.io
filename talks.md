@@ -1,4 +1,5 @@
 ## Talks/Conferences
+- September, 2022 - Seminar on **Towards design of  adaptable robots & materials** at _Department of Applied Mechanics, IIT Madras_
 - August, 2022 - Seminar on [Patterns as a route towards adaptability](https://www.phy.iitb.ac.in/en/content/seminar-dr-s-ganga-prasath) at _Department of Physics, IIT Bombay_
 - June, 2022 - Seminar on [Patterns for adaptability](https://www.rri.res.in/events/patterns-adaptability) at _Raman Research Institute, Bangalore_
 - May, 2022 - Kavli Seminar on **When anglepoise lamp, origami and chebyshev-net meet** at _SEAS, Harvard University_
