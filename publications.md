@@ -5,13 +5,13 @@ published: true
 ## [](#header-2) Preprints
 
 * _Collective phototactic robotectonics._ Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L. [[arXiv]](https://arxiv.org/abs/2208.12373)
-* _Rheomergy: Collective behavior mediated by active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. [[arXiv]](http://arxiv.org/abs/2202.11654)
 * _Wetting of an elastic sheet subject to external tension._ Gregory Kozyref, Benny Davidovitch, **Ganga Prasath, S.**, Guillaume Palumbo, and Fabian Brau. [[arXiv]](https://arxiv.org/abs/2201.10925)
-* _Cooperative escape in ants and robots._ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633)
 
 ## [](#header-2) Published
 
 **2022**
+* _Rheomergy: Collective behavior mediated by active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. [[arXiv]](http://arxiv.org/abs/2202.11654) (Accepted in Proc. Roy. Soc. A)
+* _Cooperative escape in ants and robots._ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633) (To appear in eLife)
 * _Optimal policies for mitigating pandemic costs: a minimal model._
 	M. Serra(+), S. al-Mosleh(+), **S. Ganga Prasath(+)**, V. Raju(+), S. Mantena, J. Chandra, S. Iams, L. Mahadevan. Phys. Biol., 10.1088/1478-3975/ac7e9e. [[arXiv]](http://arxiv.org/abs/2007.11178) [[URL]](https://iopscience.iop.org/article/10.1088/1478-3975/ac7e9e)
 
