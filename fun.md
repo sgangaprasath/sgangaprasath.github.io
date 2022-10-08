@@ -7,6 +7,7 @@ Here are a few projects that I am/was interested, that keep/kept me occupied. Yo
 
 ### Tutorials
 
+- Linear filtering for physicists
 - [Elastic instabilities using auto-07p](./elastInstab)
 
 ### Climate change - (in progress)
