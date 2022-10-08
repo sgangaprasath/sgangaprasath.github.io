@@ -1,7 +1,7 @@
-Current Projects
+Fun stuff
 ----------------
 
-![DLab-01.png]({{site.baseurl}}/figs/DLab-01.png)
+<!--[DLab-01.png]({{site.baseurl}}/figs/DLab-01.png)-->
 
 Here are a few projects that I am/was interested, that keep/kept me occupied. You might find them useful/entertaining or not.
 
@@ -16,11 +16,11 @@ Here are a few projects that I am/was interested, that keep/kept me occupied. Yo
 Past projects
 -------------
 
-- [Sthayi@ICTS](./sthayi)
 - [Pixel & Paint](https://colorpixel.tumblr.com/archive)
 
 
 <!--Science
+- [Sthayi@ICTS](./sthayi)
 1. Gomboc
 2. Singularities
 3. Linear and non-linear
