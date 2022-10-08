@@ -8,8 +8,7 @@ What are the sufficient rules for cooperation? Can cooperation arise only out of
 
 **Publications**
 
-* _Cooperative escape in ants and robots._
-	**Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633)
+* _Dynamics of cooperative excavation in ants and robots._ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633) (To appear in eLife)
 
 * _Collective phototactic robotectonics._ Fabio Giardina(+), **Ganga Prasath, S.(+)** and Mahadevan, L. [[arXiv]](https://arxiv.org/abs/2208.12373)
 
