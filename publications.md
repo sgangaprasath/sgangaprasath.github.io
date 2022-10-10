@@ -11,7 +11,7 @@ published: true
 
 **2022**
 * _Rheomergy: Collective behavior mediated by active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. [[arXiv]](http://arxiv.org/abs/2202.11654) (Accepted in Proc. Roy. Soc. A)
-* _Dynamics of cooperative excavation in ants and robots._ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633) (To appear in eLife)
+* _Dynamics of cooperative excavation in ants and robots._ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633) [[URL]](https://doi.org/10.7554/eLife.79638)
 * _Optimal policies for mitigating pandemic costs: a minimal model._
 	M. Serra(+), S. al-Mosleh(+), **S. Ganga Prasath(+)**, V. Raju(+), S. Mantena, J. Chandra, S. Iams, L. Mahadevan. Phys. Biol., 10.1088/1478-3975/ac7e9e. [[arXiv]](http://arxiv.org/abs/2007.11178) [[URL]](https://iopscience.iop.org/article/10.1088/1478-3975/ac7e9e)
 
