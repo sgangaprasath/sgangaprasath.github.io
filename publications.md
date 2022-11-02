@@ -12,13 +12,14 @@ published: true
 **2022**
 * _Rheomergy: Collective behavior mediated by active flow-based recruitment_. **Ganga Prasath, S.**, and Mahadevan, L. [[arXiv]](http://arxiv.org/abs/2202.11654) (Accepted in Proc. Roy. Soc. A)
 * _Dynamics of cooperative excavation in ants and robots._ **Ganga Prasath, S.(+)**, Souvik Mandal(+), Fabio Giardina(+), Venkatesh Murthy, and Mahadevan, L. eLife, 10.7554/eLife.79638 [[biorXiv]](https://doi.org/10.1101/2021.07.12.451633) [[URL]](https://doi.org/10.7554/eLife.79638) [[MCB Press]](https://www.mcb.harvard.edu/department/news/learning-the-rules-of-cooperation-from-ants-to-make-collaborative-robots/)
+		![SEASBanner.png]({{site.baseurl}}/figs/mcb.png){:height="80%" width="80%"}
 * _Optimal policies for mitigating pandemic costs: a minimal model._
 	M. Serra(+), S. al-Mosleh(+), **S. Ganga Prasath(+)**, V. Raju(+), S. Mantena, J. Chandra, S. Iams, L. Mahadevan. Phys. Biol., 10.1088/1478-3975/ac7e9e. [[arXiv]](http://arxiv.org/abs/2007.11178) [[URL]](https://iopscience.iop.org/article/10.1088/1478-3975/ac7e9e)
 
 **2021**
 * _Totimorphic assemblies from neutrally-stable units._ Gaurav Chaudhary(+), **Ganga Prasath, S(+).**, and Mahadevan, L. Proc. Nat. Acad. Sci., 10.1073/pnas.2107003118.
 [[arXiv]](https://arxiv.org/abs/2110.08216) [[URL]](https://www.pnas.org/content/118/42/e2107003118) [[Harvard Press]](https://www.seas.harvard.edu/news/2021/10/shape-shifting-materials-infinite-possibilities) [[Crimson]](https://www.thecrimson.com/article/2021/11/2/seas-shape-shifting-material)
-   ![SEASBanner.png]({{site.baseurl}}/figs/seas.jpg){:height="80%" width="80%"}
+		![SEASBanner.png]({{site.baseurl}}/figs/seas.jpg){:height="80%" width="80%"}
 
 * _Shapes of a filament on the surface of a bubble._ **Ganga Prasath, S.**, Joel Marthelot, Rama Govindarajan, and Narayanan Menon. Proc. Roy. Soc. A, 10.1098/rspa.2021.0353. [[arXiv]](https://arxiv.org/abs/2104.09212) [[URL]](https://doi.org/10.1098/rspa.2021.0353)
 
