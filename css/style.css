@@ -1017,32 +1017,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(167 139 250 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-tl {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\/images\/graph-paper\.svg\'\)\] {
-  background-image: url('/images/graph-paper.svg');
-}
-
 .bg-\[url\(\'\/images\/bg-full\.png\'\)\] {
   background-image: url('/images/bg-full.png');
-}
-
-.bg-\[url\(\'\/images\/bg-full\.pngg\'\)\] {
-  background-image: url('/images/bg-full.pngg');
-}
-
-.bg-\[url\(\'\/images\/bg-full\.svg\'\)\] {
-  background-image: url('/images/bg-full.svg');
-}
-
-.bg-\[url\(\'\/images\/bg\.jpg\'\)\] {
-  background-image: url('/images/bg.jpg');
-}
-
-.bg-\[url\(\'\/images\/bg\.png\'\)\] {
-  background-image: url('/images/bg.png');
 }
 
 .from-slate-200 {
@@ -1054,20 +1039,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #f8fafc;
 }
 
-.bg-repeat {
-  background-repeat: repeat;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
 .bg-repeat-x {
   background-repeat: repeat-x;
-}
-
-.bg-repeat-round {
-  background-repeat: round;
 }
 
 .p-4 {
@@ -1117,6 +1090,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pt-0 {
