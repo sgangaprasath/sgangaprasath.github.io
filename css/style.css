@@ -589,6 +589,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -1154,6 +1159,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-32 {
   padding-left: 8rem;
   padding-right: 8rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.px-40 {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.px-56 {
+  padding-left: 14rem;
+  padding-right: 14rem;
 }
 
 .pt-0 {
