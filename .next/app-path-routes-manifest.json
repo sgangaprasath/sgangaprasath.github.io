@@ -1,0 +1,11 @@
+{
+  "/page": "/",
+  "/favicon.ico/route": "/favicon.ico",
+  "/blog/page": "/blog",
+  "/contact/page": "/contact",
+  "/members/page": "/members",
+  "/pubs/page": "/pubs",
+  "/news/page": "/news",
+  "/research/page": "/research",
+  "/blog/[slug]/page": "/blog/[slug]"
+}
