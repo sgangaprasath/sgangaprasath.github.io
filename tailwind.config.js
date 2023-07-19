@@ -1,31 +1,25 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  content: ['./*.html'],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px'
+    },
     extend: {
-      typography: {
-        DEFAULT: {
-          css: {
-            color: "#333",
-            a: {
-              color: "#4ade80",
-              "&:hover": {
-                color: "#10b981",
-              },
-            },
-          },
-        },
+      fontFamily: {
+        sans: ['Josefin Sans', 'sans-serif'],
+        serif: ['Inter', 'serif'],
+        mono: ['Fira Code', 'monospace'],
       },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        softBlue: 'hsl(231, 69%, 60%)',
+        softRed: 'hsl(0, 94%, 66%)',
+        grayishBlue: 'hsl(229, 8%, 60%)',
+        veryDarkBlue: 'hsl(229, 31%, 21%)',
       },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
-};
+  plugins: [],
+}
