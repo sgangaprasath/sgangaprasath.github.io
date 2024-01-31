@@ -73,6 +73,13 @@
       max-width: 100%;
     }
 
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+
     h1,
     h2,
     h3,
@@ -289,7 +296,7 @@
     scaling.
   </p>
   <figure id="fig:schm2D">
-    <embed src="figs/2Dcomplex.pdf" />
+    <embed src="figs/2Dcomplex.pdf" class="center" height="300px" />
     <figcaption>Schematic showing rotation of 3 different objects in
       two-dimensions: <span class="math inline">(a)</span> a vector <span class="math inline">P</span> located at a
       distance <span class="math inline">r</span> and an angle <span class="math inline">\theta</span> (with <span
@@ -510,7 +517,7 @@
     achieve the extrinsic and the intrinsic forms of basis rotation with
     Euler angle representation.</p>
   <figure id="fig:eulAng3D">
-    <img src="figs/figExtInt.jpg" />
+    <img src="figs/figExtInt.jpg" class="center" />
     <figcaption>Schematic shows 2 ways of performing consecutive rotations
       to transform from one orientation to the other i.e., extrinsic and
       intrinsic rotations. Extrinsic rotation is performed about a fixed
@@ -522,6 +529,14 @@
         href="https://github.com/sgangaprasath/RotationTut/blob/main/Rotations.ipynb"><code>python</code>–code</a>
       for an example.</figcaption>
   </figure>
+
+  <figure id="fig:animation1">
+    <img src="figs/rotation_animation_3D_Euler321.gif" class="center" />
+    <figcaption>Animation showing rotation of basis vectors using the Euler angle representation. Ref. <a
+        href="https://github.com/sgangaprasath/RotationTut/blob/main/Rotations.ipynb"><code>python</code>–code</a>
+      for further details.</figcaption>
+  </figure>
+
   <h2 id="rotation-around-hatmathbfe_i">Rotation around <span class="math inline">\hat{\mathbf{e}}_i</span></h2>
   <p>We will now derive the rotation matrix, <span class="math inline">\mathcal{R}_i</span> for <span
       class="math inline">i
@@ -601,7 +616,7 @@
   </p>
   <h2 id="sec:rodg">Rotation around arbitrary direction</h2>
   <figure id="fig:rodg">
-    <img src="figs/figRodg.png" style="width:75.0%" />
+    <img src="figs/figRodg.png" class="center" />
     <figcaption>Schematic describes the rotation of vector <span class="math inline">\mathbf{v}</span> represented by
       <span class="math inline">\vec{OP}</span> about <span class="math inline">\hat{\mathbf{n}}</span> or <span
         class="math inline">\vec{ON}</span> by an angle <span class="math inline">\phi</span> thereby becoming the new
@@ -738,7 +753,14 @@
         1-\frac{1}{\sqrt{3}}
         \end{pmatrix}.</span> This rotated vector <span class="math inline">\tilde{\mathbf{v}}</span> represents the new
       orientation of <span class="math inline">\mathbf{v}</span> after the
-      rotation.</p>
+      rotation.
+    </p>
+    <figure id="fig:animation2">
+      <img src="figs/rotation_animation_3D.gif" class="center" />
+      <figcaption>Animation showing rotation of basis vectors around an arbitrary vector (shown in blue). See the <a
+          href="https://github.com/sgangaprasath/RotationTut/blob/main/Rotations.ipynb"><code>python</code>–code</a>
+        for further details.</figcaption>
+    </figure>
   </div>
   <h2 id="sec:ex2int">Extrinsic rotation from <span class="math inline">\hat{\mathbf{e}}_i</span> basis to <span
       class="math inline">\tilde{\mathbf{e}}_i</span> basis</h2>
@@ -1023,6 +1045,13 @@
     basis vectors is available <a
       href="https://github.com/sgangaprasath/RotationTut/blob/main/Rotations.ipynb">here</a>.
   </p>
+  <figure id="fig:animation3">
+    <img src="figs/rotation_animation_3D_intext.gif" class="center" />
+    <figcaption>Animation showing transformation of a cube from its initial configuration to a target configuration
+      using extrinsic rotations. Please look at the <a
+        href="https://github.com/sgangaprasath/RotationTut/blob/main/Rotations.ipynb"><code>python</code>–code</a>
+      for further details.</figcaption>
+  </figure>
   <h3 class="unnumbered" id="properties-of-rotation-matrix-in-3d">Properties of rotation matrix
     in 3D</h3>
   <p>Apart from orthonormal property of rotation matrix (which is valid
@@ -1065,7 +1094,7 @@
   </ul>
   <h2 id="gimbal-lock">Gimbal lock</h2>
   <figure id="fig:gimbLck">
-    <img src="figs/figGimbal.png" />
+    <img src="figs/figGimbal.png" class="center" />
     <figcaption>Schematic showing the phenomenon of Gimbal locking occuring
       given the initial configuration is transformed by the 321 rotation
       sequence. Such a locking situation arises when rotating the axis, <span
