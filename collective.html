@@ -10,13 +10,13 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap" rel="stylesheet">
+  <!--link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap" rel="stylesheet"-->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap" rel="stylesheet">
   <title>S Ganga Prasath | Robotics, Behavior, Soft-matter</title>
 </head>
 
-<body class="bg-slate-100 flex flex-col mx-auto bg-repeat-x">
+<body class="bg-white flex flex-col mx-auto max-w-md">
   <!-- Outermost container -->
   <div class="flex flex-col mx-auto space-y-2 max-w-4xl my-10">
     <!-- Top-bar -->
@@ -61,7 +61,7 @@
     <div class="container flex flex-col space-y-10">
       <!-- Top container with Photos, About me and Social media -->
       <div
-        class="relative flex flex-col items-center justify-center pt-0 pb-10 bg-gradient-to-tl from-slate-200 to-slate-50 text-black rounded-3xl shadow-md shadow-slate-400 border-[1px] border-slate-200 overflow-hidden">
+        class="relative flex flex-col items-center justify-center pt-0 pb-10 bg-white text-black rounded-3xl shadow-md shadow-slate-400 border-[1px] border-slate-200 overflow-hidden">
         <!-- Photo, Social media + About me -->
         <div
           class="flex flex-col items-center justify-center space-y-4 ml-4 mr-8 my-4 md:flex-row md:items-start md:space-y-0 md:space-x-6">
@@ -202,8 +202,8 @@
             <div class="flex items-baseline justify-center space-x-3 font-serif text-xs max-w-md">
               <div class="mx-1 w-2 h-2 bg-indigo-500 rounded-full"></div>
               <p class="m-0 w-full">
-                <strong>"Making sense of climate models"</strong>, a primer on how and why climate models work appears on <a
-                  href="https://www.theindiaforum.in/climate-change/making-sense-climate-models"
+                <strong>"Making sense of climate models"</strong>, a primer on how and why climate models work appears
+                on <a href="https://www.theindiaforum.in/climate-change/making-sense-climate-models"
                   class="text-indigo-500 hover:text-color-indigo-800">The India Forum</a>.
               </p>
             </div>
@@ -220,7 +220,7 @@
             <div class="flex items-baseline justify-center space-x-3 font-serif text-xs">
               <div class="mx-1 w-2 h-2 bg-indigo-500 rounded-full"></div>
               <p class="m-0 w-full">
-                <strong>Madurai Typeface</strong>,  a Tamil typeface by <a href="https://twitter.com/AgamTypeFoundry"
+                <strong>Madurai Typeface</strong>, a Tamil typeface by <a href="https://twitter.com/AgamTypeFoundry"
                   class="text-indigo-500 hover:text-color-indigo-800">Agam Type Foundry</a> is available for free
                 download
                 on <a href="https://github.com/sgangaprasath/madurai"
@@ -231,7 +231,8 @@
             <div class="flex items-baseline justify-center space-x-3 font-serif text-xs">
               <div class="mx-1 w-2 h-2 bg-indigo-500 rounded-full"></div>
               <p class="m-0 w-full">
-                <strong>"The physical intelligence of ant and robot collectives"</strong>, a wide-audience summary of our recent work on collective behaviour appears in
+                <strong>"The physical intelligence of ant and robot collectives"</strong>, a wide-audience summary of
+                our recent work on collective behaviour appears in
                 <a href="https://seas.harvard.edu/news/2022/12/physical-intelligence-ant-and-robot-collectives"
                   class="text-indigo-500 hover:text-color-indigo-800">SEAS
                   highlights</a>.
@@ -270,15 +271,32 @@
       </div>
     </div>
   </div>
-
-
-  <footer class="py-2">
-    <div
-      class="container flex flex-col items-center justify-center mx-auto space-y-16 md:flex-row md:space-y-0 md:items-center">
-      <div class="font-serif text-xs">&copy S Ganga Prasath | Theme developed with <a href="https://tailwindcss.com"
-          class="text-indigo-500 hover:text-color-indigo-800"><code>tailwindcss</code></a>
-      </div>
-  </footer>
 </body>
+
+<!-- Footer containr -->
+<footer>
+  <div class="flex flex-col rounded-lg mx-auto space-y-2 max-w-4xl my-10 shadow-md shadow-slate-400">
+    <div class="mx-auto p-4 md:flex md:flex-row md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/"
+          class="hover:underline">Flowbite™</a>. All Rights Reserved.
+      </span>
+      <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+          <a href="#" class="hover:underline me-4 md:me-6">About</a>
+        </li>
+        <li>
+          <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+        </li>
+        <li>
+          <a href="#" class="hover:underline">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
 
 </html>
