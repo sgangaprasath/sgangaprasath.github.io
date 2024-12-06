@@ -1,5 +1,6 @@
 /node_modules
 /.DS_STORE
+/image/.DS_STORE
 /.DS_Store
 /.next-deploy
 /.next-deploy-build

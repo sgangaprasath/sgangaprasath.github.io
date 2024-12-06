@@ -7,6 +7,11 @@ module.exports = {
       lg: '976px',
       xl: '1440px'
     },
+    borderRadius: {
+      lg: "var(--radius)",
+      md: "calc(var(--radius) - 2px)",
+      sm: "calc(var(--radius) - 4px)",
+    },
     extend: {
       fontFamily: {
         sans: ['Josefin Sans', 'sans-serif'],
