@@ -104,10 +104,21 @@
 
     /* Hero background */
     #hero {
+      position: relative;
       background-image: url('images/bg.png');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+    }
+    #hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(255, 255, 255, 0.55);
+    }
+    #hero > * {
+      position: relative;
+      z-index: 1;
     }
   </style>
   <title>COLD Winter School 2026 — IIT Madras</title>
@@ -121,7 +132,7 @@
       <div class="flex items-center gap-3">
         <img src="images/iitmlogo.svg" class="h-8" alt="IIT Madras">
         <img src="images/csd.png" class="h-12" alt="Centre for Complex Systems and Dynamics">
-        <span class="hidden md:block font-sans text-sm text-gray-500 border-l border-gray-200 pl-3 ml-1">COLD Winter School 2026</span>
+        <a href="#hero" class="hidden md:block font-sans text-sm text-gray-500 border-l border-gray-200 pl-3 ml-1 hover:text-indigo-700 transition-colors">COLD Winter School 2026</a>
       </div>
       <nav class="hidden md:flex items-center gap-6 font-sans text-sm text-gray-600">
         <a href="#about"      class="nav-link hover:text-indigo-700">Overview</a>
@@ -583,7 +594,8 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
 
       <!-- Sunetra Sarkar -->
-      <div class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
+      <a href="https://home.iitm.ac.in/sunetra/" rel="noopener noreferrer" target="_blank"
+         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
         <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/sunetra.jpg" alt="Sunetra Sarkar">
         <div class="flex flex-col justify-between leading-normal">
           <p class="font-sans font-semibold text-lg text-gray-900">Sunetra Sarkar</p>
@@ -591,10 +603,11 @@
           <p class="font-serif text-sm text-gray-600 mt-1">Non-linear Dynamics, Instability</p>
           <p class="font-serif text-xs text-gray-400 mt-1">Aerospace Engineering, IIT Madras</p>
         </div>
-      </div>
+      </a>
 
       <!-- Sayan Gupta -->
-      <div class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
+      <a href="https://home.iitm.ac.in/sayan/" rel="noopener noreferrer" target="_blank"
+         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
         <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/Sayan-Gupta.jpg" alt="Sayan Gupta">
         <div class="flex flex-col justify-between leading-normal">
           <p class="font-sans font-semibold text-lg text-gray-900">Sayan Gupta</p>
@@ -602,7 +615,7 @@
           <p class="font-serif text-sm text-gray-600 mt-1">Complex Networks, Optimisation</p>
           <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
         </div>
-      </div>
+      </a>
 
       <!-- Danny Raj M -->
       <a href="http://dannyraj.com" rel="noopener noreferrer" target="_blank"
@@ -629,7 +642,8 @@
       </a>
 
       <!-- Kannabiran S -->
-      <div class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
+      <a href="https://apm.iitm.ac.in/pages/profile-kannabiranseshasayanan" rel="noopener noreferrer" target="_blank"
+         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
         <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/kannabiran.jpeg" alt="Kannabiran S">
         <div class="flex flex-col justify-between leading-normal">
           <p class="font-sans font-semibold text-lg text-gray-900">Kannabiran S</p>
@@ -637,10 +651,11 @@
           <p class="font-serif text-sm text-gray-600 mt-1">Turbulence, Complexity</p>
           <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
         </div>
-      </div>
+      </a>
 
       <!-- Anubhab Roy -->
-      <div class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
+      <a href="https://home.iitm.ac.in/anubhab/" rel="noopener noreferrer" target="_blank"
+         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
         <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/Anubhab.jpg" alt="Anubhab Roy">
         <div class="flex flex-col justify-between leading-normal">
           <p class="font-sans font-semibold text-lg text-gray-900">Anubhab Roy</p>
@@ -648,10 +663,11 @@
           <p class="font-serif text-sm text-gray-600 mt-1">Instability, Non-linear dynamics</p>
           <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
         </div>
-      </div>
+      </a>
 
       <!-- Aditi Kathpalia -->
-      <div class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
+      <a href="https://apm.iitm.ac.in/pages/profile-aditikathpalia" rel="noopener noreferrer" target="_blank"
+         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
         <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/aditi.png" alt="Aditi Kathpalia">
         <div class="flex flex-col justify-between leading-normal">
           <p class="font-sans font-semibold text-lg text-gray-900">Aditi Kathpalia</p>
@@ -659,10 +675,11 @@
           <p class="font-serif text-sm text-gray-600 mt-1">Information theory, Neuroscience</p>
           <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
         </div>
-      </div>
+      </a>
 
       <!-- Anuj Tiwari -->
-      <div class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
+      <a href="https://mech.iitm.ac.in/profile.php?fname=anujt" rel="noopener noreferrer" target="_blank"
+         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
         <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/anuj.jpg" alt="Anuj Tiwari">
         <div class="flex flex-col justify-between leading-normal">
           <p class="font-sans font-semibold text-lg text-gray-900">Anuj Tiwari</p>
@@ -670,7 +687,7 @@
           <p class="font-serif text-sm text-gray-600 mt-1">Robotics, Optimisation, Control</p>
           <p class="font-serif text-xs text-gray-400 mt-1">Mechanical Engineering, IIT Madras</p>
         </div>
-      </div>
+      </a>
 
     </div>
   </section>
@@ -786,9 +803,9 @@
           </div>
         </div>
         <div class="mt-7">
-          <a href="#">
+          <a href="https://forms.gle/cgsZh7regMr1bKmy9">
             <button class="px-7 py-3 bg-indigo-700 text-white font-sans font-medium rounded-full hover:bg-indigo-800 transition-colors shadow-sm">
-              Apply now (link TBD)
+              Apply now
             </button>
           </a>
         </div>
