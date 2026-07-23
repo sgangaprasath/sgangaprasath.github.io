@@ -105,16 +105,16 @@
     /* Hero background */
     #hero {
       position: relative;
-      background-image: url('images/bg.png');
-      background-repeat: no-repeat;
-      background-size: cover;
+      background-image: url('images/bg.jpg');
+      background-repeat: repeat-x;
+      background-size: auto;
       background-position: center;
     }
     #hero::before {
       content: '';
       position: absolute;
       inset: 0;
-      background: rgba(255, 255, 255, 0.55);
+      background: rgba(255, 255, 255, 0.95);
     }
     #hero > * {
       position: relative;
@@ -156,9 +156,10 @@
         <img src="images/iitmlogo.svg" class="h-12 md:h-16" alt="IIT Madras">
         <img src="images/csd.png" class="h-12 md:h-20" alt="CSD">
       </div>
-      <p class="font-serif text-base md:text-lg text-gray-600 mb-3">
+      <a href="https://ccsd.iitm.ac.in" rel="noopener noreferrer" target="_blank"
+         class="font-serif text-base md:text-lg text-gray-600 mb-3 hover:text-indigo-700 transition-colors block">
         Centre for Complex Systems and Dynamics, IIT Madras
-      </p>
+      </a>
       <h1 class="font-sans font-bold text-5xl md:text-7xl text-indigo-700 tracking-tight leading-none mb-2">
         COLD'26
       </h1>
@@ -533,53 +534,29 @@
   <section id="speakers" class="max-w-6xl mx-auto px-6 py-8">
     <h2 class="font-sans font-semibold text-3xl md:text-4xl text-indigo-700 mb-4">Invited Speakers</h2>
     <p class="font-serif text-gray-600 mb-8">
-      Distinguished researchers joining us for perspective lectures at the opening and close of the school.
+      Distinguished researchers joining us for perspective lectures during the school.
     </p>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 
-      <div class="flex gap-4 items-center p-5 rounded-xl border border-gray-100 shadow-sm bg-white hover:shadow-md transition-shadow">
-        <div class="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center flex-shrink-0">
-          <span class="font-sans font-bold text-indigo-700 text-xs">KRS</span>
-        </div>
-        <div>
-          <p class="font-sans font-semibold text-gray-900">K. R. Sreenivasan</p>
-          <p class="font-serif text-sm text-indigo-600 mt-0.5">Yale University</p>
-          <p class="font-serif text-xs text-gray-500 mt-1">Opening lecture</p>
-        </div>
-      </div>
-
-      <div class="flex gap-4 items-center p-5 rounded-xl border border-gray-100 shadow-sm bg-white hover:shadow-md transition-shadow">
-        <div class="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center flex-shrink-0">
-          <span class="font-sans font-bold text-indigo-700 text-xs">VB</span>
-        </div>
-        <div>
-          <p class="font-sans font-semibold text-gray-900">V. Balakrishnan</p>
-          <p class="font-serif text-sm text-indigo-600 mt-0.5">IIT Madras</p>
-          <p class="font-serif text-xs text-gray-500 mt-1">Closing lecture</p>
-        </div>
-      </div>
-
-      <div class="flex gap-4 items-center p-5 rounded-xl border border-gray-100 shadow-sm bg-white hover:shadow-md transition-shadow">
-        <div class="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center flex-shrink-0">
-          <span class="font-sans font-bold text-indigo-700 text-xs">AC</span>
-        </div>
+      <a href="http://www.jnu.ac.in/Faculty/anirban/index.html" rel="noopener noreferrer" target="_blank"
+         class="flex gap-4 items-center p-5 rounded-xl border border-gray-100 shadow-sm bg-white hover:shadow-md transition-shadow">
+        <img class="w-12 h-12 object-cover rounded-full flex-shrink-0" src="./images/anirban.jpg" alt="Anirban Chakraborti">
         <div>
           <p class="font-sans font-semibold text-gray-900">Anirban Chakraborti</p>
           <p class="font-serif text-sm text-indigo-600 mt-0.5">JNU, New Delhi</p>
           <p class="font-serif text-xs text-gray-500 mt-1">Econophysics · Perspective Lecture</p>
         </div>
-      </div>
+      </a>
 
-      <div class="flex gap-4 items-center p-5 rounded-xl border border-gray-100 shadow-sm bg-white hover:shadow-md transition-shadow">
-        <div class="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center flex-shrink-0">
-          <span class="font-sans font-bold text-indigo-700 text-xs">MM</span>
-        </div>
+      <a href="https://www.cmi.ac.in/~madhavan/" rel="noopener noreferrer" target="_blank"
+         class="flex gap-4 items-center p-5 rounded-xl border border-gray-100 shadow-sm bg-white hover:shadow-md transition-shadow">
+        <img class="w-12 h-12 object-cover rounded-full flex-shrink-0" src="./images/madhavan.jpg" alt="Madhavan Mukund">
         <div>
           <p class="font-sans font-semibold text-gray-900">Madhavan Mukund</p>
           <p class="font-serif text-sm text-indigo-600 mt-0.5">CMI, Chennai</p>
           <p class="font-serif text-xs text-gray-500 mt-1">Computation &amp; Complexity · Perspective Lecture</p>
         </div>
-      </div>
+      </a>
 
     </div>
   </section>
@@ -588,67 +565,19 @@
 
   <!-- ═══════════════════════ ORGANIZERS ═══════════════════════ -->
   <section id="organizers" class="max-w-6xl mx-auto px-6 py-8">
-    <h2 class="font-sans font-semibold text-3xl md:text-4xl text-indigo-700 mb-4">Lecturers & Organizers</h2>
+    <h2 class="font-sans font-semibold text-3xl md:text-4xl text-indigo-700 mb-4">Lecturers & Mentors</h2>
     <p class="font-serif text-gray-600 mb-8">Faculty and researchers from IIT Madras leading the school.</p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
 
-      <!-- Sunetra Sarkar -->
-      <a href="https://home.iitm.ac.in/sunetra/" rel="noopener noreferrer" target="_blank"
+      <!-- Aditi Kathpalia -->
+      <a href="https://aditikathpalia.wordpress.com/" rel="noopener noreferrer" target="_blank"
          class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
-        <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/sunetra.jpg" alt="Sunetra Sarkar">
+        <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/aditi.png" alt="Aditi Kathpalia">
         <div class="flex flex-col justify-between leading-normal">
-          <p class="font-sans font-semibold text-lg text-gray-900">Sunetra Sarkar</p>
-          <p class="font-serif text-sm text-indigo-600">Professor · Lecturer</p>
-          <p class="font-serif text-sm text-gray-600 mt-1">Non-linear Dynamics, Instability</p>
-          <p class="font-serif text-xs text-gray-400 mt-1">Aerospace Engineering, IIT Madras</p>
-        </div>
-      </a>
-
-      <!-- Sayan Gupta -->
-      <a href="https://home.iitm.ac.in/sayan/" rel="noopener noreferrer" target="_blank"
-         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
-        <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/Sayan-Gupta.jpg" alt="Sayan Gupta">
-        <div class="flex flex-col justify-between leading-normal">
-          <p class="font-sans font-semibold text-lg text-gray-900">Sayan Gupta</p>
-          <p class="font-serif text-sm text-indigo-600">Professor · Lecturer</p>
-          <p class="font-serif text-sm text-gray-600 mt-1">Complex Networks, Optimisation</p>
-          <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
-        </div>
-      </a>
-
-      <!-- Danny Raj M -->
-      <a href="http://dannyraj.com" rel="noopener noreferrer" target="_blank"
-         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
-        <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/danny.jpg" alt="Danny Raj M">
-        <div class="flex flex-col justify-between leading-normal">
-          <p class="font-sans font-semibold text-lg text-gray-900">Danny Raj M</p>
-          <p class="font-serif text-sm text-indigo-600">Assistant Professor · Lecturer</p>
-          <p class="font-serif text-sm text-gray-600 mt-1">Complexity, Collective Behaviour</p>
-          <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
-        </div>
-      </a>
-
-      <!-- S Ganga Prasath -->
-      <a href="https://sgangaprasath.github.io" rel="noopener noreferrer" target="_blank"
-         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
-        <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/sgp.jpg" alt="S Ganga Prasath">
-        <div class="flex flex-col justify-between leading-normal">
-          <p class="font-sans font-semibold text-lg text-gray-900">S Ganga Prasath</p>
-          <p class="font-serif text-sm text-indigo-600">Assistant Professor · Lecturer</p>
-          <p class="font-serif text-sm text-gray-600 mt-1">Robotics, Learning, Control</p>
-          <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
-        </div>
-      </a>
-
-      <!-- Kannabiran S -->
-      <a href="https://apm.iitm.ac.in/pages/profile-kannabiranseshasayanan" rel="noopener noreferrer" target="_blank"
-         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
-        <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/kannabiran.jpeg" alt="Kannabiran S">
-        <div class="flex flex-col justify-between leading-normal">
-          <p class="font-sans font-semibold text-lg text-gray-900">Kannabiran S</p>
-          <p class="font-serif text-sm text-indigo-600">Assistant Professor · Lecturer</p>
-          <p class="font-serif text-sm text-gray-600 mt-1">Turbulence, Complexity</p>
+          <p class="font-sans font-semibold text-lg text-gray-900">Aditi Kathpalia</p>
+          <p class="font-serif text-sm text-indigo-600">Faculty · Project Mentor</p>
+          <p class="font-serif text-sm text-gray-600 mt-1">Information theory, Neuroscience</p>
           <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
         </div>
       </a>
@@ -665,20 +594,8 @@
         </div>
       </a>
 
-      <!-- Aditi Kathpalia -->
-      <a href="https://apm.iitm.ac.in/pages/profile-aditikathpalia" rel="noopener noreferrer" target="_blank"
-         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
-        <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/aditi.png" alt="Aditi Kathpalia">
-        <div class="flex flex-col justify-between leading-normal">
-          <p class="font-sans font-semibold text-lg text-gray-900">Aditi Kathpalia</p>
-          <p class="font-serif text-sm text-indigo-600">Faculty · Project Mentor</p>
-          <p class="font-serif text-sm text-gray-600 mt-1">Information theory, Neuroscience</p>
-          <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
-        </div>
-      </a>
-
       <!-- Anuj Tiwari -->
-      <a href="https://mech.iitm.ac.in/profile.php?fname=anujt" rel="noopener noreferrer" target="_blank"
+      <a href="https://sites.google.com/view/anujtiwariuw/home?authuser=0" rel="noopener noreferrer" target="_blank"
          class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
         <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/anuj.jpg" alt="Anuj Tiwari">
         <div class="flex flex-col justify-between leading-normal">
@@ -686,6 +603,66 @@
           <p class="font-serif text-sm text-indigo-600">Assistant Professor · Project Mentor</p>
           <p class="font-serif text-sm text-gray-600 mt-1">Robotics, Optimisation, Control</p>
           <p class="font-serif text-xs text-gray-400 mt-1">Mechanical Engineering, IIT Madras</p>
+        </div>
+      </a>
+
+      <!-- Danny Raj M -->
+      <a href="http://dannyraj.com" rel="noopener noreferrer" target="_blank"
+         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
+        <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/danny.jpg" alt="Danny Raj M">
+        <div class="flex flex-col justify-between leading-normal">
+          <p class="font-sans font-semibold text-lg text-gray-900">Danny Raj M</p>
+          <p class="font-serif text-sm text-indigo-600">Assistant Professor · Lecturer</p>
+          <p class="font-serif text-sm text-gray-600 mt-1">Complexity, Collective Behaviour</p>
+          <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
+        </div>
+      </a>
+
+      <!-- Kannabiran S -->
+      <a href="https://scholar.google.com/citations?hl=en&user=KgfucocAAAAJ" rel="noopener noreferrer" target="_blank"
+         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
+        <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/kannabiran.jpeg" alt="Kannabiran S">
+        <div class="flex flex-col justify-between leading-normal">
+          <p class="font-sans font-semibold text-lg text-gray-900">Kannabiran S</p>
+          <p class="font-serif text-sm text-indigo-600">Assistant Professor · Lecturer</p>
+          <p class="font-serif text-sm text-gray-600 mt-1">Turbulence, Complexity</p>
+          <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
+        </div>
+      </a>
+
+      <!-- S Ganga Prasath -->
+      <a href="https://sgangaprasath.github.io" rel="noopener noreferrer" target="_blank"
+         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
+        <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/sgp.jpg" alt="S Ganga Prasath">
+        <div class="flex flex-col justify-between leading-normal">
+          <p class="font-sans font-semibold text-lg text-gray-900">S Ganga Prasath</p>
+          <p class="font-serif text-sm text-indigo-600">Assistant Professor · Lecturer</p>
+          <p class="font-serif text-sm text-gray-600 mt-1">Robotics, Learning, Control</p>
+          <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
+        </div>
+      </a>
+
+      <!-- Sayan Gupta -->
+      <a href="https://home.iitm.ac.in/sayan/" rel="noopener noreferrer" target="_blank"
+         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
+        <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/Sayan-Gupta.jpg" alt="Sayan Gupta">
+        <div class="flex flex-col justify-between leading-normal">
+          <p class="font-sans font-semibold text-lg text-gray-900">Sayan Gupta</p>
+          <p class="font-serif text-sm text-indigo-600">Professor · Lecturer</p>
+          <p class="font-serif text-sm text-gray-600 mt-1">Complex Networks, Optimisation</p>
+          <p class="font-serif text-xs text-gray-400 mt-1">AMBE, IIT Madras</p>
+        </div>
+      </a>
+
+      <!-- Sunetra Sarkar -->
+      <a href="https://home.iitm.ac.in/sunetra/" rel="noopener noreferrer" target="_blank"
+         class="flex items-center gap-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow p-4">
+        <img class="w-20 h-20 object-cover rounded-xl flex-shrink-0" src="./images/sunetra.jpg" alt="Sunetra Sarkar">
+        <div class="flex flex-col justify-between leading-normal">
+          <p class="font-sans font-semibold text-lg text-gray-900">Sunetra Sarkar</p>
+          <p class="font-serif text-sm text-indigo-600">Professor · Lecturer</p>
+          <p class="font-serif text-sm text-gray-600 mt-1">Non-linear Dynamics, Instability</p>
+          <p class="font-serif text-xs text-gray-400 mt-1">Aerospace Engineering, IIT Madras</p>
         </div>
       </a>
 
