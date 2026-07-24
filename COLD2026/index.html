@@ -25,14 +25,16 @@
   </script>
   <style>
     /* ── Schedule table ── */
-    .sched-table { border-collapse: collapse; width: 100%; }
+    .sched-table { border-collapse: collapse; width: 100%; table-layout: fixed; }
     .sched-table th,
     .sched-table td {
       padding: 8px 10px;
       border: 1px solid #e5e7eb;
       font-size: 0.78rem;
       vertical-align: top;
-      min-width: 130px;
+      width: auto;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
     }
     .sched-table th {
       background: #1e1b4b;
@@ -48,7 +50,7 @@
       font-family: 'DM Sans', sans-serif;
       font-size: 0.7rem;
       white-space: nowrap;
-      min-width: 80px;
+      width: 90px;
       font-weight: 500;
     }
     .lec {
@@ -436,7 +438,7 @@
   <section id="schedule" class="max-w-6xl mx-auto px-6 py-8">
     <h2 class="font-sans font-semibold text-3xl md:text-4xl text-indigo-700 mb-4">Schedule</h2>
     <p class="font-serif text-gray-600 mb-6">
-      Three one-hour lectures every morning, project work and lab visits in the afternoon.
+      Three morning lectures, an afternoon lecture or lab visit, and an evening perspective talk each day.
       Dec&nbsp;13 (Sunday) is a rest day — the school runs Thu&nbsp;10 through Tue&nbsp;15.
     </p>
 
@@ -468,7 +470,7 @@
       <table class="sched-table">
         <thead>
           <tr>
-            <th class="t-col" style="background:#1e1b4b;color:white;min-width:80px;">Time</th>
+            <th class="t-col" style="background:#1e1b4b;color:white;width:90px;">Time</th>
             <th>Day 1<br><span style="font-weight:300;font-size:0.68rem;opacity:0.85;">Thu, Dec 10</span></th>
             <th>Day 2<br><span style="font-weight:300;font-size:0.68rem;opacity:0.85;">Fri, Dec 11</span></th>
             <th>Day 3<br><span style="font-weight:300;font-size:0.68rem;opacity:0.85;">Sat, Dec 12</span></th>
@@ -493,13 +495,13 @@
               <span class="lec-code">L3.1 · Complexity</span>
               <span class="lec-title">NP-Hardness, Reductions &amp; Approximation</span>
             </div></td>
-            <td><div class="lec lec-o">
-              <span class="lec-code">L4.1 · Optimisation</span>
-              <span class="lec-title">Stochastic Opt &amp; Loss Landscape Geometry</span>
+            <td><div class="lec lec-l">
+              <span class="lec-code">L4.1 · Learning</span>
+              <span class="lec-title">Reinforcement Learning: MDPs, Bellman &amp; Policy Gradient</span>
             </div></td>
-            <td><div class="lec lec-c">
-              <span class="lec-code">L5.1 · Complexity</span>
-              <span class="lec-title">Randomised Algorithms &amp; Probabilistic Complexity</span>
+            <td><div class="lec lec-pres">
+              <span class="lec-code">📊 Presentations</span>
+              <span class="lec-title">Project Presentations (25 min/group)</span>
             </div></td>
           </tr>
 
@@ -518,19 +520,19 @@
             </div></td>
             <td><div class="lec lec-d">
               <span class="lec-code">L2.2 · Dynamics</span>
-              <span class="lec-title">Bifurcations, Limit Cycles &amp; Chaos</span>
-            </div></td>
-            <td><div class="lec lec-l">
-              <span class="lec-code">L3.2 · Learning</span>
-              <span class="lec-title">Statistical Learning Theory: PAC &amp; VC Dimension</span>
-            </div></td>
-            <td><div class="lec lec-l">
-              <span class="lec-code">L4.2 · Learning</span>
-              <span class="lec-title">Reinforcement Learning: MDPs, Bellman &amp; Policy Gradient</span>
+              <span class="lec-title">Bifurcations &amp; Limit Cycles</span>
             </div></td>
             <td><div class="lec lec-m">
-              <span class="lec-code">L5.2 · Mixed</span>
+              <span class="lec-code">L3.2 · Mixed</span>
               <span class="lec-title">Scaling Laws, Emergence &amp; Phase Transitions in Large Models</span>
+            </div></td>
+            <td><div class="lec lec-d">
+              <span class="lec-code">L4.2 · Dynamics</span>
+              <span class="lec-title">Chaos &amp; Numerical continuation</span>
+            </div></td>
+            <td><div class="lec lec-pres">
+              <span class="lec-code">📊 Presentations</span>
+              <span class="lec-title">Project Presentations (continued)</span>
             </div></td>
           </tr>
 
@@ -545,17 +547,17 @@
               <span class="lec-code">L2.3 · Optimisation</span>
               <span class="lec-title">Gradient Descent &amp; Its Variants</span>
             </div></td>
-            <td><div class="lec lec-l">
-              <span class="lec-code">L3.3 · Learning</span>
-              <span class="lec-title">Neural Networks: Architectures &amp; Expressivity</span>
+            <td><div class="lec lec-o">
+              <span class="lec-code">L3.3 · Optimisation</span>
+              <span class="lec-title">Stochastic Opt &amp; Loss Landscape Geometry</span>
             </div></td>
             <td><div class="lec lec-m">
               <span class="lec-code">L4.3 · Mixed</span>
-              <span class="lec-title">Nonlinear Dynamics meets Learning: Reservoir Computing</span>
-            </div></td>
-            <td><div class="lec lec-m">
-              <span class="lec-code">L5.3 · Mixed</span>
               <span class="lec-title">Open Problems: Where Complexity, Learning &amp; Dynamics Meet</span>
+            </div></td>
+            <td><div class="lec lec-pres">
+              <span class="lec-code">📊 Presentations</span>
+              <span class="lec-title">Project Presentations (continued)</span>
             </div></td>
           </tr>
 
@@ -568,25 +570,25 @@
           <!-- 14:00–15:30 -->
           <tr>
             <td class="t-col">14:00–15:30</td>
-            <td><div class="lec lec-proj">
-              <span class="lec-code">🔧 Project</span>
-              <span class="lec-title">Kick-off, Group Formation &amp; Tutorial</span>
+            <td><div class="lec lec-l">
+              <span class="lec-code">L1.4 · Learning</span>
+              <span class="lec-title">Statistical Learning Theory: PAC &amp; VC Dimension</span>
+            </div></td>
+            <td><div class="lec lec-l">
+              <span class="lec-code">L2.4 · Learning</span>
+              <span class="lec-title">Neural Networks: Architectures &amp; Expressivity</span>
+            </div></td>
+            <td><div class="lec lec-m">
+              <span class="lec-code">L3.4 · Mixed</span>
+              <span class="lec-title">Nonlinear Dynamics meets Learning: Reservoir Computing</span>
             </div></td>
             <td><div class="lec lec-lab">
-              <span class="lec-code">🔬 Lab Visit 1</span>
-              <span class="lec-title">Mechanics / Robotics Laboratory</span>
-            </div></td>
-            <td><div class="lec lec-proj">
-              <span class="lec-code">🔧 Project</span>
-              <span class="lec-title">Work Session 2 + Mentoring</span>
-            </div></td>
-            <td><div class="lec lec-lab">
-              <span class="lec-code">🔬 Lab Visit 2</span>
-              <span class="lec-title">Computation / AI Research Laboratory</span>
+              <span class="lec-code">🔬 Lab Visit</span>
+              <span class="lec-title">Computations / Robotics Laboratory</span>
             </div></td>
             <td><div class="lec lec-pres">
               <span class="lec-code">📊 Presentations</span>
-              <span class="lec-title">Project Presentations (25 min/group)</span>
+              <span class="lec-title">Project Presentations (continued)</span>
             </div></td>
           </tr>
 
@@ -599,21 +601,21 @@
           <!-- 16:00–17:00 -->
           <tr>
             <td class="t-col">16:00–17:00</td>
+            <td><div class="lec lec-proj">
+              <span class="lec-code">🔧 Project</span>
+              <span class="lec-title">Kick-off, Group Formation &amp; Tutorial</span>
+            </div></td>
             <td><div class="lec lec-m">
               <span class="lec-code">💬 Perspective Talk</span>
               <span class="lec-title">Evening Perspective Lecture</span>
             </div></td>
-            <td><div class="lec lec-proj">
-              <span class="lec-code">🔧 Project</span>
-              <span class="lec-title">Work Session 1 + Mentoring</span>
-            </div></td>
             <td><div class="lec lec-m">
               <span class="lec-code">💬 Perspective Talk</span>
               <span class="lec-title">Evening Perspective Lecture</span>
             </div></td>
-            <td><div class="lec lec-proj">
-              <span class="lec-code">🔧 Project</span>
-              <span class="lec-title">Work Session 3 + Final Prep</span>
+            <td><div class="lec lec-m">
+              <span class="lec-code">💬 Perspective Talk</span>
+              <span class="lec-title">Evening Perspective Lecture</span>
             </div></td>
             <td><div class="lec lec-close">
               <span class="lec-code">🏆 Closing</span>
@@ -625,7 +627,7 @@
       </table>
     </div>
     <p class="font-serif text-xs text-gray-400 mt-3 italic">
-      * Dec&nbsp;13 (Sunday) is a rest day. School starts Thursday Dec&nbsp;10 and concludes Tuesday Dec&nbsp;15.
+      * Dec&nbsp;13 (Sunday) is a rest day, to explore the city and also work on the project. School starts Thursday Dec&nbsp;10 and concludes Tuesday Dec&nbsp;15.
     </p>
   </section>
 
