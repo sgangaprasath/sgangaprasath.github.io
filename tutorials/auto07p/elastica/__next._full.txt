@@ -1,0 +1,122 @@
+1:"$Sreact.fragment"
+2:I[63780,["/_next/static/chunks/fc9580e54fee84bd.js","/_next/static/chunks/374084cab5a0ffda.js"],"default"]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+5:I[22016,["/_next/static/chunks/fc9580e54fee84bd.js","/_next/static/chunks/374084cab5a0ffda.js","/_next/static/chunks/2dc9252acacb8bf0.js"],""]
+6:I[5500,["/_next/static/chunks/fc9580e54fee84bd.js","/_next/static/chunks/374084cab5a0ffda.js"],"Image"]
+11:I[68027,[],"default"]
+:HL["/_next/static/chunks/8919caf77805ee6b.css","style"]
+:HL["/_next/static/chunks/4e20891f2fd03463.css","style"]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"nUZsqYzDg0c4Nl4WNJOe8","c":["","tutorials","auto07p","elastica",""],"q":"","i":false,"f":[[["",{"children":["tutorials",{"children":["auto07p",{"children":["elastica",{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/8919caf77805ee6b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4e20891f2fd03463.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/fc9580e54fee84bd.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/374084cab5a0ffda.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"flex flex-col items-center justify-between h-auto w-full px-4 md:px-24 pt-16","children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","footer",null,{"className":"w-full border-t border-gray-200 py-6","children":["$","div",null,{"className":"flex flex-col items-center justify-between gap-10 md:flex-row w-full max-w-6xl mx-auto","children":[["$","a",null,{"href":"https://apm.iitm.ac.in","className":"group opacity-50 hover:opacity-100","target":"_blank","rel":"noopener noreferrer","children":["$","p",null,{"className":"text-center text-sm font-light md:text-left","children":["Department of Applied Mechanics",["$","br",null,{}],"and Biomedical Engineering, IIT Madras",["$","br",null,{}],"Chennai, TN 600036."]}]}],["$","$L5",null,{"href":"/","className":"group opacity-50 hover:opacity-100","rel":"noopener noreferrer","children":["$","$L6",null,{"className":"relative","src":"/logo.svg","alt":"Interface lab Logo","width":200,"height":100}]}],["$","a",null,{"href":"https://apm.iitm.ac.in","className":"group opacity-50 hover:opacity-100","target":"_blank","rel":"noopener noreferrer","children":["$","$L6",null,{"className":"relative","src":"/iitmlogo.svg","alt":"IIT Madras logo","width":80,"height":80,"priority":true}]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","div",null,{"className":"flex flex-col md:flex-row gap-10 max-w-5xl w-full mt-10 mb-16 md:ml-20 px-4","children":[["$","aside",null,{"className":"md:w-56 flex-shrink-0","children":[["$","p",null,{"className":"text-xs uppercase tracking-widest text-gray-400 mb-3","children":"Sections"}],["$","nav",null,{"className":"flex flex-col gap-1","children":[["$","$L5","/tutorials/auto07p",{"href":"/tutorials/auto07p","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Overview"}],"$L7","$L8","$L9","$La","$Lb"]}],"$Lc"]}],"$Ld"]}],["$Le"],"$Lf"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$L10",false]],"m":"$undefined","G":["$11",[]],"S":true}
+12:I[31111,["/_next/static/chunks/fc9580e54fee84bd.js","/_next/static/chunks/374084cab5a0ffda.js","/_next/static/chunks/2dc9252acacb8bf0.js"],"default"]
+15:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+16:"$Sreact.suspense"
+18:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+1a:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+7:["$","$L5","/tutorials/auto07p/framework",{"href":"/tutorials/auto07p/framework","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Framework"}]
+8:["$","$L5","/tutorials/auto07p/elastica",{"href":"/tutorials/auto07p/elastica","className":"text-xs px-3 py-2 rounded-lg transition-colors bg-slate-800 text-white font-semibold","children":"Bending of an elastica"}]
+9:["$","$L5","/tutorials/auto07p/fvk",{"href":"/tutorials/auto07p/fvk","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Buckling of a sheet"}]
+a:["$","$L5","/tutorials/auto07p/oscillating",{"href":"/tutorials/auto07p/oscillating","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Oscillating beam"}]
+b:["$","$L5","/tutorials/auto07p/snake",{"href":"/tutorials/auto07p/snake","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Undulatory propulsion"}]
+c:["$","div",null,{"className":"mt-6 pt-4 border-t border-gray-100","children":["$","$L5",null,{"href":"/members/sgp","className":"text-xs text-sky-600 hover:text-sky-800 underline underline-offset-2","children":"← Personal page"}]}]
+13:T1784,
+<h1 id="bending-of-an-elastica">Bending of an <em>elastica</em></h1>
+
+<p>Before we start the tutorial, note that <code>auto-07p</code> codes for all examples are
+available at this <a href="https://github.com/sgangaprasath/autoTutorial" target="_blank" rel="noopener noreferrer">link</a>.
+The first problem is the deformation of an inextensible slender filament known as the
+<em>elastica</em>. We solve this in 2D where the structure can be represented using curvature
+information along the filament. We consider an elastica hinged at one end while the other
+experiences a point force <span class="math inline">\vec{p}= (p_x, p_y)</span>. The elastic
+energy under an externally applied point force is</p>
+
+<span class="math display">\begin{aligned}
+  \mathcal{E}=&amp; \ \underbrace{\frac{1}{2} \int_0^L B \kappa^2(s) \ \text{d}s}_{\text{Bending energy}}
+  - \underbrace{\int_0^L (p_x \cos \psi + p_y \sin \psi) \ \text{d}s}_{\text{Potential energy}}.
+\end{aligned}</span>
+
+<p>Here <span class="math inline">s</span> is the arc-length. Extremising this energy gives
+the Euler–Lagrange equation</p>
+
+<span class="math display">B \psi''(s) - p_x \sin \psi + p_y \cos \psi = 0.</span>
+
+<p>After non-dimensionalisation using <span class="math inline">L</span> as the length-scale
+and <span class="math inline">(B/L)</span> as the energy scale we get
+<span class="math inline">\psi''(s) - p_x \sin \psi + p_y \cos \psi = 0</span> with
+boundary conditions <span class="math inline">u_1(0) = u_2(1) = x(0) = y(0) = 0</span>.
+Setting <span class="math inline">u_1 = \psi(s), u_2 = \psi'(s)</span>:</p>
+
+<span class="math display">\begin{aligned}
+  u_1' =&amp; \ u_2,\\
+  u_2' =&amp; \ p_x \sin u_1 + p_y \cos u_1.
+\end{aligned}</span>
+
+<h2 id="constants-scripts">Constants, <code>*.f90/*.c</code>, Scripts</h2>
+
+<p>For each problem in <code>auto-07p</code> there are at least 3 required files:
+<span class="math inline">(i)</span> the constant file (<code>c.*</code>),
+<span class="math inline">(ii)</span> a FORTRAN/C file with the governing equations and
+boundary conditions, and <span class="math inline">(iii)</span> a Python script
+(<code>.auto</code>) that runs <code>auto-07p</code> and steers the continuation.</p>
+
+<table>
+<caption>Key <code>auto-07p</code> constants for the elastica problem.</caption>
+<thead>
+<tr><th>Constant</th><th>Description</th><th>Value (elastica)</th></tr>
+</thead>
+<tbody>
+<tr><td><code>ICP</code></td><td>Continuation parameters</td><td><span class="math inline">p_x / p_y</span></td></tr>
+<tr><td><code>NPAR</code></td><td>Number of parameters</td><td>4</td></tr>
+<tr><td><code>IPS</code></td><td>Type of problem</td><td>4 for BVPs</td></tr>
+<tr><td><code>ISP</code></td><td>Bifurcation detection</td><td>2 — all kinds</td></tr>
+<tr><td><code>NBC</code></td><td>Number of boundary conditions</td><td>4</td></tr>
+<tr><td><code>ISW</code></td><td>Branch-switching mode</td><td>1 normal, −1 switch</td></tr>
+<tr><td><code>UZSTOP</code></td><td>Parameter range</td><td><span class="math inline">p_x \in [-80, 20]</span></td></tr>
+<tr><td><code>NPR</code></td><td>Save every NPR steps</td><td>20</td></tr>
+</tbody>
+</table>
+
+<p><img src="/figs/auto07p/fig2.jpeg" alt="Elastica bifurcation diagram" /></p>
+
+<p>The Python script <code>etica.auto</code> runs and finds the bifurcation diagram:</p>
+
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="co"># Load files c.etica and etica.f90</span>
+etica <span class="op">=</span> load(<span class="st">&#39;etica&#39;</span>)
+mu <span class="op">=</span> run(etica)
+mu <span class="op">=</span> mu <span class="op">+</span> run(mu, DS<span class="op">=</span><span class="st">&#39;-&#39;</span>)
+mu <span class="op">=</span> mu <span class="op">+</span> run(mu(<span class="st">&#39;BP1&#39;</span>), ISW<span class="op">=-</span><span class="dv">1</span>)
+mu <span class="op">=</span> mu <span class="op">+</span> run(mu(<span class="st">&#39;BP1&#39;</span>), DS<span class="op">=</span><span class="st">&#39;-&#39;</span>, ISW<span class="op">=-</span><span class="dv">1</span>)
+mu <span class="op">=</span> mu <span class="op">+</span> run(mu(<span class="st">&#39;BP2&#39;</span>), ISW<span class="op">=-</span><span class="dv">1</span>)
+mu <span class="op">=</span> mu <span class="op">+</span> run(mu(<span class="st">&#39;BP2&#39;</span>), DS<span class="op">=</span><span class="st">&#39;-&#39;</span>, ISW<span class="op">=-</span><span class="dv">1</span>)
+mu <span class="op">=</span> mu <span class="op">+</span> run(mu(<span class="st">&#39;BP3&#39;</span>), ISW<span class="op">=-</span><span class="dv">1</span>)
+mu <span class="op">=</span> mu <span class="op">+</span> run(mu(<span class="st">&#39;BP3&#39;</span>), DS<span class="op">=</span><span class="st">&#39;-&#39;</span>, ISW<span class="op">=-</span><span class="dv">1</span>)
+mu <span class="op">=</span> relabel(mu)
+save(mu, <span class="st">&#39;mu&#39;</span>)
+p <span class="op">=</span> plot(mu)
+p.config(bifurcation_y<span class="op">=</span>[<span class="st">&#39;psi(1)&#39;</span>])
+clean()
+wait()</code></pre></div>
+
+<p>Running <code>auto etica.auto</code> continues from <span class="math inline">p_x = 0</span>
+in both directions. Three bifurcation points (<code>BP1</code>, <code>BP2</code>, <code>BP3</code>)
+are found and branch-switched using <code>ISW=-1</code>, tracing bent elastica configurations.
+Results are saved as <code>b.mu, s.mu, d.mu</code>; solutions are post-processed via
+<code>pandas</code> in
+<a href="https://github.com/sgangaprasath/autoTutorial/blob/main/Tutorial1_Elastica/withoutDefect/plotElastica.ipynb"
+   target="_blank" rel="noopener noreferrer"><code>plotElastica.ipynb</code></a>.</p>
+
+<p>The format of the output file (from
+<a href="https://depts.washington.edu/bdecon/workshop2012/f_stability.pdf"
+   target="_blank" rel="noopener noreferrer">this reference</a>) is shown below:</p>
+
+<p><img src="/figs/auto07p/OutputFile.jpeg" alt="auto-07p output file format" /></p>
+d:["$","main",null,{"className":"flex-1 min-w-0","children":[["$","$L12",null,{"html":"$13","mathType":"katex"}],"$L14"]}]
+e:["$","script","script-0",{"src":"/_next/static/chunks/2dc9252acacb8bf0.js","async":true,"nonce":"$undefined"}]
+f:["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
+10:["$","$1","h",{"children":[null,["$","$L18",null,{"children":"$L19"}],["$","div",null,{"hidden":true,"children":["$","$L1a",null,{"children":["$","$16",null,{"name":"Next.Metadata","children":"$L1b"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+14:["$","div",null,{"className":"flex items-center justify-between mt-12 pt-6 border-t border-gray-100","children":[["$","$L5",null,{"href":"/tutorials/auto07p/framework","className":"text-xs text-sky-600 hover:text-sky-800 underline underline-offset-2","children":["← ","Framework"]}],["$","$L5",null,{"href":"/tutorials/auto07p/fvk","className":"text-xs text-sky-600 hover:text-sky-800 underline underline-offset-2","children":["Buckling of a sheet"," →"]}]]}]
+19:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1c:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+17:null
+1b:[["$","title","0",{"children":"INTERFACE lab"}],["$","meta","1",{"name":"description","content":"S Ganga Prasath's group page"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.1b4eda0e.ico","sizes":"257x257","type":"image/x-icon"}],["$","$L1c","3",{}]]

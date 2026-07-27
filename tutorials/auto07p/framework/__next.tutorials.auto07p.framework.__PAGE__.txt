@@ -1,0 +1,34 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/fc9580e54fee84bd.js","/_next/static/chunks/374084cab5a0ffda.js","/_next/static/chunks/2dc9252acacb8bf0.js"],""]
+3:I[31111,["/_next/static/chunks/fc9580e54fee84bd.js","/_next/static/chunks/374084cab5a0ffda.js","/_next/static/chunks/2dc9252acacb8bf0.js"],"default"]
+8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+4:T6a8,
+<h1 id="auto-07p-framework"><code>auto-07p</code> framework</h1>
+<p>The framework that we use to solve elastic instability problems has 3 major steps.</p>
+<ol>
+<li><p>To identify the model equations that describe the deformation field in elastic structure,
+derived either phenomenologically or from first principles. This is the part that captures
+the physics of the problem.</p></li>
+<li><p>Using <code>auto-07p</code> to solve the system with the appropriate boundary conditions
+and continue the solution along a physical parameter in the system to see if the morphology
+changes with this parameter. <code>auto-07p</code> accepts first-order differential equations
+of the form
+<span class="math display">u&#39;(t) = f(u(t), p), \quad f(.,.), u(.) \in \text{R}^n,</span>
+where <span class="math inline">p</span> are the parameters in the problem. If we have a
+higher-order system, we need to convert and represent it in this form.
+<code>auto-07p</code> finds solutions to these equations (i.e. <span class="math inline">f(u(t),p)=0</span>)
+and continues along different parameters <span class="math inline">p</span> in the model.
+We then post-process the output files to understand the results.</p></li>
+<li><p>Of course, the last step is to interpret the results and compare with experiments if any.
+Then go back to step <span class="math inline">(i)</span> if there is a mismatch.</p></li>
+</ol>
+<p>The step I will be focusing on in these tutorials is <span class="math inline">(ii)</span>
+where we assume that the equations are already available. We will extract the bifurcation
+diagram and plot the solution files.</p>
+<p><img src="/figs/auto07p/fig1.jpeg" alt="auto-07p framework overview" /></p>
+0:{"buildId":"nUZsqYzDg0c4Nl4WNJOe8","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex flex-col md:flex-row gap-10 max-w-5xl w-full mt-10 mb-16 md:ml-20 px-4","children":[["$","aside",null,{"className":"md:w-56 flex-shrink-0","children":[["$","p",null,{"className":"text-xs uppercase tracking-widest text-gray-400 mb-3","children":"Sections"}],["$","nav",null,{"className":"flex flex-col gap-1","children":[["$","$L2","/tutorials/auto07p",{"href":"/tutorials/auto07p","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Overview"}],["$","$L2","/tutorials/auto07p/framework",{"href":"/tutorials/auto07p/framework","className":"text-xs px-3 py-2 rounded-lg transition-colors bg-slate-800 text-white font-semibold","children":"Framework"}],["$","$L2","/tutorials/auto07p/elastica",{"href":"/tutorials/auto07p/elastica","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Bending of an elastica"}],["$","$L2","/tutorials/auto07p/fvk",{"href":"/tutorials/auto07p/fvk","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Buckling of a sheet"}],["$","$L2","/tutorials/auto07p/oscillating",{"href":"/tutorials/auto07p/oscillating","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Oscillating beam"}],["$","$L2","/tutorials/auto07p/snake",{"href":"/tutorials/auto07p/snake","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Undulatory propulsion"}]]}],["$","div",null,{"className":"mt-6 pt-4 border-t border-gray-100","children":["$","$L2",null,{"href":"/members/sgp","className":"text-xs text-sky-600 hover:text-sky-800 underline underline-offset-2","children":"← Personal page"}]}]]}],["$","main",null,{"className":"flex-1 min-w-0","children":[["$","$L3",null,{"html":"$4","mathType":"katex"}],"$L5"]}]]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+5:["$","div",null,{"className":"flex items-center justify-between mt-12 pt-6 border-t border-gray-100","children":[["$","$L2",null,{"href":"/tutorials/auto07p","className":"text-xs text-sky-600 hover:text-sky-800 underline underline-offset-2","children":["← ","Overview"]}],["$","$L2",null,{"href":"/tutorials/auto07p/elastica","className":"text-xs text-sky-600 hover:text-sky-800 underline underline-offset-2","children":["Bending of an elastica"," →"]}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/2dc9252acacb8bf0.js","async":true}]
+7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

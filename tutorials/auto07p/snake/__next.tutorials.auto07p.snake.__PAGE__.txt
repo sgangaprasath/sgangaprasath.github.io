@@ -1,0 +1,61 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/fc9580e54fee84bd.js","/_next/static/chunks/374084cab5a0ffda.js","/_next/static/chunks/2dc9252acacb8bf0.js"],""]
+3:I[31111,["/_next/static/chunks/fc9580e54fee84bd.js","/_next/static/chunks/374084cab5a0ffda.js","/_next/static/chunks/2dc9252acacb8bf0.js"],"default"]
+8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+4:T97c,
+<h1 id="undulatory-propulsion-on-land">Undulatory propulsion on land</h1>
+
+<p>In this final tutorial we combine the techniques from the series and apply them to locomotion
+by an active filament (snake). The problem is solved by
+<a href="https://www.pnas.org/doi/pdf/10.1073/pnas.0705442105" target="_blank" rel="noopener noreferrer">Guo &amp; Mahadevan, PNAS 2007</a>.
+The governing equations for the body centreline are:
+\[\begin{aligned}
+  x_s =&amp; \ \cos\theta, \\
+  y_s =&amp; \ \sin\theta, \\
+  \theta_s =&amp; \ \kappa, \\
+  T_s =&amp; \ \mu_w + \mu_p\,\text{Pr}|\sin\theta| - \text{Mo}\tfrac{\cos(2\pi s)}{2\pi}
+        - \text{Be}\,\kappa_s\kappa - \text{Vi}\,\kappa_{ss}\kappa, \\
+  0 =&amp; \ -\text{Pr}\sin\theta + \text{Mo}\sin(2\pi s) + \kappa T
+       - \text{Be}\,\kappa_{ss} - \text{Vi}\,\kappa_{sss}.
+\end{aligned}\]
+Parameters: Pr, Mo, Be, Vi, \(\mu_w\), \(\mu_p\).</p>
+
+<p>Boundary conditions are mixed Dirichlet and periodic:
+\(x(0)=y(0)=y(1)=\theta(0)=\theta(1)=0\) and
+\(T(0)=T(1),\; \kappa(0)=\kappa(1),\; \kappa_s(0)=\kappa_s(1)\).</p>
+
+<h2>Solution strategy</h2>
+
+<p>The problem is too hard to solve in one shot, so we split into two parts:</p>
+<ul>
+<li><strong>Part 1</strong> — Enforce most but not all periodic BCs; continue from an accessible
+trivial solution to the neighbourhood of interest along one parameter (Mo).</li>
+<li><strong>Part 2</strong> — Use homotopy continuation to asymptotically satisfy the remaining
+BC \(\kappa_s(0)=\kappa_s(1)\) via a new parameter
+\(\texttt{PAR(8)}\): \(\kappa_s(0)-\kappa_s(1)+\texttt{PAR(8)}=0\).
+When \(\texttt{PAR(8)}\to 0\) the BC is exactly satisfied.</li>
+</ul>
+
+<p>Steps in <code>Snake.auto</code>:</p>
+<ul>
+<li>Initialise: \(x(s)=s\), all other fields zero.</li>
+<li>Start near Guo &amp; Mahadevan parameters: Pr=0.18, Mo=0.0, Be=0.4, Vi=1.0, \(\mu_w=0\), \(\mu_p=0.2\).</li>
+<li>Enforce Dirichlet + partial periodic BCs (skip \(\kappa_s\) BC); continue along Mo.</li>
+<li>Pin solution with \(\lambda\):
+\[\begin{aligned}
+  T_s =&amp; \ \cdots - \lambda T, \\
+  0 =&amp; \ \cdots - \lambda\kappa,
+\end{aligned}\]
+then continue \(\lambda\to 0\).</li>
+<li>Adjust \(\mu_w\), then Vi to reach paper parameters.</li>
+<li>Enforce last BC via PAR(8) continuation, then vary Vi with Mo as free parameter to
+  reproduce the Mo–Vi curve from the paper.</li>
+</ul>
+
+<p><img src="/figs/auto07p/fig5.jpeg" alt="Snake undulatory locomotion result" /></p>
+0:{"buildId":"nUZsqYzDg0c4Nl4WNJOe8","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex flex-col md:flex-row gap-10 max-w-5xl w-full mt-10 mb-16 md:ml-20 px-4","children":[["$","aside",null,{"className":"md:w-56 flex-shrink-0","children":[["$","p",null,{"className":"text-xs uppercase tracking-widest text-gray-400 mb-3","children":"Sections"}],["$","nav",null,{"className":"flex flex-col gap-1","children":[["$","$L2","/tutorials/auto07p",{"href":"/tutorials/auto07p","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Overview"}],["$","$L2","/tutorials/auto07p/framework",{"href":"/tutorials/auto07p/framework","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Framework"}],["$","$L2","/tutorials/auto07p/elastica",{"href":"/tutorials/auto07p/elastica","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Bending of an elastica"}],["$","$L2","/tutorials/auto07p/fvk",{"href":"/tutorials/auto07p/fvk","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Buckling of a sheet"}],["$","$L2","/tutorials/auto07p/oscillating",{"href":"/tutorials/auto07p/oscillating","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Oscillating beam"}],["$","$L2","/tutorials/auto07p/snake",{"href":"/tutorials/auto07p/snake","className":"text-xs px-3 py-2 rounded-lg transition-colors bg-slate-800 text-white font-semibold","children":"Undulatory propulsion"}]]}],["$","div",null,{"className":"mt-6 pt-4 border-t border-gray-100","children":["$","$L2",null,{"href":"/members/sgp","className":"text-xs text-sky-600 hover:text-sky-800 underline underline-offset-2","children":"← Personal page"}]}]]}],["$","main",null,{"className":"flex-1 min-w-0","children":[["$","$L3",null,{"html":"$4","mathType":"mathjax"}],"$L5"]}]]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+5:["$","div",null,{"className":"flex items-center justify-between mt-12 pt-6 border-t border-gray-100","children":[["$","$L2",null,{"href":"/tutorials/auto07p/oscillating","className":"text-xs text-sky-600 hover:text-sky-800 underline underline-offset-2","children":["← ","Oscillating beam"]}],["$","span",null,{}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/2dc9252acacb8bf0.js","async":true}]
+7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

@@ -1,0 +1,78 @@
+1:"$Sreact.fragment"
+2:I[63780,["/_next/static/chunks/fc9580e54fee84bd.js","/_next/static/chunks/374084cab5a0ffda.js"],"default"]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+5:I[22016,["/_next/static/chunks/fc9580e54fee84bd.js","/_next/static/chunks/374084cab5a0ffda.js","/_next/static/chunks/2dc9252acacb8bf0.js"],""]
+6:I[5500,["/_next/static/chunks/fc9580e54fee84bd.js","/_next/static/chunks/374084cab5a0ffda.js"],"Image"]
+11:I[68027,[],"default"]
+:HL["/_next/static/chunks/8919caf77805ee6b.css","style"]
+:HL["/_next/static/chunks/4e20891f2fd03463.css","style"]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"nUZsqYzDg0c4Nl4WNJOe8","c":["","tutorials","auto07p","fvk",""],"q":"","i":false,"f":[[["",{"children":["tutorials",{"children":["auto07p",{"children":["fvk",{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/8919caf77805ee6b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4e20891f2fd03463.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/fc9580e54fee84bd.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/374084cab5a0ffda.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"flex flex-col items-center justify-between h-auto w-full px-4 md:px-24 pt-16","children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","footer",null,{"className":"w-full border-t border-gray-200 py-6","children":["$","div",null,{"className":"flex flex-col items-center justify-between gap-10 md:flex-row w-full max-w-6xl mx-auto","children":[["$","a",null,{"href":"https://apm.iitm.ac.in","className":"group opacity-50 hover:opacity-100","target":"_blank","rel":"noopener noreferrer","children":["$","p",null,{"className":"text-center text-sm font-light md:text-left","children":["Department of Applied Mechanics",["$","br",null,{}],"and Biomedical Engineering, IIT Madras",["$","br",null,{}],"Chennai, TN 600036."]}]}],["$","$L5",null,{"href":"/","className":"group opacity-50 hover:opacity-100","rel":"noopener noreferrer","children":["$","$L6",null,{"className":"relative","src":"/logo.svg","alt":"Interface lab Logo","width":200,"height":100}]}],["$","a",null,{"href":"https://apm.iitm.ac.in","className":"group opacity-50 hover:opacity-100","target":"_blank","rel":"noopener noreferrer","children":["$","$L6",null,{"className":"relative","src":"/iitmlogo.svg","alt":"IIT Madras logo","width":80,"height":80,"priority":true}]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","div",null,{"className":"flex flex-col md:flex-row gap-10 max-w-5xl w-full mt-10 mb-16 md:ml-20 px-4","children":[["$","aside",null,{"className":"md:w-56 flex-shrink-0","children":[["$","p",null,{"className":"text-xs uppercase tracking-widest text-gray-400 mb-3","children":"Sections"}],["$","nav",null,{"className":"flex flex-col gap-1","children":[["$","$L5","/tutorials/auto07p",{"href":"/tutorials/auto07p","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Overview"}],"$L7","$L8","$L9","$La","$Lb"]}],"$Lc"]}],"$Ld"]}],["$Le"],"$Lf"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$L10",false]],"m":"$undefined","G":["$11",[]],"S":true}
+12:I[31111,["/_next/static/chunks/fc9580e54fee84bd.js","/_next/static/chunks/374084cab5a0ffda.js","/_next/static/chunks/2dc9252acacb8bf0.js"],"default"]
+14:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+15:"$Sreact.suspense"
+17:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+19:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+7:["$","$L5","/tutorials/auto07p/framework",{"href":"/tutorials/auto07p/framework","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Framework"}]
+8:["$","$L5","/tutorials/auto07p/elastica",{"href":"/tutorials/auto07p/elastica","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Bending of an elastica"}]
+9:["$","$L5","/tutorials/auto07p/fvk",{"href":"/tutorials/auto07p/fvk","className":"text-xs px-3 py-2 rounded-lg transition-colors bg-slate-800 text-white font-semibold","children":"Buckling of a sheet"}]
+a:["$","$L5","/tutorials/auto07p/oscillating",{"href":"/tutorials/auto07p/oscillating","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Oscillating beam"}]
+b:["$","$L5","/tutorials/auto07p/snake",{"href":"/tutorials/auto07p/snake","className":"text-xs px-3 py-2 rounded-lg transition-colors text-slate-600 hover:bg-slate-100","children":"Undulatory propulsion"}]
+c:["$","div",null,{"className":"mt-6 pt-4 border-t border-gray-100","children":["$","$L5",null,{"href":"/members/sgp","className":"text-xs text-sky-600 hover:text-sky-800 underline underline-offset-2","children":"← Personal page"}]}]
+13:Ta62,
+<h1 id="buckling-of-a-sheet">Buckling of a sheet</h1>
+
+<p>The Föppl–von Kármán (FvK) equations in 2D capture the buckling of a sheet/strip/beam.
+The morphology is described by the in-plane displacement <span class="math inline">u(x)</span>
+and the out-of-plane displacement <span class="math inline">w(x)</span>. The governing equations
+are</p>
+
+<span class="math display">\begin{aligned}
+  S (u_{xx} + w_{x} w_{xx}) + f =&amp; \ 0, \\
+  -B w_{xxxx} + S [ w_{x} u_{xx} + \tfrac{1}{2} w_{xx} (2 u_{x} + 3 w_{x}^2) ] + p =&amp; \ 0.
+\end{aligned}</span>
+
+<p>Here <span class="math inline">S = E\xi</span> is the stretching modulus,
+<span class="math inline">B = EI</span> the bending modulus,
+<span class="math inline">f</span> and <span class="math inline">p</span> external forces
+per unit length.</p>
+
+<p><img src="/figs/auto07p/fig3.jpeg" alt="FvK sheet buckling" /></p>
+
+<p>Non-dimensionalising with body length <span class="math inline">L</span> and Young's
+modulus <span class="math inline">E</span> as scales (using
+<span class="math inline">S \sim E\xi,\ B \sim E\xi^3</span>):</p>
+
+<span class="math display">\begin{aligned}
+  (d_{ss} + h_{s} h_{ss}) + \mathsf{f} =&amp; \ 0, \\
+  -K h_{ssss} + h_{s} d_{ss} + \tfrac{1}{2} h_{ss}(2 d_{s} + 3 h_{s}^2) + \mathsf{p} =&amp; \ 0,
+\end{aligned}</span>
+
+<p>where <span class="math inline">K = (\xi/L)^2</span> is the von Kármán number and
+<span class="math inline">\mathsf{f}, \mathsf{p}</span> are non-dimensional forces.
+Boundary conditions: fixed ends <span class="math inline">d|_0 = h|_0^1 = 0</span>;
+zero moments <span class="math inline">h_{ss}|_0^1 = 0</span>; applied tangential strain
+<span class="math inline">d_s|_1 = -\alpha</span>.</p>
+
+<p>The leverage of the <code>.auto</code> script is that we can steer the continuation by
+varying different parameters. After branch-switching with <code>ISW=-1</code> to the buckled
+branch, we can change the continuation parameter to <span class="math inline">K</span> and
+then to both <span class="math inline">(K,\alpha)</span> simultaneously using
+<code>ICP</code> and <code>UZSTOP</code>. The constraint
+<code>NCONT = NBC + NINT - NDIM + 1</code> (<code>NBC=6, NDIM=6</code>) requires one
+integral constraint for two-parameter continuation. The result is isocontours in the
+<span class="math inline">(K,\alpha)</span>-plane representing distinct morphologies.
+Code is in
+<a href="https://github.com/sgangaprasath/autoTutorial/tree/main/Tutorial2_FvK"
+   target="_blank" rel="noopener noreferrer"><code>Tutorial2_FvK</code></a>.</p>
+
+<p><img src="/figs/auto07p/2param.png" alt="Two-parameter continuation result" style="max-width:50%" /></p>
+d:["$","main",null,{"className":"flex-1 min-w-0","children":[["$","$L12",null,{"html":"$13","mathType":"katex"}],["$","div",null,{"className":"flex items-center justify-between mt-12 pt-6 border-t border-gray-100","children":[["$","$L5",null,{"href":"/tutorials/auto07p/elastica","className":"text-xs text-sky-600 hover:text-sky-800 underline underline-offset-2","children":["← ","Bending of an elastica"]}],["$","$L5",null,{"href":"/tutorials/auto07p/oscillating","className":"text-xs text-sky-600 hover:text-sky-800 underline underline-offset-2","children":["Oscillating beam"," →"]}]]}]]}]
+e:["$","script","script-0",{"src":"/_next/static/chunks/2dc9252acacb8bf0.js","async":true,"nonce":"$undefined"}]
+f:["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]
+10:["$","$1","h",{"children":[null,["$","$L17",null,{"children":"$L18"}],["$","div",null,{"hidden":true,"children":["$","$L19",null,{"children":["$","$15",null,{"name":"Next.Metadata","children":"$L1a"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+18:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1b:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+16:null
+1a:[["$","title","0",{"children":"INTERFACE lab"}],["$","meta","1",{"name":"description","content":"S Ganga Prasath's group page"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.1b4eda0e.ico","sizes":"257x257","type":"image/x-icon"}],["$","$L1b","3",{}]]
