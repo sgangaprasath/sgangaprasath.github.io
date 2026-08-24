@@ -2,6 +2,6 @@
 3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
 :HL["/_next/static/chunks/0918b76712679407.css","style"]
-0:{"buildId":"SNV2pOMlrFRuwvgESICyI","rsc":["$","$1","c",{"children":["$L2",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0918b76712679407.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/ca4f239237894935.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"oQRh8rskFArCewPwBxYLn","rsc":["$","$1","c",{"children":["$L2",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0918b76712679407.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/ca4f239237894935.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
 2:E{"digest":"NEXT_REDIRECT;replace;/tutorials/auto07p;307;"}
