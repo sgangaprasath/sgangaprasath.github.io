@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Collaborators — CCSD, IIT Madras</title>
+<meta name="description" content="The Centre for Complex Systems & Dynamics (CCSD) at IIT Madras — an interdisciplinary centre studying complex dynamical systems across social dynamics, climate, neuroscience, biology, multi-physics systems and active flows." />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='4' fill='%234f46e5'/%3E%3Ccircle cx='6' cy='9' r='2.5' fill='%23d4a017'/%3E%3Ccircle cx='26' cy='11' r='2.5' fill='%23d4a017'/%3E%3Ccircle cx='9' cy='25' r='2.5' fill='%234f46e5'/%3E%3Ccircle cx='24' cy='24' r='2.5' fill='%234f46e5'/%3E%3Cg stroke='%234f46e5' stroke-width='1' opacity='.5'%3E%3Cline x1='16' y1='16' x2='6' y2='9'/%3E%3Cline x1='16' y1='16' x2='26' y2='11'/%3E%3Cline x1='16' y1='16' x2='9' y2='25'/%3E%3Cline x1='16' y1='16' x2='24' y2='24'/%3E%3C/g%3E%3C/svg%3E" />
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          display: ['"EB Garamond"', 'Garamond', 'Georgia', 'serif'],
+          sans: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
+          mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
+        },
+        colors: {
+          ink: '#1a1830',
+          indigo: {
+            50: '#eef0fb', 100: '#dde0f7', 200: '#bcc2ef', 300: '#949ce3',
+            400: '#6d76d6', 500: '#4f46e5', 600: '#4038c4', 700: '#342d9c',
+            800: '#2b2678', 900: '#231f5c', 950: '#161232',
+          },
+          violet: { 400: '#9d7be0', 500: '#8257d1', 600: '#6d3fbf' },
+          gold: { 300: '#e8c874', 400: '#dcae43', 500: '#c8971f', 600: '#a87c15' },
+          mist: '#f5f5fb',
+        },
+        maxWidth: { '8xl': '88rem' },
+      },
+    },
+  };
+</script>
+<style>
+  html { scroll-padding-top: 5rem; }
+  body { -webkit-font-smoothing: antialiased; }
+  .u-line { text-underline-offset: 4px; text-decoration-thickness: 1.5px; }
+  .grid-fade {
+    background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,.14) 1px, transparent 0);
+    background-size: 26px 26px;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+  }
+  ::selection { background: #dcae43; color:#231f5c; }
+  /* EB Garamond reads smaller than the previous serif — scale it up for parity */
+  .font-display { font-size: 1.12em; line-height: 1.08; letter-spacing: -0.005em; }
+  .fac-img { object-fit: cover; }
+</style>
+</head>
+<body class="bg-mist text-ink font-sans antialiased">
+
+<!-- ============ NAV ============ -->
+<header class="fixed inset-x-0 top-0 z-50 border-b border-indigo-950/10 bg-mist/85 backdrop-blur">
+  <nav class="mx-auto flex max-w-8xl items-center justify-between px-5 py-3 lg:px-8">
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="assets/logo.png" alt="CCSD logo" class="h-14 w-14 rounded-lg object-contain" />
+      <span class="hidden h-14 w-14 place-items-center rounded-lg bg-indigo-800 font-display text-2xl font-600 text-mist">C</span>
+      <span class="leading-tight">
+        <span class="block whitespace-nowrap font-display text-lg font-600 tracking-tight text-indigo-800 sm:text-xl">Centre for Complex Systems &amp; Dynamics</span>
+        <span class="mt-0.5 block text-[10px] uppercase tracking-[0.18em] text-indigo-600/70">IIT Madras</span>
+      </span>
+    </a>
+    <div class="ml-auto mr-6 hidden items-center gap-6 lg:flex text-sm font-500 text-indigo-950/80">
+      <a href="index.html#about" class="hover:text-gold-500 transition">About</a>
+      <a href="index.html#research" class="hover:text-gold-500 transition">Research</a>
+      <a href="index.html#projects" class="hover:text-gold-500 transition">Projects</a>
+      <a href="index.html#people" class="hover:text-gold-500 transition">People</a>
+      <a href="collaborators.html" class="text-gold-600 font-600 transition">Collaborators</a>
+      <a href="index.html#academics" class="hover:text-gold-500 transition">Academics</a>
+      <a href="index.html#events" class="hover:text-gold-500 transition">Events</a>
+      <a href="index.html#contact" class="hover:text-gold-500 transition">Contact</a>
+    </div>
+    <a href="index.html#academics" class="hidden lg:inline-flex rounded-full bg-gold-400 px-4 py-2 text-sm font-600 text-indigo-950 shadow-sm transition hover:bg-gold-300">Join us</a>
+    <button id="burger" class="lg:hidden grid h-10 w-10 place-items-center rounded-lg text-indigo-800" aria-label="Open menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </nav>
+  <div id="mobileMenu" class="hidden border-t border-indigo-950/10 bg-mist px-5 pb-4 lg:hidden">
+    <div class="flex flex-col gap-1 pt-2 text-sm font-500 text-indigo-950">
+      <a href="index.html#about" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"/></svg>About</a>
+      <a href="index.html#research" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/></svg>Research</a>
+      <a href="index.html#projects" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z"/></svg>Projects</a>
+      <a href="collaborators.html" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"/></svg>Collaborators</a>
+      <a href="index.html#people" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"/></svg>People</a>
+      <a href="index.html#academics" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>Academics</a>
+      <a href="index.html#events" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"/></svg>Events</a>
+      <a href="index.html#contact" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></svg>Contact</a>
+    </div>
+  </div>
+</header>
+
+
+<section class="relative overflow-hidden bg-indigo-950 text-mist">
+  <div class="absolute inset-0 grid-fade opacity-30"></div>
+  <div class="absolute -right-24 -top-24 h-96 w-96 rounded-full bg-violet-600/30 blur-3xl"></div>
+  <div class="absolute -bottom-32 left-10 h-80 w-80 rounded-full bg-gold-500/15 blur-3xl"></div>
+  <div class="relative mx-auto max-w-8xl px-5 pb-16 pt-28 lg:px-8 lg:pb-20 lg:pt-32">
+    <p class="font-mono text-xs tracking-wide text-gold-300">Our network</p>
+    <h1 class="mt-3 max-w-3xl font-display text-4xl font-500 leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">Collaborators</h1>
+    <p class="mt-5 max-w-2xl text-base leading-relaxed text-indigo-100/90 sm:text-lg">The centre works with researchers across the world and within India on the science of complex systems — from climate and networks to neuroscience, active matter and scientific machine learning.</p>
+    <div class="mt-8 flex flex-wrap gap-3 text-sm">
+      <a href="#international" class="rounded-full bg-gold-400 px-5 py-2.5 font-600 text-indigo-950 transition hover:bg-gold-300">International</a>
+      <a href="#indian" class="rounded-full border border-indigo-200/30 px-5 py-2.5 font-600 text-mist transition hover:bg-indigo-900/60">Indian</a>
+    </div>
+  </div>
+</section>
+
+<section id="international" class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-24">
+  <div class="max-w-2xl">
+    <p class="font-mono text-xs tracking-wide text-gold-600">International collaborators</p>
+    <h2 class="mt-3 font-display text-3xl font-500 leading-tight tracking-tight text-indigo-900 sm:text-4xl">Partners around the world</h2>
+    <p class="mt-4 text-base leading-relaxed text-indigo-950/80">Faculty and researchers from institutions across Europe, the Americas and Asia who collaborate with the centre.</p>
+  </div>
+  <div class="mt-12 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/kurths.jpg" alt="Jürgen Kurths" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>JK</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Jürgen Kurths</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">Germany</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Potsdam Institute for Climate Impact Research</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Nonlinear physics & complex systems — Earth system, physiology, systems biology, engineering</p>
+        <a href="https://www.pik-potsdam.de/members/kurths/homepage" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/madhav.jpg" alt="Madhav Marathe" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>MM</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Madhav Marathe</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">USA</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Biocomplexity Institute, University of Virginia</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Complex networks, computational epidemiology, large-scale socio-technical systems</p>
+        <a href="https://biocomplexity.virginia.edu/person/madhav-marathe" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/elena.jpg" alt="Elena Surovyatkina" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>ES</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Elena Surovyatkina</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">Germany</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Potsdam Institute for Climate Impact Research</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Critical transitions — cardiac & climate dynamics, monsoon forecasting</p>
+        <a href="https://www.pik-potsdam.de/members/elenasur" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/henning.jpg" alt="Henning S Mortveit" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>HM</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Henning S Mortveit</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">USA</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Biocomplexity Institute, Virginia Tech</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Massively interacting systems, graph dynamical systems, scientific visualisation</p>
+        <a href="https://biocomplexity.virginia.edu/person/henning-mortveit" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/didier.jpg" alt="Didier Lucor" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>DL</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Didier Lucor</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">France</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">LISN–CNRS</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Data-enhanced computational mechanics, turbulent convection, biofluidics, ML</p>
+        <a href="https://perso.limsi.fr/lucor/" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/damodaran.jpg" alt="Murali Damodaran" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>MD</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Murali Damodaran</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">Singapore</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Temasek Lab, National University of Singapore</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">CFD, aerodynamics & control, physics-informed ML in flows</p>
+        <a href="https://temasek-labs.nus.edu.sg/program/program_lowspeedaerodynamics_tslmura.html" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/gabriel.jpg" alt="Gabriel Mindlin" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>GM</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Gabriel Mindlin</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">Argentina</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Physics, University of Buenos Aires</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Neuroscience, bird song, nonlinear dynamics</p>
+        <a href="http://www.lsd.df.uba.ar/" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/aluru.jpg" alt="Srinivas Aluru" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>SA</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Srinivas Aluru</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">USA</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Georgia Institute of Technology</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">High-performance computing, data science, bioinformatics, systems biology</p>
+        <a href="https://www.cc.gatech.edu/~saluru/" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/ana.jpg" alt="Ana Amador" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>AA</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Ana Amador</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">Argentina</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Physics, University of Buenos Aires</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Neuroethology, nonlinear dynamics, motor control, bird song</p>
+        <a href="http://users.df.uba.ar/anita/amador/Ana_Amador/Welcome.html" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/aravind.jpg" alt="Aravind Srinivasan" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>AS</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Aravind Srinivasan</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">USA</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Computer Science, University of Maryland</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Randomised algorithms; models in public health, networking, AI & ML</p>
+        <a href="https://www.cs.umd.edu/~srin/" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/auroop.jpg" alt="Auroop Ganguly" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>AG</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Auroop Ganguly</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">USA</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Northeastern University</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Water & climate science, infrastructure resilience, ML, nonlinear dynamics</p>
+        <a href="https://coe.northeastern.edu/people/ganguly-auroop/" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/woosok.jpg" alt="Woosok Moon" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>WM</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Woosok Moon</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">Sweden</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Mathematics, Stockholm University</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Climate dynamics, stochastic & nonlinear dynamics, data science</p>
+        <a href="https://www.nordita.org/people/staff/index.php?u=woosok.moon" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/jianxi.jpg" alt="Jianxi Gao" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>JG</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Jianxi Gao</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">USA</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Rensselaer Polytechnic Institute</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Network science, multi-agent systems, control theory, statistical physics</p>
+        <a href="https://science.rpi.edu/computer-science/faculty/jianxi-gao" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/kirti.jpg" alt="Kirti Rajagopalan" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>KR</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Kirti Rajagopalan</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">USA</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Washington State University</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Dynamics of coupled human and natural systems</p>
+        <a href="https://wrc.wsu.edu/person/rajagopalan-kirti/" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/sarah.jpg" alt="Sarah Wolf" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>SW</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Sarah Wolf</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">Germany</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Freie Universität Berlin; Global Climate Forum</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Agent-based modelling, green-growth mechanics</p>
+        <a href="https://globalclimateforum.org/portfolio-item/wolf/" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/vivek.jpg" alt="Vivek N Prakash" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>VP</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Vivek N Prakash</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">USA</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">Physics, University of Miami</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Biological fluid mechanics, tissue mechanics</p>
+        <a href="http://www.vprakash.com/" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/zoltan.jpg" alt="Zoltán Toroczkai" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>ZT</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Zoltán Toroczkai</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">USA</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">University of Notre Dame</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Complex systems, networks, neuroscience, biophysics, fluid dynamics</p>
+        <a href="https://physics.nd.edu/people/faculty/zoltan-toroczkai/" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/biao.jpg" alt="Biao Huang" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>BH</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Biao Huang</h3>
+        <p class="mt-1 text-[11px] font-500 uppercase tracking-wide text-gold-600">Canada</p>
+        <p class="mt-1 text-xs leading-snug text-indigo-950/70">University of Alberta</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Data analytics, ML, system identification, causality analysis</p>
+        <a href="https://sites.ualberta.ca/~bhuang/" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+  </div>
+</section>
+
+<section id="indian" class="border-t border-indigo-950/10 bg-white">
+  <div class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-24">
+    <div class="max-w-2xl">
+      <p class="font-mono text-xs tracking-wide text-gold-600">Indian collaborators</p>
+      <h2 class="mt-3 font-display text-3xl font-500 leading-tight tracking-tight text-indigo-900 sm:text-4xl">Partners across India</h2>
+      <p class="mt-4 text-base leading-relaxed text-indigo-950/80">Colleagues at institutions across the country working with the centre on complex-systems research.</p>
+    </div>
+    <div class="mt-12 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/anirban.jpg" alt="Anirban Chakraborti" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>AC</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Anirban Chakraborti</h3>
+        <p class="mt-1 text-xs leading-snug text-gold-600">JNU / BML Munjal University</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Econophysics, sociophysics, data science, complex & statistical physics</p>
+        <a href="http://www.jnu.ac.in/Faculty/anirban/index.html" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+      <div class="reveal group flex flex-col items-center rounded-2xl border border-indigo-950/10 bg-white p-5 text-center shadow-sm transition hover:shadow-md">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-indigo-100 ring-2 ring-indigo-100 ring-offset-2 ring-offset-white">
+          <img src="assets/collab/udit.jpg" alt="Udit Bhatia" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=&quot;grid h-full w-full place-items-center bg-indigo-800 font-display text-2xl font-600 text-mist&quot;>UB</div>'" />
+        </div>
+        <h3 class="mt-4 font-display text-base font-600 leading-tight text-indigo-900">Udit Bhatia</h3>
+        <p class="mt-1 text-xs leading-snug text-gold-600">Civil Engineering, IIT Gandhinagar</p>
+        <p class="mt-2 flex-1 text-[11px] leading-relaxed text-indigo-950/60">Network science, ecological dynamics, ML, climate variability & change</p>
+        <a href="https://iitgn.ac.in/faculty/civil/fac-udit" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-[11px] font-600 text-indigo-700 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>Website</a>
+      </div>
+    </div>
+    <div class="mt-12">
+      <a href="index.html#people" class="inline-flex items-center gap-2 rounded-full border border-indigo-600 px-5 py-2.5 text-sm font-600 text-indigo-700 transition hover:bg-indigo-100">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-4 w-4"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"/></svg>
+        Back to core faculty
+      </a>
+    </div>
+  </div>
+</section>
+<!-- ============ FOOTER ============ -->
+<footer class="border-t border-indigo-200/15 bg-indigo-950 text-mist">
+  <div class="mx-auto max-w-8xl px-5 py-14 lg:px-8">
+    <div class="grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
+      <div>
+        <div class="flex items-center gap-3">
+          <img src="assets/logo.png" alt="CCSD logo" class="h-9 w-9 shrink-0 rounded-lg bg-white/95 object-contain p-0.5" />
+          <span class="font-display text-base font-600">CCSD · IIT Madras</span>
+        </div>
+        <p class="mt-4 max-w-xs text-sm leading-relaxed text-indigo-100/75">
+          Centre for Complex Systems &amp; Dynamics, Indian Institute of Technology Madras, Chennai 600 036, India.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="font-display text-sm font-600 text-indigo-100">Research</h4>
+        <ul class="mt-3 space-y-2 text-sm text-indigo-100/75">
+          <li><a href="index.html#research" class="hover:text-gold-300">Thrust Directions</a></li>
+          <li><a href="index.html#projects" class="hover:text-gold-300">Ongoing Projects</a></li>
+          </ul>
+        <h4 class="mt-6 font-display text-sm font-600 text-indigo-100">Academics</h4>
+        <ul class="mt-3 space-y-2 text-sm text-indigo-100/75">
+          <li><a href="iddd.html" class="hover:text-gold-300">Dual Degree (IDDD)</a></li>
+          <li><a href="https://ge.iitm.ac.in/i2mp/complex-systems-and-dynamics/" class="hover:text-gold-300">International M.Tech</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-display text-sm font-600 text-indigo-100">Personnel</h4>
+        <ul class="mt-3 space-y-2 text-sm text-indigo-100/75">
+          <li><a href="index.html#people" class="hover:text-gold-300">IITM Faculty</a></li>
+          <li><a href="collaborators.html" class="hover:text-gold-300">Collaborators</a></li>
+          <li><a href="collaborators.html#indian" class="hover:text-gold-300">Indian Collaborators</a></li>
+                      </ul>
+      </div>
+
+      <div>
+        <h4 class="font-display text-sm font-600 text-indigo-100">Events &amp; Media</h4>
+        <ul class="mt-3 space-y-2 text-sm text-indigo-100/75">
+          <li><a href="events.html#seminars" class="hover:text-gold-300">Seminars</a></li>
+          <li><a href="events.html#workshops" class="hover:text-gold-300">Workshops &amp; Schools</a></li>
+          <li><a href="https://ge.iitm.ac.in/COLD2026/" class="hover:text-gold-300">COLD 2026</a></li>
+          <li><a href="https://www.youtube.com/channel/UC2cIevFIhx8ikhB4DF0ZM0A" class="hover:text-gold-300">YouTube</a></li>
+          <li><a href="https://www.facebook.com/ccsdiitm/" class="hover:text-gold-300">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-12 flex flex-col gap-3 border-t border-indigo-200/15 pt-6 text-xs text-indigo-100/60 sm:flex-row sm:items-center sm:justify-between">
+      <p>© 2026 Centre for Complex Systems &amp; Dynamics, IIT Madras. All rights reserved.</p>
+      <p>Chennai, Tamil Nadu, India · <a href="mailto:ccsd@iitm.ac.in" class="hover:text-gold-300">ccsd@iitm.ac.in</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const io=new IntersectionObserver((e)=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}});},{threshold:0.1});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+  const burger=document.getElementById('burger'),menu=document.getElementById('mobileMenu');
+  if(burger&&menu){burger.addEventListener('click',()=>menu.classList.toggle('hidden'));menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>menu.classList.add('hidden')));}
+</script>
+</body>
+</html>
