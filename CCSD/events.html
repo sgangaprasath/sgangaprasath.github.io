@@ -151,20 +151,21 @@
   </div>
 </section>
 
-<section id="seminars" class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-20">
-  <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-    <div class="max-w-2xl">
-      <p class="font-mono text-xs tracking-wide text-gold-600">Seminar series</p>
-      <h2 class="mt-3 font-display text-3xl font-500 leading-tight tracking-tight text-indigo-900 sm:text-4xl">Every talk, 2018–2023</h2>
-      <p class="mt-4 text-base leading-relaxed text-indigo-950/80">Research talks by centre members and invited speakers. Filter by year, or browse the full archive below.</p>
-    </div>
-    <div id="yearFilter" class="flex flex-wrap gap-2 text-xs"></div>
+<!-- events image band -->
+<section class="bg-mist">
+  <div class="mx-auto max-w-8xl px-5 pt-16 lg:px-8 lg:pt-20">
+    <figure class="relative overflow-hidden rounded-3xl border border-indigo-950/10 shadow-sm">
+      <img src="assets/pixabay/events-seminar.jpg" alt="Researchers gathered in an auditorium for a talk" class="h-56 w-full object-cover sm:h-72 lg:h-80" loading="lazy" />
+      <div class="absolute inset-0 bg-gradient-to-r from-indigo-950/75 via-indigo-950/25 to-transparent"></div>
+      <figcaption class="absolute bottom-6 left-6 max-w-md">
+        <p class="font-display text-2xl font-600 text-mist sm:text-3xl">Where the community meets</p>
+        <p class="mt-1 text-sm text-mist/85">Seminars, workshops and winter schools that bring researchers together across disciplines and institutions.</p>
+      </figcaption>
+    </figure>
   </div>
-  <div id="seminarGrid" class="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
-  <p id="seminarEmpty" class="mt-6 hidden text-sm text-indigo-950/60"></p>
 </section>
 
-<section id="workshops" class="border-t border-indigo-950/10 bg-white">
+<section id="workshops" class="bg-mist">
   <div class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-20">
     <div class="max-w-2xl">
       <p class="font-mono text-xs tracking-wide text-gold-600">Workshops &amp; schools</p>
@@ -211,6 +212,21 @@
         Back to home
       </a>
     </div>
+  </div>
+</section>
+
+<section id="seminars" class="border-t border-indigo-950/10 bg-white">
+  <div class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-20">
+  <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+    <div class="max-w-2xl">
+      <p class="font-mono text-xs tracking-wide text-gold-600">Seminar series</p>
+      <h2 class="mt-3 font-display text-3xl font-500 leading-tight tracking-tight text-indigo-900 sm:text-4xl">Every talk, 2018–2023</h2>
+      <p class="mt-4 text-base leading-relaxed text-indigo-950/80">Research talks by centre members and invited speakers. Filter by year, or browse the full archive below.</p>
+    </div>
+    <div id="yearFilter" class="flex flex-wrap gap-2 text-xs"></div>
+  </div>
+  <div id="seminarGrid" class="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
+  <p id="seminarEmpty" class="mt-6 hidden text-sm text-indigo-950/60"></p>
   </div>
 </section>
 <!-- ============ FOOTER ============ -->

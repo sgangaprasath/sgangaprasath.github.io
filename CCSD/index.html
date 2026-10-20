@@ -288,6 +288,21 @@
   </div>
 </section>
 
+<!-- ============ EMERGENCE IMAGE BAND ============ -->
+<section class="relative overflow-hidden bg-indigo-950">
+  <img src="assets/pixabay/about-network.jpg" alt="A flock of birds in flight — self-organisation in nature" class="absolute inset-0 h-full w-full object-cover opacity-40" loading="lazy" />
+  <div class="absolute inset-0 bg-gradient-to-t from-indigo-950 via-indigo-950/70 to-indigo-950/40"></div>
+  <div class="relative mx-auto max-w-8xl px-5 py-20 text-center lg:px-8 lg:py-28">
+    <p class="font-mono text-xs tracking-wide text-gold-300">Emergence</p>
+    <h2 class="mx-auto mt-3 max-w-3xl font-display text-3xl font-500 leading-tight tracking-tight text-mist sm:text-4xl lg:text-5xl">No central controller, yet the flock moves as one</h2>
+    <p class="mx-auto mt-5 max-w-2xl text-[15px] leading-relaxed text-indigo-100/85 sm:text-lg">Flocking birds, synchronised fireflies, turbulent flows, learning networks — self-organisation is everywhere. Our work looks for the simple rules beneath the patterns.</p>
+    <div class="mt-8 flex flex-wrap justify-center gap-3">
+      <a href="themes.html" class="rounded-full bg-gold-400 px-6 py-3 text-sm font-600 text-indigo-950 transition hover:bg-gold-300">Explore research themes</a>
+      <a href="projects.html" class="rounded-full border border-indigo-200/30 px-6 py-3 text-sm font-600 text-mist transition hover:bg-indigo-900/60">Ongoing projects</a>
+    </div>
+  </div>
+</section>
+
 <!-- ============ CONTACT ============ -->
 <section id="contact" class="border-t border-indigo-950/10 bg-mist">
   <div class="mx-auto max-w-8xl px-5 py-20 lg:px-8 lg:py-28">
@@ -398,17 +413,27 @@
       dotsWrap.appendChild(d);
     });
     const dots=Array.from(dotsWrap.children);
+    // Step = one slide's own width (viewport width) + the flex gap between slides.
+    // Computed from layout, not from image-dependent offsetLeft, so it is correct on first paint.
+    function step(){
+      const gap=parseFloat(getComputedStyle(track).columnGap||getComputedStyle(track).gap)||0;
+      return slides[0].getBoundingClientRect().width + gap;
+    }
     function go(n){
       i=(n+slides.length)%slides.length;
-      track.style.transform='translateX(-'+slides[i].offsetLeft+'px)';
+      track.style.transform='translateX(-'+(i*step())+'px)';
       dots.forEach((d,k)=>{d.className='h-2.5 rounded-full transition-all '+(k===i?'w-7 bg-gold-400':'w-2.5 bg-indigo-200/40');});
     }
+    // Recalibrate whenever layout can change: on resize, on full load, and as each image finishes.
     window.addEventListener('resize',()=>go(i));
+    window.addEventListener('load',()=>go(i));
+    track.querySelectorAll('img').forEach(img=>{ if(!img.complete) img.addEventListener('load',()=>go(i)); });
     function next(){go(i+1);}
     function prev(){go(i-1);}
     function reset(){clearInterval(timer);timer=setInterval(next,6000);}
     document.getElementById('carNext').addEventListener('click',()=>{next();reset();});
     document.getElementById('carPrev').addEventListener('click',()=>{prev();reset();});
+    go(0);
     reset();
   })();
 

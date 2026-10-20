@@ -52,6 +52,8 @@
   /* EB Garamond reads smaller than the previous serif — scale it up for parity */
   .font-display { font-size: 1.12em; line-height: 1.08; letter-spacing: -0.005em; }
   .fac-img { object-fit: cover; }
+  .clamp-2 { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .clamp-3 { display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
   /* Carousel */
   .carousel-track { transition: transform .7s cubic-bezier(.4,0,.2,1); }
 </style>
@@ -151,7 +153,7 @@
 </section>
 
 <section class="mx-auto max-w-8xl px-5 py-20 lg:px-8 lg:py-24">
-  <div id="projectGrid" class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></div>
+  <div id="projectGrid" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6"></div>
 </section>
 <!-- ============ FOOTER ============ -->
 <footer class="border-t border-indigo-200/15 bg-indigo-950 text-mist">
@@ -208,16 +210,16 @@
   </div>
 </footer>
 <script>
-const projects=[{"t": "Dynamics of news propagation in social media", "img": "assets/projects/fakenews.jpg", "g": "#4f46e5,#231f5c", "d": "Agent-based models on complex networks capture how information \u2014 and fake narratives \u2014 spread, and how dynamical-systems methods can counter them."}, {"t": "Q-analysis of networks", "img": "assets/projects/qanalysis.jpg", "g": "#6d3fbf,#231f5c", "d": "Simplicial complexes generalise triangles to higher dimensions, revealing structure in networks through their all-to-all connected cliques."}, {"t": "Climate dynamics", "img": "assets/projects/elnino.jpg", "g": "#4f46e5,#8257d1", "d": "The El Ni\u00f1o\u2013Southern Oscillation is modelled as a complex network of geographical locations, whose clustering shifts ahead of La Ni\u00f1a."}, {"t": "Noise-induced transitions", "img": "assets/projects/nia.jpg", "g": "#8257d1,#231f5c", "d": "Noise reshapes bifurcations \u2014 driving intermittency, basin hopping and stochastic resonance, from climate to aeroelastic flutter."}, {"t": "Machine learning: complex flow fields", "img": "assets/projects/biomimeticflow.jpg", "g": "#4f46e5,#6d3fbf", "d": "Hybrid ML techniques combine data with first-principles physics to model nonlinear, multi-scale fluid flows more effectively."}, {"t": "Bio-mimetic flows", "img": "assets/projects/biomimetic3.jpg", "g": "#6d3fbf,#8257d1", "d": "Interacting vortices dictate the dynamics; ML enables dimensionality reduction and data-driven modelling of the spatio-temporal flow."}, {"t": "Phase synchronization", "img": "assets/projects/kura.jpg", "g": "#4f46e5,#231f5c", "d": "Trainable oscillatory neural networks \u2014 Kuramoto, Hopf, FitzHugh\u2013Nagumo \u2014 model brain rhythms and neuronal synchronization."}, {"t": "Bird song", "img": "assets/projects/birdsong.jpg", "g": "#8257d1,#6d3fbf", "d": "How neural architecture coordinates a precise vocal apparatus \u2014 studied with Hurst exponents, multifractals and complexity measures."}, {"t": "Physics of living matter", "img": "assets/projects/complexflows.jpg", "g": "#4f46e5,#8257d1", "d": "Active matter converts free energy into sustained motion; ciliary propulsion is studied across scales via experiment, theory and simulation."}, {"t": "Dynamics of human breathing", "img": "assets/projects/pulmonary.jpg", "g": "#6d3fbf,#231f5c", "d": "A dynamical network model of the breathing lung, coupled with aerosol deposition, tuned with lung-specific parameters from phantom experiments."}, {"t": "Causal networks of industrial processes", "img": "assets/projects/causality.jpg", "g": "#dcae43,#a87c15", "d": "Data-driven causal network models map disturbance-propagation pathways for fault diagnosis, monitoring and alarm management."}];
+const projects=[{"t": "Dynamics of news propagation in social media", "img": "assets/projects-hd/fakenews.jpg", "g": "#4f46e5,#231f5c", "d": "Agent-based models on complex networks capture how information \u2014 and fake narratives \u2014 spread, and how dynamical-systems methods can counter them."}, {"t": "Q-analysis of networks", "img": "assets/projects-hd/qanalysis.jpg", "g": "#6d3fbf,#231f5c", "d": "Simplicial complexes generalise triangles to higher dimensions, revealing structure in networks through their all-to-all connected cliques."}, {"t": "Climate dynamics", "img": "assets/projects-hd/elnino.jpg", "g": "#4f46e5,#8257d1", "d": "The El Ni\u00f1o\u2013Southern Oscillation is modelled as a complex network of geographical locations, whose clustering shifts ahead of La Ni\u00f1a."}, {"t": "Noise-induced transitions", "img": "assets/projects-hd/nia.jpg", "g": "#8257d1,#231f5c", "d": "Noise reshapes bifurcations \u2014 driving intermittency, basin hopping and stochastic resonance, from climate to aeroelastic flutter."}, {"t": "Machine learning: complex flow fields", "img": "assets/projects-hd/biomimeticflow.jpg", "g": "#4f46e5,#6d3fbf", "d": "Hybrid ML techniques combine data with first-principles physics to model nonlinear, multi-scale fluid flows more effectively."}, {"t": "Bio-mimetic flows", "img": "assets/projects-hd/biomimetic3.jpg", "g": "#6d3fbf,#8257d1", "d": "Interacting vortices dictate the dynamics; ML enables dimensionality reduction and data-driven modelling of the spatio-temporal flow."}, {"t": "Phase synchronization", "img": "assets/projects-hd/kura.jpg", "g": "#4f46e5,#231f5c", "d": "Trainable oscillatory neural networks \u2014 Kuramoto, Hopf, FitzHugh\u2013Nagumo \u2014 model brain rhythms and neuronal synchronization."}, {"t": "Bird song", "img": "assets/projects-hd/birdsong.jpg", "g": "#8257d1,#6d3fbf", "d": "How neural architecture coordinates a precise vocal apparatus \u2014 studied with Hurst exponents, multifractals and complexity measures."}, {"t": "Physics of living matter", "img": "assets/projects-hd/complexflows.jpg", "g": "#4f46e5,#8257d1", "d": "Active matter converts free energy into sustained motion; ciliary propulsion is studied across scales via experiment, theory and simulation."}, {"t": "Dynamics of human breathing", "img": "assets/projects-hd/pulmonary.jpg", "g": "#6d3fbf,#231f5c", "d": "A dynamical network model of the breathing lung, coupled with aerosol deposition, tuned with lung-specific parameters from phantom experiments."}, {"t": "Causal networks of industrial processes", "img": "assets/projects-hd/causality.jpg", "g": "#dcae43,#a87c15", "d": "Data-driven causal network models map disturbance-propagation pathways for fault diagnosis, monitoring and alarm management."}];
   document.getElementById('projectGrid').innerHTML = projects.map(p => `
-    <article class="reveal group flex flex-col overflow-hidden rounded-2xl border border-indigo-950/10 bg-white shadow-sm transition hover:shadow-md">
-      <div class="aspect-[3/2] w-full overflow-hidden bg-indigo-100">
+    <article class="group flex items-start gap-3 rounded-xl border border-indigo-950/10 bg-white p-3 shadow-sm transition hover:shadow-md">
+      <div class="h-12 w-12 shrink-0 overflow-hidden rounded-lg bg-indigo-100">
         <img src="${p.img}" alt="${p.t}" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
              onerror="this.parentElement.style.background='linear-gradient(135deg,${p.g})';this.remove()" />
       </div>
-      <div class="flex flex-1 flex-col p-5">
-        <h3 class="font-display text-lg font-600 leading-tight text-indigo-900">${p.t}</h3>
-        <p class="mt-2 text-sm leading-relaxed text-indigo-950/70">${p.d}</p>
+      <div class="min-w-0 flex-1">
+        <h3 class="font-display text-sm font-600 leading-snug text-indigo-900">${p.t}</h3>
+        <p class="mt-1 text-xs leading-relaxed text-indigo-950/70">${p.d}</p>
       </div>
     </article>`).join('');
 
