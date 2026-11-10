@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AM5000 Physics of Machine Learning</title>
+<meta name="description" content="AM5000 Physics of Machine Learning, IIT Madras: course notes and interactive toy models.">
+<link rel="icon" href="../favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+tailwind.config = {
+  theme: { extend: {
+    fontFamily: {
+      display: ['"Bricolage Grotesque"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      sans: ['"IBM Plex Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      mono: ['"JetBrains Mono"', 'ui-monospace', 'Menlo', 'monospace'],
+    },
+    colors: {
+      bg: 'rgb(var(--bg) / <alpha-value>)', panel: 'rgb(var(--panel) / <alpha-value>)',
+      ink: 'rgb(var(--ink) / <alpha-value>)', mute: 'rgb(var(--mute) / <alpha-value>)',
+      line: 'rgb(var(--line) / <alpha-value>)', acc: 'rgb(var(--acc) / <alpha-value>)',
+      up: 'rgb(var(--up) / <alpha-value>)', down: 'rgb(var(--down) / <alpha-value>)',
+      sg: 'rgb(var(--sg) / <alpha-value>)', sky: 'rgb(var(--sky) / <alpha-value>)',
+      amb: 'rgb(var(--amb) / <alpha-value>)',
+    } } }
+};
+</script>
+<style>
+/* Layout: a lab bench. Left: the course as a phase diagram of threads; right: chapters as specimen slides; below: live toy models. */
+:root {
+  /* pol.sty Tailwind palette: slate ground, indigo600 accent, emerald=retrieval, rose=paramagnet, violet=spin glass */
+  --bg: 248 250 252; --panel: 255 255 255; --ink: 15 23 42; --mute: 100 116 139; --line: 226 232 240;
+  --acc: 79 70 229; --up: 5 150 105; --down: 225 29 72; --sg: 124 58 237; --sky: 3 105 161; --amb: 217 119 6;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: 9 13 24; --panel: 17 24 39; --ink: 226 232 240; --mute: 148 163 184; --line: 39 49 68;
+  --acc: 129 140 248; --up: 52 211 153; --down: 251 113 133; --sg: 167 139 250; --sky: 56 189 248; --amb: 251 191 36; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: 9 13 24; --panel: 17 24 39; --ink: 226 232 240; --mute: 148 163 184; --line: 39 49 68;
+  --acc: 129 140 248; --up: 52 211 153; --down: 251 113 133; --sg: 167 139 250; --sky: 56 189 248; --amb: 251 191 36; color-scheme: dark }
+body { background: rgb(var(--bg)); color: rgb(var(--ink)); font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif; }
+.gutter { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { text-wrap: balance; }
+.dotgrid { background-image: radial-gradient(rgb(var(--line)) 1px, transparent 1px); background-size: 18px 18px; }
+input[type=range] { accent-color: rgb(var(--acc)); width: 100%; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid rgb(var(--acc)); outline-offset: 2px; }
+.cell { aspect-ratio: 1; border-radius: 3px; transition: background-color .15s; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+.chip[aria-pressed="true"] { background: rgb(var(--ink)); color: rgb(var(--bg)); border-color: rgb(var(--ink)); }
+svg text { font-family: "JetBrains Mono", monospace; }
+</style>
+</head>
+<body>
+
+<header class="gutter border-b border-line">
+  <div class="max-w-6xl mx-auto py-3 flex items-center justify-between gap-4 text-xs font-mono text-mute">
+    <span>AM5000 · IIT Madras</span>
+    <nav class="flex gap-4"><a href="#chapters" class="hover:text-acc">chapters</a><a href="#lab" class="hover:text-acc">toy models</a></nav>
+  </div>
+</header>
+
+<main>
+<!-- HERO: the thesis as an energy landscape with spins -->
+<section class="gutter dotgrid">
+  <div class="max-w-6xl mx-auto py-12 md:py-16 grid md:grid-cols-[1.15fr_1fr] gap-10 items-center">
+    <div class="min-w-0">
+      <p class="font-mono text-xs uppercase tracking-[0.18em] text-acc mb-4">Course notes · 14 chapters</p>
+      <h1 class="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl leading-[1.02] tracking-tight">Physics of<br>Machine Learning</h1>
+      <p class="mt-5 text-base md:text-lg text-mute max-w-xl leading-relaxed">Learning is relaxation on a landscape. These notes use the statistical mechanics of spins, Gaussian integrals and the replica trick to explain what neural networks store, how they train, and why they generalise.</p>
+      <p class="mt-4 text-sm text-mute">S. Ganga Prasath &amp; Kannabiran Seshasayanan</p>
+      <div class="mt-7 flex flex-wrap gap-3">
+        <a href="#chapters" class="font-display font-bold px-5 py-2.5 bg-ink text-bg rounded-full hover:bg-acc transition-colors">Read the notes</a>
+        <a href="#lab" class="font-display font-bold px-5 py-2.5 border border-ink/30 rounded-full hover:border-acc hover:text-acc transition-colors">Play with the models</a>
+      </div>
+    </div>
+    <figure class="min-w-0 bg-panel border border-line rounded-2xl p-4">
+      <svg viewBox="0 0 420 250" class="w-full h-auto" role="img" aria-label="Energy landscape with two memory basins and a ball rolling into one">
+        <defs><linearGradient id="lg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="rgb(var(--acc))" stop-opacity=".22"/><stop offset="1" stop-color="rgb(var(--acc))" stop-opacity="0"/></linearGradient></defs>
+        <path id="land" d="M10 60 C 60 60, 70 190, 120 190 S 180 80, 215 95 S 270 210, 310 205 S 380 70, 410 50" fill="none" stroke="rgb(var(--ink))" stroke-width="2.2"/>
+        <path d="M10 60 C 60 60, 70 190, 120 190 S 180 80, 215 95 S 270 210, 310 205 S 380 70, 410 50 L410 240 L10 240Z" fill="url(#lg)"/>
+        <circle id="ball" cx="40" cy="70" r="8" fill="rgb(var(--down))"/>
+        <g font-size="11" fill="rgb(var(--mute))">
+          <text x="92" y="220">memory ξ¹</text><text x="282" y="232">memory ξ²</text>
+          <text x="22" y="40">corrupted cue</text>
+          <text x="410" y="22" text-anchor="end" fill="rgb(var(--acc))">E(s) = −½ Σ J<tspan font-size="8" dy="3">ij</tspan><tspan dy="-3"> s</tspan><tspan font-size="8" dy="3">i</tspan><tspan dy="-3">s</tspan><tspan font-size="8" dy="3">j</tspan></text>
+        </g>
+        <g transform="translate(110 150)" stroke-width="2.4"><line x1="0" y1="12" x2="0" y2="-6" stroke="rgb(var(--up))"/><path d="M-4 -2 L0 -9 L4 -2Z" fill="rgb(var(--up))"/></g>
+        <g transform="translate(130 150)" stroke-width="2.4"><line x1="0" y1="-6" x2="0" y2="12" stroke="rgb(var(--down))"/><path d="M-4 8 L0 15 L4 8Z" fill="rgb(var(--down))"/></g>
+        <g transform="translate(300 165)" stroke-width="2.4"><line x1="0" y1="12" x2="0" y2="-6" stroke="rgb(var(--up))"/><path d="M-4 -2 L0 -9 L4 -2Z" fill="rgb(var(--up))"/></g>
+        <g transform="translate(320 165)" stroke-width="2.4"><line x1="0" y1="12" x2="0" y2="-6" stroke="rgb(var(--up))"/><path d="M-4 -2 L0 -9 L4 -2Z" fill="rgb(var(--up))"/></g>
+      </svg>
+      <figcaption class="text-xs text-mute font-mono mt-2">Recall = rolling downhill to the nearest stored pattern (Ch. 3).</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- CHAPTERS -->
+<section id="chapters" class="gutter border-t border-line">
+  <div class="max-w-6xl mx-auto py-12">
+    <div class="flex flex-wrap items-end justify-between gap-4 mb-6">
+      <div><h2 class="font-display font-bold text-3xl">Chapters</h2>
+      <p class="text-mute text-sm mt-1">Each chapter is a stand-alone PDF. Filter by thread.</p></div>
+      <div id="filters" class="flex flex-wrap gap-2" role="group" aria-label="Filter chapters by thread"></div>
+    </div>
+    <ol id="chlist" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></ol>
+  </div>
+</section>
+
+<!-- LAB -->
+<section id="lab" class="gutter border-t border-line bg-panel">
+  <div class="max-w-6xl mx-auto py-12">
+    <h2 class="font-display font-bold text-3xl">Toy models</h2>
+    <p class="text-mute text-sm mt-1 mb-8 max-w-2xl">Small, exact versions of the ideas in the notes. Every one of them is worked out in the chapter it links to.</p>
+    <div class="grid lg:grid-cols-2 gap-6">
+
+      <!-- Curie-Weiss -->
+      <article class="border border-line rounded-2xl p-5 bg-bg min-w-0">
+        <header class="flex justify-between items-baseline gap-3"><h3 class="font-display font-bold text-xl">Mean field: m = tanh(βJm)</h3><a href="pdf/ch01_foundations.pdf" class="font-mono text-xs text-acc shrink-0">Ch. 1 →</a></header>
+        <p class="text-sm text-mute mt-1">The magnetisation is where the line meets the tanh. Above βJ = 1 the paramagnet m = 0 goes unstable and two ordered solutions appear: a pitchfork.</p>
+        <svg id="cw" viewBox="0 0 300 200" class="w-full h-auto mt-3" aria-label="Graphical solution of the Curie-Weiss equation"></svg>
+        <label class="block text-sm mt-2" for="beta">βJ = <span id="betav" class="font-mono"></span> · <span id="cwm" class="font-mono"></span></label>
+        <input id="beta" type="range" min="0.3" max="2.5" step="0.01" value="1.4">
+      </article>
+
+      <!-- Hopfield -->
+      <article class="border border-line rounded-2xl p-5 bg-bg min-w-0">
+        <header class="flex justify-between items-baseline gap-3"><h3 class="font-display font-bold text-xl">Hopfield recall</h3><a href="pdf/ch03_hopfield.pdf" class="font-mono text-xs text-acc shrink-0">Ch. 3 →</a></header>
+        <p class="text-sm text-mute mt-1">N = 49 neurons store patterns with the Hebb rule J = (1/N) Σ ξξᵀ. Corrupt a cue, then let asynchronous updates descend the energy.</p>
+        <div class="grid grid-cols-[minmax(0,1fr)_auto] gap-4 mt-3 items-start">
+          <div id="hgrid" class="grid grid-cols-7 gap-[3px] max-w-[260px]"></div>
+          <div class="text-xs font-mono space-y-1 min-w-[110px]">
+            <div>energy <span id="hE" class="block text-lg text-ink"></span></div>
+            <div>overlaps mμ <div id="hm" class="space-y-1 mt-1"></div></div>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-2 mt-4 text-sm">
+          <button id="hcorrupt" class="px-3 py-1.5 rounded-full border border-line hover:border-acc">Corrupt 30%</button>
+          <button id="hrun" class="px-3 py-1.5 rounded-full bg-ink text-bg hover:bg-acc">Relax</button>
+          <button id="hnext" class="px-3 py-1.5 rounded-full border border-line hover:border-acc">Next pattern</button>
+        </div>
+        <label class="block text-sm mt-3" for="hp">stored patterns P = <span id="hpv" class="font-mono"></span> (α = P/N = <span id="hav" class="font-mono"></span>; capacity ≈ 0.138)</label>
+        <input id="hp" type="range" min="1" max="12" step="1" value="3">
+      </article>
+
+      <!-- Edge of chaos -->
+      <article class="border border-line rounded-2xl p-5 bg-bg min-w-0">
+        <header class="flex justify-between items-baseline gap-3"><h3 class="font-display font-bold text-xl">Order, chaos and the edge</h3><a href="pdf/ch11_wide_networks.pdf" class="font-mono text-xs text-acc shrink-0">Ch. 11 →</a></header>
+        <p class="text-sm text-mute mt-1">A deep tanh network at infinite width. Two inputs with correlation c pass through layers via the map c → C(c). If χ = σ<sub>w</sub>² E[φ′(z)²] &lt; 1 they collapse together (order); if χ &gt; 1 they decorrelate (chaos).</p>
+        <svg id="ch" viewBox="0 0 300 200" class="w-full h-auto mt-3" aria-label="Correlation map cobweb"></svg>
+        <div class="grid sm:grid-cols-2 gap-3 mt-2">
+          <div><label class="block text-sm" for="sw">σ<sub>w</sub> = <span id="swv" class="font-mono"></span></label><input id="sw" type="range" min="0.5" max="3" step="0.01" value="1.6"></div>
+          <div><label class="block text-sm" for="sb">σ<sub>b</sub> = <span id="sbv" class="font-mono"></span></label><input id="sb" type="range" min="0" max="1" step="0.01" value="0.3"></div>
+        </div>
+        <p class="text-sm mt-2 font-mono">q* = <span id="qs"></span> · χ = <span id="chi"></span> · <span id="phase" class="font-semibold"></span></p>
+      </article>
+
+      <!-- Attention -->
+      <article class="border border-line rounded-2xl p-5 bg-bg min-w-0">
+        <header class="flex justify-between items-baseline gap-3"><h3 class="font-display font-bold text-xl">Attention as memory retrieval</h3><a href="pdf/ch13_attention.pdf" class="font-mono text-xs text-acc shrink-0">Ch. 13 →</a></header>
+        <p class="text-sm text-mute mt-1">The modern Hopfield update ξ<sub>new</sub> = X softmax(β Xᵀξ) is one attention step. Large β retrieves one stored key; small β returns a blurred average (a metastable mixture).</p>
+        <svg id="att" viewBox="0 0 300 180" class="w-full h-auto mt-3" aria-label="Softmax weights over stored patterns"></svg>
+        <label class="block text-sm mt-2" for="ab">inverse temperature β = <span id="abv" class="font-mono"></span></label>
+        <input id="ab" type="range" min="0" max="8" step="0.05" value="2">
+        <p class="text-xs text-mute font-mono mt-2">query overlaps with 6 stored keys: 0.9, 0.7, 0.4, 0.3, 0.1, −0.2</p>
+      </article>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="gutter border-t border-line">
+  <div class="max-w-6xl mx-auto py-6 text-xs font-mono text-mute flex flex-wrap justify-between gap-2">
+    <span>AM5000 Physics of Machine Learning · IIT Madras</span><span>Notes typeset in LaTeX; PDFs open in a new tab.</span>
+  </div>
+</footer>
+
+<script>
+const THREADS = { found: ['Foundations','acc'], mem: ['Memory & energy','up'], rep: ['Replica method','sg'], dyn: ['Kernels & dynamics','sky'], gen: ['Generative & information','down'] };
+const CH = [
+ [1,'foundations','Mathematical Foundations','Probability, Gaussian integrals, Wick, saddle points, Hubbard–Stratonovich and Curie–Weiss mean field.','found'],
+ [2,'ntk','The Neural Tangent Kernel','Learning as relaxation: gradient flow in function space, spectral bias, lazy vs rich training, NTK vs mean-field parametrisation.','dyn'],
+ [3,'hopfield','Hopfield Networks','Memory as an energy landscape: Hebbian learning, signal-to-noise capacity, mean-field retrieval, Plefka expansion and TAP.','mem'],
+ [4,'rbm','Restricted Boltzmann Machines','Learning a distribution with hidden units: likelihood gradient, Gibbs sampling, contrastive divergence, a fully worked 2+1 RBM.','mem'],
+ [5,'replica_toy','Replica Method I','Why we average a logarithm, the replica identity, and a single spin in a random field checked against the exact answer.','rep'],
+ [6,'replica_mlp','Replica Method II','A two-weight network treated as a spin system: the quenched free energy and its order parameter.','rep'],
+ [7,'replica_sk','Replica Method III','The Sherrington–Kirkpatrick spin glass: overlaps, the replica-symmetric ansatz and the spin-glass transition.','rep'],
+ [8,'replica_hopfield','Replica Method IV','The storage capacity of the Hopfield model, α<sub>c</sub> ≈ 0.138, from the replica calculation.','rep'],
+ [9,'diffusion','Diffusion & Flow Matching','Generation as transport of probability: Langevin, Fokker–Planck, time reversal, score learning and symmetry breaking.','gen'],
+ [10,'schrodinger_bridge','Optimal Control & the Schrödinger Bridge','Optimal transport, stochastic control, Sinkhorn, and diffusion models as half-bridges.','gen'],
+ [11,'wide_networks','Wide Random Networks','Networks at initialisation as Gaussian processes, cumulants and 1/n corrections, order–chaos transition, random RNNs.','dyn'],
+ [12,'scaling_laws','Neural Scaling Laws','Power-law learning curves from power-law kernel spectra, dynamical mean-field theory and double descent.','dyn'],
+ [13,'attention','From Associative Memory to Attention','Dense associative memories, the softmax update as attention, and data-dependent kernels in transformers.','mem'],
+ [14,'information_bottleneck','The Information Bottleneck','What a representation should keep: Boltzmann solutions, the Gaussian bottleneck transition, and open directions.','gen'],
+];
+const pad = n => String(n).padStart(2,'0');
+const filters = document.getElementById('filters'), list = document.getElementById('chlist');
+let active = 'all';
+function chip(key, label) {
+  const b = document.createElement('button');
+  b.className = 'chip text-xs font-mono px-3 py-1.5 rounded-full border border-line hover:border-acc';
+  b.textContent = label; b.setAttribute('aria-pressed', key === active);
+  b.onclick = () => { active = key; [...filters.children].forEach(c => c.setAttribute('aria-pressed', c === b)); render(); };
+  filters.appendChild(b);
+}
+chip('all','All'); Object.entries(THREADS).forEach(([k,[l]]) => chip(k,l));
+function render() {
+  list.innerHTML = '';
+  CH.filter(c => active === 'all' || c[4] === active).forEach(([n,slug,title,blurb,th]) => {
+    const [tl, col] = THREADS[th];
+    const li = document.createElement('li');
+    li.innerHTML = `<a href="pdf/ch${pad(n)}_${slug}.pdf" target="_blank" rel="noopener" class="group flex flex-col h-full bg-panel border border-line rounded-xl p-5 hover:border-${col} transition-colors">
+      <div class="flex items-center justify-between font-mono text-xs"><span class="text-${col}">${tl}</span><span class="text-mute">PDF ↗</span></div>
+      <div class="mt-3 flex items-baseline gap-3"><span class="font-display font-extrabold text-3xl text-${col}">${pad(n)}</span><h3 class="font-display font-bold text-lg leading-tight group-hover:text-${col}">${title}</h3></div>
+      <p class="text-sm text-mute mt-2 leading-relaxed">${blurb}</p></a>`;
+    list.appendChild(li);
+  });
+}
+render();
+
+/* ---------- shared SVG helpers ---------- */
+const NS = 'http://www.w3.org/2000/svg';
+const css = v => `rgb(var(--${v}))`;
+function el(svg, tag, attrs) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); svg.appendChild(e); return e; }
+function axes(svg, X, Y, xl, yl) {
+  svg.innerHTML = '';
+  el(svg,'line',{x1:X(X.lo),y1:Y(0),x2:X(X.hi),y2:Y(0),stroke:css('mute'),'stroke-width':.8});
+  el(svg,'line',{x1:X(0),y1:Y(Y.lo),x2:X(0),y2:Y(Y.hi),stroke:css('mute'),'stroke-width':.8});
+  const t1 = el(svg,'text',{x:X(X.hi)-4,y:Y(0)-6,'font-size':10,fill:css('mute'),'text-anchor':'end'}); t1.textContent = xl;
+  const t2 = el(svg,'text',{x:X(0)+6,y:Y(Y.hi)+10,'font-size':10,fill:css('mute')}); t2.textContent = yl;
+}
+function scale(lo, hi, a, b) { const f = v => a + (v-lo)/(hi-lo)*(b-a); f.lo = lo; f.hi = hi; return f; }
+function path(svg, f, X, lo, hi, color, w=2, dash) {
+  let d = ''; for (let i = 0; i <= 200; i++) { const x = lo + (hi-lo)*i/200; d += (i?'L':'M') + X(x).toFixed(1) + ' ' + f(x).toFixed(1); }
+  const p = el(svg,'path',{d, fill:'none', stroke:color, 'stroke-width':w}); if (dash) p.setAttribute('stroke-dasharray', dash); return p;
+}
+
+/* ---------- Curie-Weiss ---------- */
+(() => {
+  const svg = document.getElementById('cw'), s = document.getElementById('beta');
+  const X = scale(-1.6, 1.6, 20, 290), Y = scale(-1.2, 1.2, 190, 10);
+  function draw() {
+    const b = +s.value; axes(svg, X, Y, 'm', 'tanh(βJm)');
+    path(svg, m => Y(m), X, -1.2, 1.2, css('mute'), 1.2, '4 3');
+    path(svg, m => Y(Math.tanh(b*m)), X, -1.6, 1.6, css('acc'), 2.4);
+    let m = 0.9; for (let i = 0; i < 500; i++) m = Math.tanh(b*m);
+    const sols = b > 1 ? [-m, 0, m] : [0];
+    sols.forEach(v => el(svg,'circle',{cx:X(v),cy:Y(v),r:5,fill: v===0 ? (b>1?css('down'):css('up')) : css('up'), stroke:css('panel'),'stroke-width':1.5}));
+    document.getElementById('betav').textContent = b.toFixed(2);
+    document.getElementById('cwm').textContent = b > 1 ? `ordered, m = ±${m.toFixed(3)}` : 'paramagnet, m = 0';
+  }
+  s.oninput = draw; draw();
+})();
+
+/* ---------- Hopfield ---------- */
+(() => {
+  const N = 49, grid = document.getElementById('hgrid');
+  let rng = 7; const rand = () => (rng = (rng*16807) % 2147483647) / 2147483647;
+  const base = [
+    '0011100'+'0100010'+'1000001'+'1000001'+'1000001'+'0100010'+'0011100',
+    '1000001'+'0100010'+'0010100'+'0001000'+'0010100'+'0100010'+'1000001',
+    '0001000'+'0001000'+'0001000'+'1111111'+'0001000'+'0001000'+'0001000',
+  ].map(s => [...s].map(c => c === '1' ? 1 : -1));
+  let P = 3, pats = [], J, s, cur = 0, timer;
+  function build() {
+    pats = base.slice(0, Math.min(P,3));
+    while (pats.length < P) pats.push(Array.from({length:N}, () => rand() < .5 ? 1 : -1));
+    J = Array.from({length:N}, () => new Float64Array(N));
+    pats.forEach(x => { for (let i=0;i<N;i++) for (let j=0;j<N;j++) if (i!==j) J[i][j] += x[i]*x[j]/N; });
+  }
+  const cells = Array.from({length:N}, () => { const d = document.createElement('div'); d.className = 'cell'; grid.appendChild(d); return d; });
+  const energy = () => { let e = 0; for (let i=0;i<N;i++) for (let j=0;j<N;j++) e -= .5*J[i][j]*s[i]*s[j]; return e; };
+  function show() {
+    cells.forEach((c,i) => c.style.background = s[i] > 0 ? css('ink') : css('line'));
+    document.getElementById('hE').textContent = energy().toFixed(2);
+    const box = document.getElementById('hm'); box.innerHTML = '';
+    pats.slice(0, 6).forEach((x, mu) => {
+      const m = x.reduce((a,v,i) => a + v*s[i], 0)/N;
+      box.insertAdjacentHTML('beforeend', `<div class="flex items-center gap-2"><span class="w-6">${mu+1}</span><span class="h-2 rounded-full" style="width:${Math.abs(m)*60}px;background:${m>0?css('up'):css('down')}"></span><span>${m.toFixed(2)}</span></div>`);
+    });
+    document.getElementById('hpv').textContent = P; document.getElementById('hav').textContent = (P/N).toFixed(3);
+  }
+  function reset() { clearInterval(timer); build(); cur = Math.min(cur, P-1); s = pats[cur].slice(); show(); }
+  document.getElementById('hcorrupt').onclick = () => { clearInterval(timer); for (let i=0;i<N;i++) if (rand() < .3) s[i] = -s[i]; show(); };
+  document.getElementById('hnext').onclick = () => { cur = (cur+1) % P; reset(); };
+  document.getElementById('hrun').onclick = () => {
+    clearInterval(timer); let sweeps = 0;
+    timer = setInterval(() => {
+      let changed = 0;
+      for (let k=0;k<N;k++) { const i = Math.floor(rand()*N); let h = 0; for (let j=0;j<N;j++) h += J[i][j]*s[j]; const ns = h >= 0 ? 1 : -1; if (ns !== s[i]) { s[i] = ns; changed++; } }
+      show(); if (!changed || ++sweeps > 30) clearInterval(timer);
+    }, 120);
+  };
+  const hp = document.getElementById('hp'); hp.oninput = () => { P = +hp.value; reset(); };
+  reset();
+})();
+
+/* ---------- Edge of chaos (tanh) ---------- */
+(() => {
+  const svg = document.getElementById('ch'), sw = document.getElementById('sw'), sb = document.getElementById('sb');
+  const GH = 40; const gz = [], gw = [];
+  for (let i = 0; i < GH; i++) { const z = -5 + 10*(i+.5)/GH; gz.push(z); gw.push(Math.exp(-z*z/2)/Math.sqrt(2*Math.PI) * 10/GH); }
+  const E1 = f => gz.reduce((a,z,i) => a + gw[i]*f(z), 0);
+  const E2 = f => { let a = 0; for (let i=0;i<GH;i++) for (let j=0;j<GH;j++) a += gw[i]*gw[j]*f(gz[i],gz[j]); return a; };
+  function draw() {
+    const w2 = (+sw.value)**2, b2 = (+sb.value)**2;
+    let q = 1; for (let k = 0; k < 200; k++) q = w2*E1(z => Math.tanh(Math.sqrt(q)*z)**2) + b2;
+    const sq = Math.sqrt(q);
+    const C = c => { const s2 = Math.sqrt(Math.max(0, 1-c*c)); return (w2*E2((z1,z2) => Math.tanh(sq*z1)*Math.tanh(sq*(c*z1+s2*z2))) + b2)/q; };
+    const chi = w2*E1(z => (1/Math.cosh(sq*z))**4);
+    const X = scale(0, 1, 30, 290), Y = scale(0, 1, 185, 12);
+    svg.innerHTML = '';
+    el(svg,'rect',{x:30,y:12,width:260,height:173,fill:'none',stroke:css('line')});
+    path(svg, c => Y(c), X, 0, 1, css('mute'), 1.2, '4 3');
+    const cs = Array.from({length:41}, (_,i) => i/40), Cs = cs.map(C);
+    let d = ''; cs.forEach((c,i) => d += (i?'L':'M') + X(c).toFixed(1) + ' ' + Y(Cs[i]).toFixed(1));
+    el(svg,'path',{d, fill:'none', stroke:css('acc'), 'stroke-width':2.4});
+    let c = 0.2, w = `M${X(c)} ${Y(0)}`;
+    for (let k = 0; k < 14; k++) { const n = C(c); w += ` L${X(c)} ${Y(n)} L${X(n)} ${Y(n)}`; c = n; }
+    el(svg,'path',{d:w, fill:'none', stroke: chi < 1 ? css('up') : css('down'), 'stroke-width':1.3});
+    [['c (layer ℓ)', 288, 180, 'end'], ['c (layer ℓ+1)', 34, 24, 'start']].forEach(([t,x,y,a]) => { const e = el(svg,'text',{x,y,'font-size':10,fill:css('mute'),'text-anchor':a}); e.textContent = t; });
+    document.getElementById('swv').textContent = (+sw.value).toFixed(2);
+    document.getElementById('sbv').textContent = (+sb.value).toFixed(2);
+    document.getElementById('qs').textContent = q.toFixed(3);
+    document.getElementById('chi').textContent = chi.toFixed(3);
+    const ph = document.getElementById('phase');
+    ph.textContent = Math.abs(chi-1) < .03 ? 'edge of chaos' : chi < 1 ? 'ordered' : 'chaotic';
+    ph.style.color = Math.abs(chi-1) < .03 ? css('amb') : chi < 1 ? css('up') : css('down');
+  }
+  sw.oninput = sb.oninput = draw; draw();
+})();
+
+/* ---------- Attention ---------- */
+(() => {
+  const svg = document.getElementById('att'), s = document.getElementById('ab');
+  const ov = [0.9, 0.7, 0.4, 0.3, 0.1, -0.2];
+  function draw() {
+    const b = +s.value, e = ov.map(o => Math.exp(b*o)), Z = e.reduce((a,v) => a+v, 0), p = e.map(v => v/Z);
+    svg.innerHTML = '';
+    const bw = 32, gap = 10, x0 = 38;
+    el(svg,'line',{x1:30,y1:150,x2:290,y2:150,stroke:css('mute'),'stroke-width':.8});
+    p.forEach((v,i) => {
+      const h = v*130, x = x0 + i*(bw+gap);
+      el(svg,'rect',{x, y:150-h, width:bw, height:h, rx:3, fill: i===0 ? css('acc') : css('sky'), 'fill-opacity': i===0 ? 1 : .55});
+      const t = el(svg,'text',{x:x+bw/2,y:145-h,'font-size':10,fill:css('ink'),'text-anchor':'middle'}); t.textContent = v.toFixed(2);
+      const k = el(svg,'text',{x:x+bw/2,y:166,'font-size':10,fill:css('mute'),'text-anchor':'middle'}); k.textContent = `key ${i+1}`;
+    });
+    document.getElementById('abv').textContent = b.toFixed(2);
+  }
+  s.oninput = draw; draw();
+})();
+
+/* Hero ball rolls into the left basin once */
+(() => {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const p = document.getElementById('land'), ball = document.getElementById('ball'), L = p.getTotalLength();
+  let t0; const end = 0.27*L;
+  function step(ts) { t0 ??= ts; const u = Math.min(1, (ts-t0)/1600), e = 1-(1-u)**3, pt = p.getPointAtLength(0.03*L + e*(end-0.03*L));
+    ball.setAttribute('cx', pt.x); ball.setAttribute('cy', pt.y-8); if (u < 1) requestAnimationFrame(step); }
+  setTimeout(() => requestAnimationFrame(step), 400);
+})();
+</script>
+</body>
+</html>
