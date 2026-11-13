@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Interdisciplinary Dual Degree (IDDD) — CCSD, IIT Madras</title>
+<meta name="description" content="The Centre for Complex Systems & Dynamics (CCSD) at IIT Madras — an interdisciplinary centre studying complex dynamical systems across social dynamics, climate, neuroscience, biology, multi-physics systems and active flows." />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='4' fill='%234f46e5'/%3E%3Ccircle cx='6' cy='9' r='2.5' fill='%23d4a017'/%3E%3Ccircle cx='26' cy='11' r='2.5' fill='%23d4a017'/%3E%3Ccircle cx='9' cy='25' r='2.5' fill='%234f46e5'/%3E%3Ccircle cx='24' cy='24' r='2.5' fill='%234f46e5'/%3E%3Cg stroke='%234f46e5' stroke-width='1' opacity='.5'%3E%3Cline x1='16' y1='16' x2='6' y2='9'/%3E%3Cline x1='16' y1='16' x2='26' y2='11'/%3E%3Cline x1='16' y1='16' x2='9' y2='25'/%3E%3Cline x1='16' y1='16' x2='24' y2='24'/%3E%3C/g%3E%3C/svg%3E" />
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          display: ['"EB Garamond"', 'Garamond', 'Georgia', 'serif'],
+          sans: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
+          mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
+        },
+        colors: {
+          ink: '#1a1830',
+          indigo: {
+            50: '#eef0fb', 100: '#dde0f7', 200: '#bcc2ef', 300: '#949ce3',
+            400: '#6d76d6', 500: '#4f46e5', 600: '#4038c4', 700: '#342d9c',
+            800: '#2b2678', 900: '#231f5c', 950: '#161232',
+          },
+          violet: { 400: '#9d7be0', 500: '#8257d1', 600: '#6d3fbf' },
+          gold: { 300: '#e8c874', 400: '#dcae43', 500: '#c8971f', 600: '#a87c15' },
+          mist: '#f5f5fb',
+        },
+        maxWidth: { '8xl': '88rem' },
+      },
+    },
+  };
+</script>
+<style>
+  /* Readability bump: scale the whole type system up ~12.5% (16px -> 18px root) */
+  html { font-size: 18px; scroll-padding-top: 5rem; }
+  body { -webkit-font-smoothing: antialiased; }
+  .u-line { text-underline-offset: 4px; text-decoration-thickness: 1.5px; }
+  .grid-fade {
+    background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,.14) 1px, transparent 0);
+    background-size: 26px 26px;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+  }
+  ::selection { background: #dcae43; color:#231f5c; }
+  /* EB Garamond reads smaller than the previous serif — scale it up for parity */
+  .font-display { font-size: 1.12em; line-height: 1.08; letter-spacing: -0.005em; }
+  .fac-img { object-fit: cover; }
+  /* Carousel */
+  .carousel-track { transition: transform .7s cubic-bezier(.4,0,.2,1); }
+
+  /* IDDD page: accordions and elective filters */
+  details.acc > summary::-webkit-details-marker { display: none; }
+  details.acc[open] .chev { transform: rotate(180deg); }
+  .fchip { border: 1px solid rgba(26,24,48,.15); border-radius: 9999px; padding: .3rem .8rem; font-size: .8rem; font-weight: 500; color: rgba(26,24,48,.75); background: #fff; transition: all .15s; }
+  .fchip:hover { border-color: #949ce3; color: #342d9c; }
+  .fchip.is-on { background: #2b2678; border-color: #2b2678; color: #f5f5fb; }
+</style>
+</head>
+<body class="bg-mist text-ink font-sans antialiased">
+<!-- ============ NAV ============ -->
+<header class="fixed inset-x-0 top-0 z-50 border-b border-indigo-950/10 bg-mist/85 backdrop-blur">
+  <nav class="mx-auto flex max-w-8xl items-center justify-between px-5 py-3 lg:px-8">
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="assets/logo.png" alt="CCSD logo" class="h-14 w-14 rounded-lg object-contain" />
+      <span class="hidden h-14 w-14 place-items-center rounded-lg bg-indigo-800 font-display text-2xl font-600 text-mist">C</span>
+      <span class="leading-tight">
+        <span class="block whitespace-nowrap font-display text-lg font-600 tracking-tight text-indigo-800 sm:text-xl">Centre for Complex Systems &amp; Dynamics</span>
+        <span class="mt-0.5 block text-[10px] uppercase tracking-[0.18em] text-indigo-600/70">IIT Madras</span>
+      </span>
+    </a>
+    <div class="ml-auto mr-6 hidden items-center gap-6 lg:flex text-[15px] font-500 text-indigo-950/80">
+      <!-- Research dropdown -->
+      <div class="group relative">
+        <button class="flex items-center gap-1 py-2 hover:text-gold-500 transition ">
+          Research
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-3.5 w-3.5 transition group-hover:rotate-180"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+        </button>
+        <div class="invisible absolute left-1/2 top-full z-50 w-56 -translate-x-1/2 pt-2 opacity-0 transition-all duration-150 group-hover:visible group-hover:opacity-100">
+          <div class="overflow-hidden rounded-xl border border-indigo-950/10 bg-white shadow-lg shadow-indigo-950/10">
+            <a href="themes.html" class="flex items-start gap-3 px-4 py-3 hover:bg-indigo-50">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="mt-0.5 h-5 w-5 shrink-0 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z"/></svg>
+              <span><span class="block font-600 text-indigo-900">Research Themes</span><span class="block text-xs text-indigo-950/60">Six research directions</span></span>
+            </a>
+            <a href="projects.html" class="flex items-start gap-3 border-t border-indigo-950/5 px-4 py-3 hover:bg-indigo-50">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="mt-0.5 h-5 w-5 shrink-0 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z"/></svg>
+              <span><span class="block font-600 text-indigo-900">Research Projects</span><span class="block text-xs text-indigo-950/60">Ongoing projects</span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <a href="people.html" class="py-2 hover:text-gold-500 transition ">People</a>
+
+      <!-- Academics dropdown -->
+      <div class="group relative">
+        <button class="flex items-center gap-1 py-2 hover:text-gold-500 transition ">
+          Academics
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-3.5 w-3.5 transition group-hover:rotate-180"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+        </button>
+        <div class="invisible absolute left-1/2 top-full z-50 w-64 -translate-x-1/2 pt-2 opacity-0 transition-all duration-150 group-hover:visible group-hover:opacity-100">
+          <div class="overflow-hidden rounded-xl border border-indigo-950/10 bg-white shadow-lg shadow-indigo-950/10">
+            <a href="iddd.html" class="flex items-start gap-3 px-4 py-3 hover:bg-indigo-50">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="mt-0.5 h-5 w-5 shrink-0 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+              <span><span class="block font-600 text-indigo-900">Interdisciplinary Dual Degree</span><span class="block text-xs text-indigo-950/60">IDDD · Complex Systems</span></span>
+            </a>
+            <a href="https://ge.iitm.ac.in/programs/student-inbound/i2mp/complex-systems-and-dynamics" target="_blank" rel="noopener" class="flex items-start gap-3 border-t border-indigo-950/5 px-4 py-3 hover:bg-indigo-50">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="mt-0.5 h-5 w-5 shrink-0 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0a8.949 8.949 0 0 0 4.951-1.488A3.987 3.987 0 0 0 13 16h-2a3.987 3.987 0 0 0-3.951 3.512A8.949 8.949 0 0 0 12 21Zm0-18a8.949 8.949 0 0 0-4.951 1.488M12 3a8.949 8.949 0 0 1 4.951 1.488M3.6 9h16.8M3.6 15h16.8"/></svg>
+              <span><span class="block font-600 text-indigo-900">International M.Tech</span><span class="block text-xs text-indigo-950/60">I2MP · via Global Engagement ↗</span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <a href="events.html" class="py-2 hover:text-gold-500 transition ">Events</a>
+      <a href="index.html#contact" class="py-2 hover:text-gold-500 transition">Contact</a>
+    </div>
+    <a href="join.html" class="hidden lg:inline-flex rounded-full bg-gold-400 px-4 py-2 text-sm font-600 text-indigo-950 shadow-sm transition hover:bg-gold-300">Join us</a>
+    <button id="burger" class="lg:hidden grid h-10 w-10 place-items-center rounded-lg text-indigo-800" aria-label="Open menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </nav>
+  <div id="mobileMenu" class="hidden border-t border-indigo-950/10 bg-mist px-5 pb-4 lg:hidden">
+    <div class="flex flex-col gap-1 pt-2 text-[15px] font-500 text-indigo-950">
+      <p class="px-3 pt-3 pb-1 text-[11px] font-600 uppercase tracking-wide text-indigo-400">Research</p>
+      <a href="themes.html" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z"/></svg>Research Themes</a>
+      <a href="projects.html" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z"/></svg>Research Projects</a>
+      <a href="people.html" class="mt-1 flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"/></svg>People</a>
+      <p class="px-3 pt-3 pb-1 text-[11px] font-600 uppercase tracking-wide text-indigo-400">Academics</p>
+      <a href="iddd.html" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443"/></svg>Interdisciplinary Dual Degree</a>
+      <a href="https://ge.iitm.ac.in/programs/student-inbound/i2mp/complex-systems-and-dynamics" target="_blank" rel="noopener" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0a8.949 8.949 0 0 0 4.951-1.488A3.987 3.987 0 0 0 13 16h-2a3.987 3.987 0 0 0-3.951 3.512A8.949 8.949 0 0 0 12 21Zm0-18a8.949 8.949 0 0 0-4.951 1.488M3.6 9h16.8M3.6 15h16.8"/></svg>International M.Tech ↗</a>
+      <p class="px-3 pt-3 pb-1 text-[11px] font-600 uppercase tracking-wide text-indigo-400">More</p>
+      <a href="events.html" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"/></svg>Events</a>
+      <a href="index.html#contact" class="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-indigo-100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4 text-indigo-500"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></svg>Contact</a>
+      <a href="join.html" class="mt-2 flex items-center justify-center gap-2 rounded-full bg-gold-400 px-3 py-2.5 font-600 text-indigo-950">Join us</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="relative overflow-hidden bg-indigo-950 text-mist">
+  <div class="absolute inset-0 grid-fade opacity-30"></div>
+  <div class="absolute -right-24 -top-24 h-96 w-96 rounded-full bg-violet-600/30 blur-3xl"></div>
+  <div class="absolute -bottom-32 left-10 h-80 w-80 rounded-full bg-gold-500/15 blur-3xl"></div>
+  <div class="relative mx-auto max-w-8xl px-5 pb-16 pt-28 lg:px-8 lg:pb-20 lg:pt-32">
+    <nav aria-label="Breadcrumb" class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-100/60">
+      <a href="index.html" class="hover:text-gold-300">CCSD</a><span class="mx-2">/</span><span>Academics</span><span class="mx-2">/</span><span class="text-gold-300">IDDD</span>
+    </nav>
+    <p class="mt-8 font-mono text-xs uppercase tracking-[0.16em] text-gold-300">Interdisciplinary dual degree · Semesters 7–10 · Via SIDIS</p>
+    <h1 class="mt-3 max-w-4xl font-display text-4xl font-500 leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">Complex Systems &amp; Dynamics</h1>
+    <p class="mt-5 max-w-2xl text-base leading-relaxed text-indigo-100/90 sm:text-lg">A B.Tech + M.Tech dual-degree track, open to IIT Madras B.Tech students of any stream, in the modelling and analysis of complex dynamical systems.</p>
+    <div class="mt-8 flex flex-wrap gap-3 text-sm">
+      <a href="#curriculum" class="inline-flex items-center gap-2 rounded-full bg-gold-400 px-5 py-2.5 font-600 uppercase tracking-wide text-indigo-950 transition hover:bg-gold-300">Curriculum <span aria-hidden="true">→</span></a>
+      <a href="IDDD-CSD.pdf" class="inline-flex items-center gap-2 rounded-full border border-indigo-200/30 px-5 py-2.5 font-600 text-mist transition hover:bg-indigo-900/60"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg> Curriculum PDF</a>
+    </div>
+  </div>
+</section>
+
+<!-- Key facts -->
+<section class="border-b border-indigo-950/10 bg-white">
+  <div class="mx-auto grid max-w-8xl grid-cols-1 divide-y divide-indigo-950/10 px-5 sm:grid-cols-2 sm:divide-y-0 lg:grid-cols-4 lg:divide-x lg:px-8">
+      <div class="flex items-center gap-3 px-5 py-5 lg:px-6">
+        <span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-gold-400/15 text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-5 w-5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg></span>
+        <span><span class="block font-mono text-[11px] uppercase tracking-[0.14em] text-gold-600">Duration</span><span class="block font-600 text-indigo-900">Sem 7 – Sem 10</span></span>
+      </div>
+      <div class="flex items-center gap-3 px-5 py-5 lg:px-6">
+        <span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-gold-400/15 text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-5 w-5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 14.25a7.454 7.454 0 0 0 .981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 0 0 7.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 0 0 2.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 0 1 2.916.52 6.003 6.003 0 0 1-5.395 4.972m0 0a6.726 6.726 0 0 1-2.749 1.35m0 0a6.772 6.772 0 0 1-3.044 0"/></svg></span>
+        <span><span class="block font-mono text-[11px] uppercase tracking-[0.14em] text-gold-600">Degree awarded</span><span class="block font-600 text-indigo-900">B.Tech + M.Tech</span></span>
+      </div>
+      <div class="flex items-center gap-3 px-5 py-5 lg:px-6">
+        <span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-gold-400/15 text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-5 w-5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z"/></svg></span>
+        <span><span class="block font-mono text-[11px] uppercase tracking-[0.14em] text-gold-600">Total credits</span><span class="block font-600 text-indigo-900">160 (min.)</span></span>
+      </div>
+      <div class="flex items-center gap-3 px-5 py-5 lg:px-6">
+        <span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-gold-400/15 text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-5 w-5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg></span>
+        <span><span class="block font-mono text-[11px] uppercase tracking-[0.14em] text-gold-600">Eligibility</span><span class="block font-600 text-indigo-900">CGPA ≥ 8.0 after Sem 5</span></span>
+      </div>
+  </div>
+</section>
+
+<!-- ============ OVERVIEW ============ -->
+<section id="overview" class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-20">
+  <div class="grid gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
+    <div class="reveal">
+      <h2 class="font-display text-3xl font-500 leading-tight tracking-tight text-indigo-900 sm:text-4xl">Overview</h2>
+      <div class="mt-3 h-px w-full bg-indigo-950/10"></div>
+      <p class="mt-6 text-base leading-relaxed text-indigo-950/80">The IDDD in Complex Systems &amp; Dynamics introduces students to the techniques used to model complex systems and to investigate challenging dynamical problems in climate science, neuroscience, biological systems and beyond. It builds an appreciation of the universal features that recur across seemingly different systems, and equips students with the mathematical and computational tools to study them.</p>
+      <p class="mt-4 text-base leading-relaxed text-indigo-950/80">Students earn the dual degree alongside their core B.Tech discipline. From Semester 7 they take core courses in networks, nonlinear dynamics and mathematics, at least 45 credits of electives from departments across the Institute, and then a three-part research project supervised by centre faculty.</p>
+      <div class="mt-6 flex items-start gap-4 rounded-2xl border border-indigo-200 bg-indigo-50 p-5">
+        <span class="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-indigo-600 text-white"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-5 w-5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg></span>
+        <p class="text-[15px] leading-relaxed text-indigo-950/80">All IDDD programmes at IIT Madras are administered by the <a href="https://sidis.iitm.ac.in" target="_blank" rel="noopener" class="u-line font-600 text-indigo-700 underline hover:text-gold-600">School of Interdisciplinary Studies (SIDIS)</a>, the nodal entity for interdisciplinary education at the Institute.</p>
+      </div>
+    </div>
+    <figure class="reveal relative overflow-hidden rounded-3xl border border-indigo-950/10 shadow-sm">
+      <img src="assets/pixabay/iddd-campus.jpg" alt="Students in a lecture hall with equations projected on screen" class="h-full min-h-[18rem] w-full object-cover" loading="lazy" />
+      <div class="absolute inset-0 bg-gradient-to-t from-indigo-950/75 via-indigo-950/10 to-transparent"></div>
+      <figcaption class="absolute bottom-5 left-5 right-5">
+        <p class="font-display text-2xl font-600 text-mist">Learn the language of complexity</p>
+        <p class="mt-1 text-sm text-mist/85">Networks, nonlinear dynamics and computation, taught by researchers working at the frontier.</p>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ WHAT THE PROGRAMME DEVELOPS ============ -->
+<section class="border-y border-indigo-950/10 bg-white">
+  <div class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-20">
+    <h2 class="font-display text-3xl font-500 leading-tight tracking-tight text-indigo-900 sm:text-4xl">What the programme develops</h2>
+    <div class="mt-3 h-px w-full bg-indigo-950/10"></div>
+    <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="reveal rounded-2xl border border-indigo-950/10 bg-mist p-6 shadow-sm">
+          <div class="mb-3 grid h-11 w-11 place-items-center rounded-xl bg-indigo-100 text-indigo-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-6 w-6" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V13.5Zm0 2.25h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V18Zm2.498-6.75h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V13.5Zm0 2.25h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V18Zm2.504-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V18Zm2.498-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5ZM8.25 6h7.5v2.25h-7.5V6ZM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 0 0 2.25 2.25h10.5a2.25 2.25 0 0 0 2.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0 0 12 2.25Z"/></svg></div>
+          <h3 class="font-display text-lg font-600 text-indigo-900">Mathematical modelling</h3>
+          <p class="mt-1.5 text-[15px] leading-relaxed text-indigo-950/75">Formulating and analysing models of systems with many interacting degrees of freedom.</p>
+        </div>
+        <div class="reveal rounded-2xl border border-indigo-950/10 bg-mist p-6 shadow-sm">
+          <div class="mb-3 grid h-11 w-11 place-items-center rounded-xl bg-indigo-100 text-indigo-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-6 w-6" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l3-6 3 9 3-12 3 9 3-6 2.25 4.5"/></svg></div>
+          <h3 class="font-display text-lg font-600 text-indigo-900">Dynamical-systems thinking</h3>
+          <p class="mt-1.5 text-[15px] leading-relaxed text-indigo-950/75">Stability, bifurcations, chaos and the universal features that recur across domains.</p>
+        </div>
+        <div class="reveal rounded-2xl border border-indigo-950/10 bg-mist p-6 shadow-sm">
+          <div class="mb-3 grid h-11 w-11 place-items-center rounded-xl bg-indigo-100 text-indigo-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-6 w-6" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z"/></svg></div>
+          <h3 class="font-display text-lg font-600 text-indigo-900">Network science</h3>
+          <p class="mt-1.5 text-[15px] leading-relaxed text-indigo-950/75">Representing and analysing interacting systems as complex networks.</p>
+        </div>
+        <div class="reveal rounded-2xl border border-indigo-950/10 bg-mist p-6 shadow-sm">
+          <div class="mb-3 grid h-11 w-11 place-items-center rounded-xl bg-indigo-100 text-indigo-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-6 w-6" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 0 0 2.25-2.25V6.75a2.25 2.25 0 0 0-2.25-2.25H6.75A2.25 2.25 0 0 0 4.5 6.75v10.5a2.25 2.25 0 0 0 2.25 2.25Zm.75-12h9v9h-9v-9Z"/></svg></div>
+          <h3 class="font-display text-lg font-600 text-indigo-900">Scientific computing</h3>
+          <p class="mt-1.5 text-[15px] leading-relaxed text-indigo-950/75">Numerical methods and simulation for large, nonlinear and stochastic models.</p>
+        </div>
+        <div class="reveal rounded-2xl border border-indigo-950/10 bg-mist p-6 shadow-sm">
+          <div class="mb-3 grid h-11 w-11 place-items-center rounded-xl bg-indigo-100 text-indigo-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-6 w-6" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z"/></svg></div>
+          <h3 class="font-display text-lg font-600 text-indigo-900">Data-driven methods</h3>
+          <p class="mt-1.5 text-[15px] leading-relaxed text-indigo-950/75">Combining data and machine learning with the first principles of physics.</p>
+        </div>
+        <div class="reveal rounded-2xl border border-indigo-950/10 bg-mist p-6 shadow-sm">
+          <div class="mb-3 grid h-11 w-11 place-items-center rounded-xl bg-indigo-100 text-indigo-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-6 w-6" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"/></svg></div>
+          <h3 class="font-display text-lg font-600 text-indigo-900">Research practice</h3>
+          <p class="mt-1.5 text-[15px] leading-relaxed text-indigo-950/75">A year-long supervised research project, from question to results.</p>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROGRAMME STRUCTURE ============ -->
+<section id="structure" class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-20">
+  <h2 class="font-display text-3xl font-500 leading-tight tracking-tight text-indigo-900 sm:text-4xl">Programme structure</h2>
+  <div class="mt-3 h-px w-full bg-indigo-950/10"></div>
+  <p class="mt-6 max-w-3xl text-base leading-relaxed text-indigo-950/80">The dual degree requires at least 160 credits beyond the B.Tech, in three parts.</p>
+  <div class="mt-6 flex h-9 w-full overflow-hidden rounded-full border border-indigo-950/10 shadow-sm" role="img" aria-label="Credits: core 30, electives 45, projects 85"><div class="bg-indigo-600 flex items-center justify-center text-xs font-600 text-white" style="width:18.75%">30</div><div class="bg-violet-500 flex items-center justify-center text-xs font-600 text-white" style="width:28.12%">45</div><div class="bg-gold-400 flex items-center justify-center text-xs font-600 text-indigo-950" style="width:53.12%">85</div></div>
+  <div class="mt-8 grid gap-5 lg:grid-cols-3">
+        <a href="#core" class="reveal group block rounded-2xl border border-indigo-950/10 bg-white p-6 shadow-sm transition hover:border-indigo-300">
+          <div class="flex items-center gap-3">
+            <span class="grid h-9 w-9 place-items-center rounded-lg bg-indigo-600 font-display text-lg font-600 text-white">A</span>
+            <h3 class="font-display text-xl font-600 text-indigo-900">Core courses</h3>
+            <span class="ml-auto font-display text-2xl font-600 text-indigo-900">30<span class="ml-1 font-sans text-xs font-500 text-indigo-950/50">credits</span></span>
+          </div>
+          <p class="mt-3 text-[15px] leading-relaxed text-indigo-950/75">One course from each of three baskets: networks (12 credits), nonlinear dynamics (9) and mathematics &amp; numerical analysis (9).</p>
+          <p class="mt-3 text-sm font-600 text-indigo-600 group-hover:text-gold-600">View courses →</p>
+        </a>
+        <a href="#electives" class="reveal group block rounded-2xl border border-indigo-950/10 bg-white p-6 shadow-sm transition hover:border-indigo-300">
+          <div class="flex items-center gap-3">
+            <span class="grid h-9 w-9 place-items-center rounded-lg bg-violet-500 font-display text-lg font-600 text-white">B</span>
+            <h3 class="font-display text-xl font-600 text-indigo-900">Electives</h3>
+            <span class="ml-auto font-display text-2xl font-600 text-indigo-900">45<span class="ml-1 font-sans text-xs font-500 text-indigo-950/50">credits</span></span>
+          </div>
+          <p class="mt-3 text-[15px] leading-relaxed text-indigo-950/75">At least 45 credits: five 9-credit courses, four 12-credit courses, or any mix of 9- and 12-credit courses.</p>
+          <p class="mt-3 text-sm font-600 text-indigo-600 group-hover:text-gold-600">View courses →</p>
+        </a>
+        <a href="#sem-summer" class="reveal group block rounded-2xl border border-indigo-950/10 bg-white p-6 shadow-sm transition hover:border-indigo-300">
+          <div class="flex items-center gap-3">
+            <span class="grid h-9 w-9 place-items-center rounded-lg bg-gold-400 font-display text-lg font-600 text-indigo-950">C</span>
+            <h3 class="font-display text-xl font-600 text-indigo-900">Projects</h3>
+            <span class="ml-auto font-display text-2xl font-600 text-indigo-900">85<span class="ml-1 font-sans text-xs font-500 text-indigo-950/50">credits</span></span>
+          </div>
+          <p class="mt-3 text-[15px] leading-relaxed text-indigo-950/75">A three-part dual-degree project across the summer (15), Semester 9 (30) and Semester 10 (40).</p>
+          <p class="mt-3 text-sm font-600 text-indigo-600 group-hover:text-gold-600">View courses →</p>
+        </a>
+  </div>
+</section>
+
+<!-- ============ CURRICULUM ============ -->
+<section id="curriculum" class="border-t border-indigo-950/10 bg-white">
+  <div class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-20">
+    <div class="flex flex-wrap items-end justify-between gap-4">
+      <h2 class="font-display text-3xl font-500 leading-tight tracking-tight text-indigo-900 sm:text-4xl">Curriculum</h2>
+      <a href="IDDD-CSD.pdf" class="inline-flex items-center gap-2 text-sm font-600 text-indigo-600 hover:text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg> Download PDF</a>
+    </div>
+    <div class="mt-3 h-px w-full bg-indigo-950/10"></div>
+    <p class="mt-6 max-w-3xl text-base leading-relaxed text-indigo-950/80">Coursework runs through Semesters 7 and 8, followed by the project from the summer through Semester 10.</p>
+    <ul class="mt-4 max-w-3xl space-y-2 text-[15px] text-indigo-950/80"><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-400"></span><span><b class="font-600 text-indigo-900">Sem 7:</b> Core 1 (networks), plus core 2 / 3 and electives</span></li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-400"></span><span><b class="font-600 text-indigo-900">Sem 8:</b> Remaining core courses and electives</span></li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-400"></span><span><b class="font-600 text-indigo-900">Summer:</b> Project I</span></li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-400"></span><span><b class="font-600 text-indigo-900">Sem 9:</b> Project II</span></li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-400"></span><span><b class="font-600 text-indigo-900">Sem 10:</b> Project III</span></li>
+    </ul>
+
+    <div class="mt-8 rounded-2xl border border-indigo-950/10 bg-white px-5 py-4 text-sm shadow-sm">
+      <div class="flex flex-wrap items-center gap-x-5 gap-y-1.5">
+        <span class="font-mono text-[11px] uppercase tracking-[0.14em] text-gold-600">Load</span>
+        <span><b class="font-600 text-indigo-900">L</b> Lectures</span>
+        <span><b class="font-600 text-indigo-900">T</b> Tutorials</span>
+        <span><b class="font-600 text-indigo-900">E</b> Extended tutorials</span>
+        <span><b class="font-600 text-indigo-900">P</b> Practicals</span>
+        <span><b class="font-600 text-indigo-900">O</b> Self-study</span>
+        <span><b class="font-600 text-indigo-900">C</b> Credits</span>
+      </div>
+    </div>
+
+    <div class="mt-6 space-y-4">
+      <details class="acc group rounded-2xl border border-indigo-950/10 bg-white shadow-sm" open id="sem-7">
+        <summary class="flex cursor-pointer list-none items-center gap-3 px-5 py-4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="chev h-4 w-4 shrink-0 text-indigo-400 transition-transform" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+          <span class="whitespace-nowrap font-display text-xl font-600 text-indigo-900">Semester 7</span>
+          <span class="hidden rounded-full bg-indigo-50 px-2.5 py-0.5 text-[11px] font-500 uppercase tracking-wide text-indigo-600 sm:inline">July – December</span>
+          <span class="ml-auto text-right font-mono text-[11px] uppercase tracking-wide text-gold-600 sm:text-xs">Core + electives</span>
+        </summary>
+        <div class="border-t border-indigo-950/10 px-1 pb-3 sm:px-2"><div class="overflow-x-auto"><table class="w-full min-w-[36rem] border-collapse text-left text-[15px]"><thead class="border-b border-indigo-950/10 text-[11px] uppercase tracking-[0.12em] text-indigo-950/50"><tr><th class="px-4 py-2.5 font-500">Course</th><th class="px-4 py-2.5 font-500">When</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">L</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">T</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">E</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">P</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">O</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">C</th></tr></thead><tbody class="divide-y divide-indigo-950/5"><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">Core basket 1 · Networks</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap">Compulsory in Sem 7</td><td class="px-2 py-2.5 text-center tabular-nums">4</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">8</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">12</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">Core basket 2 · Nonlinear dynamics</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap">Sem 7 or Sem 8</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">Core basket 3 · Mathematics</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap">Sem 7 or Sem 8</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">Elective basket</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap">Sem 7 or Sem 8</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">Elective basket</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap">Sem 7 or Sem 8</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">Elective basket</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap">Sem 7 or Sem 8</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td></tr></tbody></table></div><p class="px-4 pt-3 text-sm text-indigo-950/60">Core basket 2 and 3 courses may be taken in either Semester 7 or 8. Electives across Semesters 7 and 8 must total at least 45 credits.</p></div>
+      </details>
+      <details class="acc group rounded-2xl border border-indigo-950/10 bg-white shadow-sm" id="sem-8">
+        <summary class="flex cursor-pointer list-none items-center gap-3 px-5 py-4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="chev h-4 w-4 shrink-0 text-indigo-400 transition-transform" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+          <span class="whitespace-nowrap font-display text-xl font-600 text-indigo-900">Semester 8</span>
+          <span class="hidden rounded-full bg-indigo-50 px-2.5 py-0.5 text-[11px] font-500 uppercase tracking-wide text-indigo-600 sm:inline">January – May</span>
+          <span class="ml-auto text-right font-mono text-[11px] uppercase tracking-wide text-gold-600 sm:text-xs">Core + electives</span>
+        </summary>
+        <div class="border-t border-indigo-950/10 px-1 pb-3 sm:px-2"><div class="overflow-x-auto"><table class="w-full min-w-[36rem] border-collapse text-left text-[15px]"><thead class="border-b border-indigo-950/10 text-[11px] uppercase tracking-[0.12em] text-indigo-950/50"><tr><th class="px-4 py-2.5 font-500">Course</th><th class="px-4 py-2.5 font-500">When</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">L</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">T</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">E</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">P</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">O</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">C</th></tr></thead><tbody class="divide-y divide-indigo-950/5"><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">Core basket 2 · Nonlinear dynamics</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap">Sem 7 or Sem 8</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">Core basket 3 · Mathematics</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap">Sem 7 or Sem 8</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">Elective basket</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap">Sem 7 or Sem 8</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">Elective basket</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap">Sem 7 or Sem 8</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">Elective basket</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap">Sem 7 or Sem 8</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">Elective basket</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap">Sem 7 or Sem 8</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td><td class="px-2 py-2.5 text-center tabular-nums text-indigo-950/30">–</td></tr></tbody></table></div><p class="px-4 pt-3 text-sm text-indigo-950/60">All core courses must be completed by the end of Semester 8.</p></div>
+      </details>
+      <details class="acc group rounded-2xl border border-indigo-950/10 bg-white shadow-sm" id="sem-summer">
+        <summary class="flex cursor-pointer list-none items-center gap-3 px-5 py-4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="chev h-4 w-4 shrink-0 text-indigo-400 transition-transform" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+          <span class="whitespace-nowrap font-display text-xl font-600 text-indigo-900">Summer</span>
+          <span class="hidden rounded-full bg-indigo-50 px-2.5 py-0.5 text-[11px] font-500 uppercase tracking-wide text-indigo-600 sm:inline">June – July</span>
+          <span class="ml-auto text-right font-mono text-[11px] uppercase tracking-wide text-gold-600 sm:text-xs">15 credits</span>
+        </summary>
+        <div class="border-t border-indigo-950/10 px-1 pb-3 sm:px-2"><div class="overflow-x-auto"><table class="w-full min-w-[36rem] border-collapse text-left text-[15px]"><thead class="border-b border-indigo-950/10 text-[11px] uppercase tracking-[0.12em] text-indigo-950/50"><tr><th class="px-4 py-2.5 font-500">Course</th><th class="px-4 py-2.5 font-500">When</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">L</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">T</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">E</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">P</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">O</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">C</th></tr></thead><tbody class="divide-y divide-indigo-950/5"><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">ID5890 · Project I</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap"></td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">15</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">15</td></tr></tbody></table></div></div>
+      </details>
+      <details class="acc group rounded-2xl border border-indigo-950/10 bg-white shadow-sm" id="sem-9">
+        <summary class="flex cursor-pointer list-none items-center gap-3 px-5 py-4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="chev h-4 w-4 shrink-0 text-indigo-400 transition-transform" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+          <span class="whitespace-nowrap font-display text-xl font-600 text-indigo-900">Semester 9</span>
+          <span class="hidden rounded-full bg-indigo-50 px-2.5 py-0.5 text-[11px] font-500 uppercase tracking-wide text-indigo-600 sm:inline">July – December</span>
+          <span class="ml-auto text-right font-mono text-[11px] uppercase tracking-wide text-gold-600 sm:text-xs">30 credits</span>
+        </summary>
+        <div class="border-t border-indigo-950/10 px-1 pb-3 sm:px-2"><div class="overflow-x-auto"><table class="w-full min-w-[36rem] border-collapse text-left text-[15px]"><thead class="border-b border-indigo-950/10 text-[11px] uppercase tracking-[0.12em] text-indigo-950/50"><tr><th class="px-4 py-2.5 font-500">Course</th><th class="px-4 py-2.5 font-500">When</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">L</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">T</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">E</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">P</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">O</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">C</th></tr></thead><tbody class="divide-y divide-indigo-950/5"><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">ID5891 · Project II</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap"></td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">30</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">30</td></tr></tbody></table></div></div>
+      </details>
+      <details class="acc group rounded-2xl border border-indigo-950/10 bg-white shadow-sm" id="sem-10">
+        <summary class="flex cursor-pointer list-none items-center gap-3 px-5 py-4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="chev h-4 w-4 shrink-0 text-indigo-400 transition-transform" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+          <span class="whitespace-nowrap font-display text-xl font-600 text-indigo-900">Semester 10</span>
+          <span class="hidden rounded-full bg-indigo-50 px-2.5 py-0.5 text-[11px] font-500 uppercase tracking-wide text-indigo-600 sm:inline">January – May</span>
+          <span class="ml-auto text-right font-mono text-[11px] uppercase tracking-wide text-gold-600 sm:text-xs">40 credits</span>
+        </summary>
+        <div class="border-t border-indigo-950/10 px-1 pb-3 sm:px-2"><div class="overflow-x-auto"><table class="w-full min-w-[36rem] border-collapse text-left text-[15px]"><thead class="border-b border-indigo-950/10 text-[11px] uppercase tracking-[0.12em] text-indigo-950/50"><tr><th class="px-4 py-2.5 font-500">Course</th><th class="px-4 py-2.5 font-500">When</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">L</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">T</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">E</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">P</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">O</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">C</th></tr></thead><tbody class="divide-y divide-indigo-950/5"><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 text-indigo-950/85">ID5892 · Project III</td><td class="px-4 py-2.5 text-sm text-indigo-950/60 whitespace-nowrap"></td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">40</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">40</td></tr></tbody></table></div></div>
+      </details>
+    </div>
+
+    <ul class="mt-6 space-y-1.5 text-sm text-indigo-950/65">
+      <li>* Students may also take courses from the core baskets in Semester 5.</li>
+      <li>* Electives can be spread across semesters, but it is recommended that all electives are completed by Semester 8.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ CORE BASKETS ============ -->
+<section id="core" class="border-t border-indigo-950/10 bg-mist">
+  <div class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-20">
+    <h2 class="font-display text-3xl font-500 leading-tight tracking-tight text-indigo-900 sm:text-4xl">Core baskets</h2>
+    <div class="mt-3 h-px w-full bg-indigo-950/10"></div>
+    <p class="mt-6 max-w-3xl text-base leading-relaxed text-indigo-950/80">30 credits: choose one course from each basket.</p>
+    <div class="mt-8 space-y-4">
+      <details class="acc group rounded-2xl border border-indigo-950/10 bg-white shadow-sm" id="core-networks">
+        <summary class="flex cursor-pointer list-none items-center gap-3 px-5 py-4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="chev h-4 w-4 shrink-0 text-indigo-400 transition-transform" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+          <span class="whitespace-nowrap font-display text-xl font-600 text-indigo-900">Core 1 · Networks</span>
+          <span class="hidden rounded-full bg-indigo-50 px-2.5 py-0.5 text-[11px] font-500 uppercase tracking-wide text-indigo-600 sm:inline">Any one · compulsory in Semester 7</span>
+          <span class="ml-auto text-right font-mono text-[11px] uppercase tracking-wide text-gold-600 sm:text-xs">12 credits</span>
+        </summary>
+        <div class="border-t border-indigo-950/10 px-1 pb-3 sm:px-2"><div class="overflow-x-auto"><table class="w-full min-w-[34rem] border-collapse text-left text-[15px]"><thead class="border-b border-indigo-950/10 text-[11px] uppercase tracking-[0.12em] text-indigo-950/50"><tr><th class="px-4 py-2.5 font-500">Code</th><th class="px-4 py-2.5 font-500">Course</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">L</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">T</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">E</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">P</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">O</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">C</th></tr></thead><tbody class="divide-y divide-indigo-950/5"><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">ID5080</td><td class="px-4 py-2.5 text-indigo-950/85">Complex networks</td><td class="px-2 py-2.5 text-center tabular-nums">4</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">8</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">12</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">EE5154</td><td class="px-4 py-2.5 text-indigo-950/85">Complex network analysis</td><td class="px-2 py-2.5 text-center tabular-nums">4</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">8</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">12</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">CS6012</td><td class="px-4 py-2.5 text-indigo-950/85">Social network analysis</td><td class="px-2 py-2.5 text-center tabular-nums">4</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">8</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">12</td></tr></tbody></table></div></div>
+      </details>
+      <details class="acc group rounded-2xl border border-indigo-950/10 bg-white shadow-sm" id="core-nonlinear">
+        <summary class="flex cursor-pointer list-none items-center gap-3 px-5 py-4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="chev h-4 w-4 shrink-0 text-indigo-400 transition-transform" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+          <span class="whitespace-nowrap font-display text-xl font-600 text-indigo-900">Core 2 · Nonlinear dynamics</span>
+          <span class="hidden rounded-full bg-indigo-50 px-2.5 py-0.5 text-[11px] font-500 uppercase tracking-wide text-indigo-600 sm:inline">Any one · by Semester 8</span>
+          <span class="ml-auto text-right font-mono text-[11px] uppercase tracking-wide text-gold-600 sm:text-xs">9 credits</span>
+        </summary>
+        <div class="border-t border-indigo-950/10 px-1 pb-3 sm:px-2"><div class="overflow-x-auto"><table class="w-full min-w-[34rem] border-collapse text-left text-[15px]"><thead class="border-b border-indigo-950/10 text-[11px] uppercase tracking-[0.12em] text-indigo-950/50"><tr><th class="px-4 py-2.5 font-500">Code</th><th class="px-4 py-2.5 font-500">Course</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">L</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">T</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">E</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">P</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">O</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">C</th></tr></thead><tbody class="divide-y divide-indigo-950/5"><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">AM5650</td><td class="px-4 py-2.5 text-indigo-950/85">Nonlinear dynamics</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">PH5500</td><td class="px-4 py-2.5 text-indigo-950/85">Dynamical systems</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">PH5830</td><td class="px-4 py-2.5 text-indigo-950/85">Advanced dynamical systems</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">MA6050</td><td class="px-4 py-2.5 text-indigo-950/85">Dynamical systems</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr></tbody></table></div></div>
+      </details>
+      <details class="acc group rounded-2xl border border-indigo-950/10 bg-white shadow-sm" id="core-maths">
+        <summary class="flex cursor-pointer list-none items-center gap-3 px-5 py-4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="chev h-4 w-4 shrink-0 text-indigo-400 transition-transform" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+          <span class="whitespace-nowrap font-display text-xl font-600 text-indigo-900">Core 3 · Mathematics & numerical analysis</span>
+          <span class="hidden rounded-full bg-indigo-50 px-2.5 py-0.5 text-[11px] font-500 uppercase tracking-wide text-indigo-600 sm:inline">Any one · by Semester 8</span>
+          <span class="ml-auto text-right font-mono text-[11px] uppercase tracking-wide text-gold-600 sm:text-xs">9 credits</span>
+        </summary>
+        <div class="border-t border-indigo-950/10 px-1 pb-3 sm:px-2"><div class="overflow-x-auto"><table class="w-full min-w-[34rem] border-collapse text-left text-[15px]"><thead class="border-b border-indigo-950/10 text-[11px] uppercase tracking-[0.12em] text-indigo-950/50"><tr><th class="px-4 py-2.5 font-500">Code</th><th class="px-4 py-2.5 font-500">Course</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">L</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">T</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">E</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">P</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">O</th><th class="px-2 py-2.5 text-center tabular-nums w-10 font-500">C</th></tr></thead><tbody class="divide-y divide-indigo-950/5"><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">AM5600</td><td class="px-4 py-2.5 text-indigo-950/85">Computational methods in mechanics</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">AS6520</td><td class="px-4 py-2.5 text-indigo-950/85">Mathematics for aerospace engineering</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">AM5117</td><td class="px-4 py-2.5 text-indigo-950/85">Analytical methods in mechanics</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">MA5470</td><td class="px-4 py-2.5 text-indigo-950/85">Numerical analysis</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">MA6005</td><td class="px-4 py-2.5 text-indigo-950/85">Applied linear algebra</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">MA5014</td><td class="px-4 py-2.5 text-indigo-950/85">Applied stochastic processes</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">MA5312</td><td class="px-4 py-2.5 text-indigo-950/85">Stochastic differential equations</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">MA5890</td><td class="px-4 py-2.5 text-indigo-950/85">Numerical linear algebra</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">MA5892</td><td class="px-4 py-2.5 text-indigo-950/85">Numerical methods in scientific computing</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">PH5050</td><td class="px-4 py-2.5 text-indigo-950/85">Mathematical physics II</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr><tr class="hover:bg-indigo-50/60"><td class="px-4 py-2.5 font-mono text-[13px] text-indigo-600 whitespace-nowrap">PH5730</td><td class="px-4 py-2.5 text-indigo-950/85">Methods of computational physics</td><td class="px-2 py-2.5 text-center tabular-nums">3</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">0</td><td class="px-2 py-2.5 text-center tabular-nums">6</td><td class="px-2 py-2.5 text-center tabular-nums font-600 text-indigo-900">9</td></tr></tbody></table></div></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ELECTIVES ============ -->
+<section id="electives" class="border-t border-indigo-950/10 bg-white">
+  <div class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-20">
+    <h2 class="font-display text-3xl font-500 leading-tight tracking-tight text-indigo-900 sm:text-4xl">Elective basket</h2>
+    <div class="mt-3 h-px w-full bg-indigo-950/10"></div>
+    <p class="mt-6 max-w-3xl text-base leading-relaxed text-indigo-950/80">At least 45 credits, to be completed by Semester 8: five 9-credit courses, four 12-credit courses, or any combination of 9- and 12-credit courses. Any other 5xxx or higher level course may be taken with the permission of the coordinating faculty.</p>
+
+    <div class="mt-8 flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
+      <div class="flex flex-wrap gap-2" id="deptFilters" role="group" aria-label="Filter by department"><button type="button" data-dept="all" class="fchip is-on">All <span class="opacity-60">63</span></button><button type="button" data-dept="AM" class="fchip">Applied Mechanics <span class="opacity-60">13</span></button><button type="button" data-dept="AE" class="fchip">Aerospace <span class="opacity-60">9</span></button><button type="button" data-dept="BT" class="fchip">Biotechnology <span class="opacity-60">3</span></button><button type="button" data-dept="CE" class="fchip">Civil <span class="opacity-60">3</span></button><button type="button" data-dept="CH" class="fchip">Chemical <span class="opacity-60">6</span></button><button type="button" data-dept="CS" class="fchip">Computer Science <span class="opacity-60">5</span></button><button type="button" data-dept="EE" class="fchip">Electrical <span class="opacity-60">8</span></button><button type="button" data-dept="MA" class="fchip">Mathematics <span class="opacity-60">1</span></button><button type="button" data-dept="ME" class="fchip">Mechanical <span class="opacity-60">7</span></button><button type="button" data-dept="PH" class="fchip">Physics <span class="opacity-60">1</span></button><button type="button" data-dept="ID" class="fchip">Interdisciplinary <span class="opacity-60">7</span></button></div>
+      <label class="relative block w-full sm:w-80 xl:w-72 xl:shrink-0">
+        <span class="sr-only">Search electives</span>
+        <span class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-indigo-950/40"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-4 w-4" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg></span>
+        <input id="electiveSearch" type="search" placeholder="Search code or title" class="w-full rounded-full border border-indigo-950/15 bg-mist py-2 pl-9 pr-4 text-sm text-indigo-950 placeholder:text-indigo-950/40 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-200" />
+      </label>
+    </div>
+    <p id="electiveCount" class="mt-4 font-mono text-xs uppercase tracking-wide text-indigo-950/50">63 courses</p>
+    <div id="electiveGrid" class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am5340 stochastic processes in mechanics">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM5340</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Stochastic processes in mechanics</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am5630 foundations of computational fluid dynamics">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM5630</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Foundations of computational fluid dynamics</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am5116 structural control">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM5116</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Structural control</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am5450 fundamentals of finite element analysis">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM5450</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Fundamentals of finite element analysis</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am5030 linear dynamical systems">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM5030</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Linear dynamical systems</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am5080 high performance computing for engineering applications">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM5080</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">High performance computing for engineering applications</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am5530 advanced fluid mechanics">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM5530</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Advanced fluid mechanics</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am5570 introduction to turbulence">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM5570</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Introduction to turbulence</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am5850 advanced finite elements">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM5850</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Advanced finite elements</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am6110 biofluid mechanics">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM6110</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Biofluid mechanics</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am6291 computational structural dynamics">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM6291</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Computational structural dynamics</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am6512 application of molecular dynamics">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM6512</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Application of molecular dynamics</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AM" data-text="am6513 advanced computational fluid dynamics">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AM6513</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Advanced computational fluid dynamics</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AE" data-text="as6050 dynamic fluid structure interaction">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AS6050</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Dynamic fluid structure interaction</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AE" data-text="ae6830 finite element analysis">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AE6830</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Finite element analysis</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AE" data-text="ae5760 aeroelasticity">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AE5760</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Aeroelasticity</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AE" data-text="ae6130 finite element analysis">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AE6130</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Finite element analysis</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AE" data-text="ae6160 computational aerodynamics">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AE6160</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Computational aerodynamics</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AE" data-text="ae6120 unsteady aerodynamics">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AE6120</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Unsteady aerodynamics</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AE" data-text="as5970 structural dynamics and aeroelasticity">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AS5970</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Structural dynamics and aeroelasticity</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AE" data-text="as5470 unsteady aerodynamics of moving bodies">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AS5470</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Unsteady aerodynamics of moving bodies</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="AE" data-text="as6041 advanced cfd: eddy resolving methods">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">AS6041</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Advanced CFD: eddy resolving methods</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="BT" data-text="bt5270 principles of neuroscience">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">BT5270</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Principles of neuroscience</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="BT" data-text="bt6270 computational neuroscience">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">BT6270</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Computational neuroscience</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="BT" data-text="bt5240 computational systems biology">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">BT5240</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">10 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Computational systems biology</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CE" data-text="ce5290 transportation network analysis">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CE5290</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Transportation network analysis</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CE" data-text="ce5235 understanding climate dynamics &amp; its mysteries">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CE5235</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Understanding climate dynamics &amp; its mysteries</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CE" data-text="ce5610 finite element analysis">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CE5610</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Finite element analysis</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CH" data-text="ch5350 applied time series analysis">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CH5350</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Applied time series analysis</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CH" data-text="ch5115 parameter and state estimation">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CH5115</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">10 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Parameter and state estimation</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-1-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CH" data-text="ch6020 computational fluid dynamics techniques">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CH6020</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Computational fluid dynamics techniques</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CH" data-text="ch5230 data driven modelling of process systems">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CH5230</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Data driven modelling of process systems</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CH" data-text="ch6760 hydrodynamics of complex fluids">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CH6760</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Hydrodynamics of complex fluids</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CH" data-text="ch5019 mathematical foundations for data science">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CH5019</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">12 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Mathematical foundations for data science</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-8</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="EE" data-text="ee5121 convex optimization">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">EE5121</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">12 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Convex optimization</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-8</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="EE" data-text="ee6418 dynamic games: theory and applications">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">EE6418</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Dynamic games: theory and applications</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="EE" data-text="ee6430 fundamentals of linear optimization">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">EE6430</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Fundamentals of linear optimization</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="EE" data-text="ee6419 geometric nonlinear control theory">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">EE6419</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Geometric nonlinear control theory</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="MA" data-text="ma5013 applied regression analysis">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">MA5013</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Applied regression analysis</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ME" data-text="me6151 computational heat and fluid flow">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ME6151</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Computational heat and fluid flow</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ME" data-text="me5103 incompressible fluid flow">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ME5103</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Incompressible fluid flow</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ME" data-text="me5127 introduction to atmospheric science">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ME5127</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Introduction to atmospheric science</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ME" data-text="me5204 finite element analysis">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ME5204</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Finite element analysis</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ME" data-text="me5205 theory of vibrations">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ME5205</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Theory of vibrations</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ME" data-text="me6121 microfluidics and microsystems">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ME6121</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Microfluidics and microsystems</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ME" data-text="me7225 signal processing of mechanical systems">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ME7225</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Signal processing of mechanical systems</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="PH" data-text="ph5010 mathematical physics i">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">PH5010</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">10 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Mathematical physics I</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CS" data-text="cs5820 probability and computing">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CS5820</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">12 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Probability and computing</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-8</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CS" data-text="cs6023 gpu computing">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CS6023</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">12 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">GPU computing</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-8</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CS" data-text="cs6910 fundamentals of deep learning">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CS6910</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">12 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Fundamentals of deep learning</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-8</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CS" data-text="cs6720 data mining">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CS6720</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">12 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Data mining</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-8</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="CS" data-text="cs7015 deep learning">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">CS7015</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">12 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Deep learning</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-8</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="EE" data-text="ee5180 introduction to machine learning">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">EE5180</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">12 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Introduction to machine learning</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-8</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="EE" data-text="ee5351 linear algebra techniques for data analysis">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">EE5351</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Linear algebra techniques for data analysis</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="EE" data-text="ee5413 linear dynamical systems">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">EE5413</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">12 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Linear dynamical systems</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-8</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="EE" data-text="ee6415 nonlinear systems analysis">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">EE6415</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">12 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Nonlinear systems analysis</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-8</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ID" data-text="id5090 data science of complex systems">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ID5090</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">12 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Data science of complex systems</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 4-0-0-0-8</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ID" data-text="id5030 machine learning for engineering &amp; science applications">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ID5030</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Machine learning for engineering &amp; science applications</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ID" data-text="id5130 parallel scientific computing">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ID5130</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">10 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Parallel scientific computing</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-1-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ID" data-text="id6015 advances in machine learning solutions for engineering problems">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ID6015</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">10 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Advances in machine learning solutions for engineering problems</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-1-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ID" data-text="id6105 computational tools: algorithms, data structures &amp; programming">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ID6105</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Computational tools: algorithms, data structures &amp; programming</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ID" data-text="id6107 perturbation methods for engineering problems">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ID6107</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Perturbation methods for engineering problems</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+          <div class="ecard flex flex-col rounded-xl border border-indigo-950/10 bg-white p-4 shadow-sm" data-dept="ID" data-text="id7010 advanced finite element analysis">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[13px] font-500 text-indigo-600">ID7010</span>
+              <span class="rounded-full bg-gold-400/15 px-2 py-0.5 font-mono text-[11px] text-gold-600">9 cr</span>
+            </div>
+            <p class="mt-1.5 text-[15px] leading-snug text-indigo-900">Advanced finite element analysis</p>
+            <p class="mt-auto pt-2 font-mono text-[11px] tracking-wide text-indigo-950/45">L-T-E-P-O 3-0-0-0-6</p>
+          </div>
+    </div>
+    <p id="electiveEmpty" class="mt-6 hidden text-sm text-indigo-950/60">No electives match your search.</p>
+  </div>
+</section>
+
+<!-- ============ ELIGIBILITY & ADMISSIONS ============ -->
+<section id="admissions" class="border-t border-indigo-950/10 bg-mist">
+  <div class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-20">
+    <h2 class="font-display text-3xl font-500 leading-tight tracking-tight text-indigo-900 sm:text-4xl">Eligibility &amp; admissions</h2>
+    <div class="mt-3 h-px w-full bg-indigo-950/10"></div>
+    <div class="mt-8 grid gap-5 md:grid-cols-3">
+      <div class="reveal rounded-2xl border border-indigo-950/10 bg-white p-6 shadow-sm">
+        <div class="mb-3 grid h-11 w-11 place-items-center rounded-xl bg-indigo-100 text-indigo-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-6 w-6" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"/></svg></div>
+        <h3 class="font-display text-lg font-600 text-indigo-900">Who can apply</h3>
+        <p class="mt-1.5 text-[15px] leading-relaxed text-indigo-950/75">IIT Madras B.Tech students of any stream.</p>
+      </div>
+      <div class="reveal rounded-2xl border border-indigo-950/10 bg-white p-6 shadow-sm">
+        <div class="mb-3 grid h-11 w-11 place-items-center rounded-xl bg-gold-400/20 text-gold-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-6 w-6" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg></div>
+        <h3 class="font-display text-lg font-600 text-indigo-900">Eligibility</h3>
+        <p class="mt-1.5 text-[15px] leading-relaxed text-indigo-950/75">CGPA above 8.0 at the end of Semester 5.</p>
+      </div>
+      <div class="reveal rounded-2xl border border-indigo-950/10 bg-white p-6 shadow-sm">
+        <div class="mb-3 grid h-11 w-11 place-items-center rounded-xl bg-violet-500/15 text-violet-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="h-6 w-6" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25Z"/></svg></div>
+        <h3 class="font-display text-lg font-600 text-indigo-900">How to apply</h3>
+        <p class="mt-1.5 text-[15px] leading-relaxed text-indigo-950/75">Applications are handled by SIDIS. See the <a href="https://sidis.iitm.ac.in/iddd.php" target="_blank" rel="noopener" class="u-line font-600 text-indigo-700 underline hover:text-gold-600">IDDD page at SIDIS ↗</a> for the current process and dates.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="bg-indigo-950 text-mist">
+  <div class="mx-auto max-w-8xl px-5 py-16 lg:px-8 lg:py-20">
+    <div class="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+      <div>
+        <p class="font-mono text-xs tracking-wide text-gold-300">Interested?</p>
+        <h2 class="mt-3 font-display text-3xl font-500 leading-tight tracking-tight sm:text-4xl">Join the programme</h2>
+        <p class="mt-4 max-w-2xl text-base leading-relaxed text-indigo-100/85">Students who meet the eligibility criteria can opt in during their B.Tech. For the latest course offerings and admission details, see the SIDIS IDDD page or write to the centre.</p>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <a href="https://sidis.iitm.ac.in/iddd.php" target="_blank" rel="noopener" class="inline-flex rounded-full bg-gold-400 px-6 py-3 text-sm font-600 text-indigo-950 transition hover:bg-gold-300">IDDD at SIDIS ↗</a>
+        <a href="mailto:ccsd@iitm.ac.in?subject=IDDD%20enquiry" class="inline-flex rounded-full border border-indigo-200/30 px-6 py-3 text-sm font-600 text-mist transition hover:bg-indigo-900/60">Email the centre</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ FOOTER ============ -->
+<footer class="border-t border-indigo-200/15 bg-indigo-950 text-mist">
+  <div class="mx-auto max-w-8xl px-5 py-14 lg:px-8">
+    <div class="grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
+      <div>
+        <div class="flex items-center gap-3">
+          <img src="assets/logo.png" alt="CCSD logo" class="h-9 w-9 shrink-0 rounded-lg bg-white/95 object-contain p-0.5" />
+          <span class="font-display text-base font-600">CCSD · IIT Madras</span>
+        </div>
+        <p class="mt-4 max-w-xs text-sm leading-relaxed text-indigo-100/75">
+          Centre for Complex Systems &amp; Dynamics, Indian Institute of Technology Madras, Chennai 600 036, India.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="font-display text-sm font-600 text-indigo-100">Research</h4>
+        <ul class="mt-3 space-y-2 text-sm text-indigo-100/75">
+          <li><a href="themes.html" class="hover:text-gold-300">Research Themes</a></li>
+          <li><a href="projects.html" class="hover:text-gold-300">Research Projects</a></li>
+        </ul>
+        <h4 class="mt-6 font-display text-sm font-600 text-indigo-100">Academics</h4>
+        <ul class="mt-3 space-y-2 text-sm text-indigo-100/75">
+          <li><a href="iddd.html" class="hover:text-gold-300">Dual Degree (IDDD)</a></li>
+          <li><a href="https://ge.iitm.ac.in/programs/student-inbound/i2mp/complex-systems-and-dynamics" class="hover:text-gold-300">International M.Tech</a></li>
+          <li><a href="join.html" class="hover:text-gold-300">Join us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-display text-sm font-600 text-indigo-100">People</h4>
+        <ul class="mt-3 space-y-2 text-sm text-indigo-100/75">
+          <li><a href="people.html" class="hover:text-gold-300">Faculty &amp; Members</a></li>
+          <li><a href="join.html" class="hover:text-gold-300">Openings</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-display text-sm font-600 text-indigo-100">Events &amp; Media</h4>
+        <ul class="mt-3 space-y-2 text-sm text-indigo-100/75">
+          <li><a href="events.html#seminars" class="hover:text-gold-300">Seminars</a></li>
+          <li><a href="events.html#workshops" class="hover:text-gold-300">Workshops &amp; Schools</a></li>
+          <li><a href="https://ge.iitm.ac.in/COLD2026/" class="hover:text-gold-300">COLD 2026</a></li>
+          <li><a href="https://www.youtube.com/channel/UC2cIevFIhx8ikhB4DF0ZM0A" class="hover:text-gold-300">YouTube</a></li>
+          <li><a href="https://www.facebook.com/ccsdiitm/" class="hover:text-gold-300">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-12 flex flex-col gap-3 border-t border-indigo-200/15 pt-6 text-xs text-indigo-100/60 sm:flex-row sm:items-center sm:justify-between">
+      <p>© 2026 Centre for Complex Systems &amp; Dynamics, IIT Madras. All rights reserved.</p>
+      <p>Chennai, Tamil Nadu, India · <a href="mailto:ccsd@iitm.ac.in" class="hover:text-gold-300">ccsd@iitm.ac.in</a></p>
+    </div>
+  </div>
+</footer>
+<script>
+  const burger=document.getElementById('burger'),menu=document.getElementById('mobileMenu');
+  if(burger&&menu){burger.addEventListener('click',()=>menu.classList.toggle('hidden'));menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>menu.classList.add('hidden')));}
+  const io=new IntersectionObserver((e)=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}});},{threshold:0.1});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+
+<script>
+  // IDDD electives: filter by department and search by code or title.
+  (function () {
+    const chips = document.querySelectorAll('#deptFilters .fchip');
+    const cards = document.querySelectorAll('#electiveGrid .ecard');
+    const search = document.getElementById('electiveSearch');
+    const count = document.getElementById('electiveCount');
+    const empty = document.getElementById('electiveEmpty');
+    let dept = 'all';
+    function apply() {
+      const q = (search.value || '').trim().toLowerCase();
+      let n = 0;
+      cards.forEach(c => {
+        const ok = (dept === 'all' || c.dataset.dept === dept) && (!q || c.dataset.text.includes(q));
+        c.classList.toggle('hidden', !ok);
+        if (ok) n++;
+      });
+      count.textContent = n + (n === 1 ? ' course' : ' courses');
+      empty.classList.toggle('hidden', n > 0);
+    }
+    chips.forEach(ch => ch.addEventListener('click', () => {
+      chips.forEach(x => x.classList.remove('is-on'));
+      ch.classList.add('is-on');
+      dept = ch.dataset.dept;
+      apply();
+    }));
+    search.addEventListener('input', apply);
+  })();
+</script>
+</body>
+</html>
