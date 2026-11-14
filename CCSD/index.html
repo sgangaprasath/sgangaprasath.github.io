@@ -53,7 +53,8 @@
   ::selection { background: #dcae43; color:#231f5c; }
   .fac-img { object-fit: cover; }
   /* Carousel */
-  .carousel-track { transition: transform .7s cubic-bezier(.4,0,.2,1); }
+  .carousel-track { transition: transform .7s cubic-bezier(.4,0,.2,1); touch-action: pan-y; }
+  .carousel-viewport { transition: height .5s cubic-bezier(.4,0,.2,1); }
 </style>
 <link rel="stylesheet" href="assets/editorial.css" />
 </head>
@@ -144,8 +145,8 @@
   <div class="absolute -bottom-32 left-10 h-80 w-80 rounded-full bg-gold-500/15 blur-3xl"></div>
 
   <div class="relative mx-auto max-w-8xl px-5 pb-10 pt-28 lg:px-8 lg:pb-14 lg:pt-36">
-    <div class="overflow-hidden">
-      <div id="carouselTrack" class="carousel-track flex gap-12">
+    <div id="carouselViewport" class="carousel-viewport overflow-hidden">
+      <div id="carouselTrack" class="carousel-track flex items-start gap-12 lg:items-stretch">
 
       <!-- SLIDE 1: Research areas (stays up longer: data-dwell, in ms) -->
       <div class="carousel-slide relative w-full shrink-0 overflow-hidden" data-dwell="16000">
@@ -160,7 +161,7 @@
             </div>
           </div>
           <!-- Live simulations, one per research theme (assets/hero-sims.js).
-               Phones show four of the six so the carousel stays short. -->
+               Phones show two of the six so the slide fits on one screen. -->
           <div id="heroSims" class="relative" role="img" aria-label="Six small live simulations, one for each research theme: a Kalman filter tracking a drone from noisy position fixes, the Lorenz attractor, place cells firing as a mouse runs a maze, simulated annealing on a rugged landscape, a flock forming and breaking up, and a neural network learning a curve.">
             <div class="grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-indigo-200/15 bg-indigo-200/15 sm:grid-cols-3">
               <figure class="bg-indigo-950">
@@ -195,7 +196,7 @@
                   <span data-readout class="block font-mono text-[11px] text-indigo-100/55">&nbsp;</span>
                 </figcaption>
               </figure>
-              <figure class="bg-indigo-950">
+              <figure class="hidden bg-indigo-950 sm:block">
                 <canvas data-sim="flock" class="block aspect-[5/4] w-full"></canvas>
                 <figcaption class="px-3 pb-3 pt-1">
                   <span class="block font-mono text-[10px] uppercase tracking-[0.14em] text-gold-300">Biocomplexity</span>
@@ -203,7 +204,7 @@
                   <span data-readout class="block font-mono text-[11px] text-indigo-100/55">&nbsp;</span>
                 </figcaption>
               </figure>
-              <figure class="bg-indigo-950">
+              <figure class="hidden bg-indigo-950 sm:block">
                 <canvas data-sim="learn" class="block aspect-[5/4] w-full"></canvas>
                 <figcaption class="px-3 pb-3 pt-1">
                   <span class="block font-mono text-[10px] uppercase tracking-[0.14em] text-gold-300">Scientific ML</span>
@@ -463,23 +464,43 @@
     function go(n){
       i=(n+slides.length)%slides.length;
       track.style.transform='translateX(-'+(i*step())+'px)';
+      fit();
       dots.forEach((d,k)=>{d.className='h-2.5 rounded-full transition-all '+(k===i?'w-7 bg-gold-400':'w-2.5 bg-indigo-200/40');});
     }
+    // Below lg each slide keeps its own height and the viewport follows the
+    // current one, so short slides leave no gap above the controls.
+    const viewport=document.getElementById('carouselViewport');
+    const small=matchMedia('(max-width: 1023px)');
+    function fit(){ viewport.style.height = small.matches ? slides[i].offsetHeight+'px' : ''; }
     // Recalibrate whenever layout can change: on resize, on full load, and as each image finishes.
     window.addEventListener('resize',()=>go(i));
     window.addEventListener('load',()=>go(i));
     track.querySelectorAll('img').forEach(img=>{ if(!img.complete) img.addEventListener('load',()=>go(i)); });
+    if('ResizeObserver' in window) {const ro=new ResizeObserver(fit); slides.forEach(sl=>ro.observe(sl));}
     function next(){go(i+1);}
     function prev(){go(i-1);}
     // Each slide stays up for its data-dwell (ms), 6 s by default. Autoplay
-    // pauses while the pointer is over the live simulations.
-    let paused=false;
-    function reset(){clearTimeout(timer); if(paused) return; timer=setTimeout(()=>{next();reset();}, +slides[i].dataset.dwell||6000);}
+    // pauses while a mouse is over the live simulations, while the hero is
+    // off screen and while the tab is hidden. Touch taps do not pause it.
+    let hover=false, offscreen=false;
+    function reset(){clearTimeout(timer); if(hover||offscreen||document.hidden) return; timer=setTimeout(()=>{next();reset();}, +slides[i].dataset.dwell||6000);}
     const sims=document.getElementById('heroSims');
     if(sims){
-      sims.addEventListener('mouseenter',()=>{paused=true;clearTimeout(timer);});
-      sims.addEventListener('mouseleave',()=>{paused=false;reset();});
+      sims.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse'){hover=true;clearTimeout(timer);}});
+      sims.addEventListener('pointerleave',e=>{if(e.pointerType==='mouse'){hover=false;reset();}});
     }
+    if('IntersectionObserver' in window){
+      new IntersectionObserver(es=>{offscreen=!es[0].isIntersecting; reset();},{threshold:0.15}).observe(viewport);
+    }
+    document.addEventListener('visibilitychange',reset);
+    // Swipe left/right to change slides; vertical drags still scroll the page.
+    let sx=null, sy=0;
+    viewport.addEventListener('touchstart',e=>{const t=e.touches[0]; sx=t.clientX; sy=t.clientY;},{passive:true});
+    viewport.addEventListener('touchend',e=>{
+      if(sx===null) return;
+      const t=e.changedTouches[0], dx=t.clientX-sx, dy=t.clientY-sy; sx=null;
+      if(Math.abs(dx)>45 && Math.abs(dx)>1.5*Math.abs(dy)){ dx<0?next():prev(); reset(); }
+    },{passive:true});
     document.getElementById('carNext').addEventListener('click',()=>{next();reset();});
     document.getElementById('carPrev').addEventListener('click',()=>{prev();reset();});
     go(0);
