@@ -11,7 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=EB+Garamond:wght@400&family=Space+Grotesk:wght@400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
 <link href="https://api.fontshare.com/v2/css?f[]=sentient@300,400,500,300i,400i&display=swap" rel="stylesheet" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='4' fill='%234f46e5'/%3E%3Ccircle cx='6' cy='9' r='2.5' fill='%23d4a017'/%3E%3Ccircle cx='26' cy='11' r='2.5' fill='%23d4a017'/%3E%3Ccircle cx='9' cy='25' r='2.5' fill='%234f46e5'/%3E%3Ccircle cx='24' cy='24' r='2.5' fill='%234f46e5'/%3E%3Cg stroke='%234f46e5' stroke-width='1' opacity='.5'%3E%3Cline x1='16' y1='16' x2='6' y2='9'/%3E%3Cline x1='16' y1='16' x2='26' y2='11'/%3E%3Cline x1='16' y1='16' x2='9' y2='25'/%3E%3Cline x1='16' y1='16' x2='24' y2='24'/%3E%3C/g%3E%3C/svg%3E" />
+<link rel="icon" href="assets/icons/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png" />
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
 <script>
   tailwind.config = {
     theme: {
@@ -63,6 +66,10 @@
 <!-- ============ NAV ============ -->
 <header class="fixed inset-x-0 top-0 z-50 border-b border-indigo-950/10 bg-mist/85 backdrop-blur">
   <nav class="mx-auto flex max-w-8xl items-center justify-between px-5 py-3 lg:px-8">
+    <div class="flex items-center gap-3">
+    <a href="https://www.iitm.ac.in/" target="_blank" rel="noopener" aria-label="IIT Madras" class="shrink-0">
+      <img src="assets/iitm-logo.png" alt="IIT Madras logo" class="h-14 w-14 shrink-0 object-contain p-[5px]" onerror="this.parentElement.remove()" />
+    </a>
     <a href="index.html" class="flex items-center gap-3">
       <img src="assets/logo.png" alt="CCSD logo" class="h-14 w-14 rounded-lg object-contain" />
       <span class="hidden h-14 w-14 place-items-center rounded-lg bg-indigo-800 font-display text-2xl font-600 text-mist">C</span>
@@ -71,6 +78,7 @@
         <span class="mt-0.5 block text-[10px] uppercase tracking-[0.18em] text-indigo-600/70">IIT Madras</span>
       </span>
     </a>
+    </div>
     <div class="ml-auto mr-6 hidden items-center gap-6 lg:flex text-[15px] font-500 text-indigo-950/80">
       <!-- Research dropdown -->
       <div class="group relative">
@@ -146,7 +154,7 @@
   <div class="relative mx-auto max-w-8xl px-5 pb-16 pt-28 lg:px-8 lg:pb-20 lg:pt-32">
     <p class="font-mono text-xs tracking-wide text-gold-300">Research</p>
     <h1 class="mt-3 max-w-3xl font-display text-4xl font-500 leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">Research Projects</h1>
-    <p class="mt-5 max-w-2xl text-base leading-relaxed text-indigo-100/90 sm:text-lg">A selection of active projects spanning social media, climate, neuroscience, fluid dynamics and industrial systems — each an instance of complexity at work.</p>
+    <p class="mt-5 max-w-2xl text-base leading-relaxed text-indigo-100/90 sm:text-lg">A selection of ongoing projects from CCSD faculty — from collective behaviour and brain networks to planetary fluid dynamics and neuromorphic computing.</p>
     <div class="mt-8 flex flex-wrap gap-3 text-sm">
       <a href="themes.html" class="rounded-full border border-indigo-200/30 px-5 py-2.5 font-600 text-mist transition hover:bg-indigo-900/60">← Research themes</a>
     </div>
@@ -154,7 +162,7 @@
 </section>
 
 <section class="mx-auto max-w-8xl px-5 py-20 lg:px-8 lg:py-24">
-  <div id="projectGrid" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6"></div>
+  <div id="projectGrid" class="grid grid-cols-1 gap-6 xl:grid-cols-2"></div>
 </section>
 <!-- ============ FOOTER ============ -->
 <footer class="border-t border-indigo-200/15 bg-indigo-950 text-mist">
@@ -162,6 +170,7 @@
     <div class="grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
       <div>
         <div class="flex items-center gap-3">
+          <img src="assets/iitm-logo.png" alt="IIT Madras logo" class="h-9 w-9 shrink-0 rounded-lg bg-white/95 object-contain p-[5px]" onerror="this.remove()" />
           <img src="assets/logo.png" alt="CCSD logo" class="h-9 w-9 shrink-0 rounded-lg bg-white/95 object-contain p-0.5" />
           <span class="font-display text-base font-600">CCSD · IIT Madras</span>
         </div>
@@ -211,16 +220,27 @@
   </div>
 </footer>
 <script>
-const projects=[{"t": "Dynamics of news propagation in social media", "img": "assets/projects-hd/fakenews.jpg", "g": "#4f46e5,#231f5c", "d": "Agent-based models on complex networks capture how information \u2014 and fake narratives \u2014 spread, and how dynamical-systems methods can counter them."}, {"t": "Q-analysis of networks", "img": "assets/projects-hd/qanalysis.jpg", "g": "#6d3fbf,#231f5c", "d": "Simplicial complexes generalise triangles to higher dimensions, revealing structure in networks through their all-to-all connected cliques."}, {"t": "Climate dynamics", "img": "assets/projects-hd/elnino.jpg", "g": "#4f46e5,#8257d1", "d": "The El Ni\u00f1o\u2013Southern Oscillation is modelled as a complex network of geographical locations, whose clustering shifts ahead of La Ni\u00f1a."}, {"t": "Noise-induced transitions", "img": "assets/projects-hd/nia.jpg", "g": "#8257d1,#231f5c", "d": "Noise reshapes bifurcations \u2014 driving intermittency, basin hopping and stochastic resonance, from climate to aeroelastic flutter."}, {"t": "Machine learning: complex flow fields", "img": "assets/projects-hd/biomimeticflow.jpg", "g": "#4f46e5,#6d3fbf", "d": "Hybrid ML techniques combine data with first-principles physics to model nonlinear, multi-scale fluid flows more effectively."}, {"t": "Bio-mimetic flows", "img": "assets/projects-hd/biomimetic3.jpg", "g": "#6d3fbf,#8257d1", "d": "Interacting vortices dictate the dynamics; ML enables dimensionality reduction and data-driven modelling of the spatio-temporal flow."}, {"t": "Phase synchronization", "img": "assets/projects-hd/kura.jpg", "g": "#4f46e5,#231f5c", "d": "Trainable oscillatory neural networks \u2014 Kuramoto, Hopf, FitzHugh\u2013Nagumo \u2014 model brain rhythms and neuronal synchronization."}, {"t": "Bird song", "img": "assets/projects-hd/birdsong.jpg", "g": "#8257d1,#6d3fbf", "d": "How neural architecture coordinates a precise vocal apparatus \u2014 studied with Hurst exponents, multifractals and complexity measures."}, {"t": "Physics of living matter", "img": "assets/projects-hd/complexflows.jpg", "g": "#4f46e5,#8257d1", "d": "Active matter converts free energy into sustained motion; ciliary propulsion is studied across scales via experiment, theory and simulation."}, {"t": "Dynamics of human breathing", "img": "assets/projects-hd/pulmonary.jpg", "g": "#6d3fbf,#231f5c", "d": "A dynamical network model of the breathing lung, coupled with aerosol deposition, tuned with lung-specific parameters from phantom experiments."}, {"t": "Causal networks of industrial processes", "img": "assets/projects-hd/causality.jpg", "g": "#dcae43,#a87c15", "d": "Data-driven causal network models map disturbance-propagation pathways for fault diagnosis, monitoring and alarm management."}];
-  document.getElementById('projectGrid').innerHTML = projects.map(p => `
-    <article class="group flex items-start gap-3 rounded-xl border border-indigo-950/10 bg-white p-3 shadow-sm transition hover:shadow-md">
-      <div class="h-12 w-12 shrink-0 overflow-hidden rounded-lg bg-indigo-100">
-        <img src="${p.img}" alt="${p.t}" class="fac-img h-full w-full transition duration-500 group-hover:scale-105" loading="lazy"
-             onerror="this.parentElement.style.background='linear-gradient(135deg,${p.g})';this.remove()" />
-      </div>
-      <div class="min-w-0 flex-1">
-        <h3 class="font-display text-sm font-600 leading-snug text-indigo-900">${p.t}</h3>
-        <p class="mt-1 text-xs leading-relaxed text-indigo-950/70">${p.d}</p>
+const projects=[{"t": "Emergent control of navigating collectives", "d": "Agents in a collective perform tasks by interacting with each other and the environment. Over evolution the actions taken by the agents get encoded as 'behaviour'. Can these behaviours be explained by an underlying optimisation? Does such an optimisation have a unified structure for a variety of tasks? We explore these questions using theories from RL and Optimal Control.", "kw": ["Scientific ML", "Robotics & Control"], "pub": {"url": "https://journals.aps.org/prxlife/pdf/10.1103/cx3h-bwhc"}, "img": "assets/Concept Picture 1/Pic1 - S Ganga Prasath.png", "bg": "#ffffff", "fit": "contain"}, {"t": "Statistical Physics of Vision Transformers", "d": "Large Vision Models (LVMs), similar to LLMs, are trained on big datasets of images. One of the most common tasks is to predict the missing pixel from an image. What are the properties the predictions of these LVMs follow? Is there a way to quantify the underlying structure of the models through these predictions?", "kw": ["Scientific ML", "Robotics & Control"], "img": "assets/Concept Picture 2/Pic2 - S Ganga Prasath.png", "fit": "contain", "bg": "#ffffff"}, {"t": "Functional Complex Networks: Structure, Self-Organization, and Prediction", "d": "Think of the brain or the climate as a giant network of parts constantly \"talking\" to each other — but we only get noisy, incomplete snapshots of their conversations. Can we reconstruct these hidden networks, uncover the rules they self-organize by, and use that understanding to predict what they'll do next? We explore this using causal discovery and predictive learning methods, focusing on brain and climate systems.", "kw": ["Causal Inference", "Brain networks", "Network dynamics"], "img": "assets/Concept Picture 1/neural-network-image1 - Aditi Kathpalia IITM.jpg", "bg": "#ffffff", "fit": "cover"}, {"t": "Causal Learning for Biomedical Applications: Disease Diagnosis, Treatment Monitoring, and Biomedical Signal Prediction", "d": "AI is transforming healthcare — but most machine learning models only spot patterns, not reasons why. Our lab asks: what if AI could tell cause from mere coincidence? We build Causal Machine Learning models that reason about cause-and-effect, not just correlation — helping diagnose diseases from symptoms, track treatments, and predict biomedical signals more reliably and transparently.", "kw": ["Causal Inference", "Brain networks", "Network dynamics"]}, {"t": "Understanding the stochastic spatial dynamics of large swarms", "d": "We are moving towards a predictive science of collective intelligent flocking. Large swarms of sentient agents interact probabilistically to give rise to rich dynamical and spatial behaviour. We ask what stochastic partial differential equations characterise the various dynamic states they exhibit, and how order couples with the density and movement of these agents.", "kw": ["Collective intelligence", "Traffic and pedestrian dynamics"], "pub": {"text": ["Nabeel et al, Physical Biology, 20, 056003, 2023 & American Naturalist, 205, 4, 2025", "Jhawar et al, Nature Physics, vol 16, no 4, 2020."]}, "img": "assets/Concept Picture 1/fish school - Danny Raj Masila.jpeg", "bg": "#4b9099", "fit": "cover"}, {"t": "Collective dynamics of Indian traffic & pedestrians", "d": "Indian traffic offers a rich, real-world laboratory for studying decision-making under constraints in complex, heterogeneous collectives. We are interested in developing models of traffic and pedestrian movement that can aid the design of autonomous vehicles operating alongside them, since models developed primarily in Western contexts do not fully capture the complex decision-making behaviours observed in India. We are also interested in studying the dynamics of large, dense crowds (like in Kumbh Mela), to understand the onset of stampedes, and develop methods to identify individuals who may need assistance.", "kw": ["Collective intelligence", "Traffic and pedestrian dynamics"], "pub": {"text": ["Nabeel et al Chaos, vol 32, 063119, 2022", "DRM et al Physical Review E, vol 104, no 5, 2021"]}, "img": "assets/Concept Picture 2/traffic - Danny Raj Masila.jpg", "fit": "cover", "bg": "#857f72"}, {"t": "Understanding planetary atmospheric flows", "d": "Planetary atmospheres organise turbulence into striking large-scale order — Jupiter's banded jets and long-lived vortices, Venus's superrotating winds. We study how jets, vortices and waves exchange energy and momentum in rotating, stratified flows, combining direct numerical simulations with statistical theory to explain what sets jet spacing, vortex longevity, and the onset of superrotation.", "kw": ["Turbulence", "Nonlinear dynamics", "Geophysical and astrophysical fluid dynamics"], "img": "assets/Concept Picture 1/Image_Jupiter - Kannabiran Seshasayanan.png", "bg": "#55585b", "fit": "cover"}, {"t": "Understanding planetary and stellar magnetism", "d": "Planetary and stellar objects generate magnetic fields by turbulent dynamo action. We study how rotating, turbulent convection amplifies a weak seed field — in planetary/stellar interiors, and in the brief, violent window inside a newly born neutron star where the extreme fields of magnetars are set. We combine simulations with analytical dynamo theory.", "kw": ["Turbulence", "Nonlinear dynamics", "Geophysical and astrophysical fluid dynamics"], "img": "assets/Concept Picture 2/Simulation_dynamo - Kannabiran Seshasayanan.png", "fit": "cover", "bg": "#ffffff"}, {"t": "Neuromorphic computing", "d": "This work on neuromorphic computing sits at the intersection of chaos theory and brain-inspired memory systems. The research introduces chaotic oscillator based associative memory, a novel architecture using coupled chaotic oscillators to outperform classical models in performance. Current work extends this to sequential pattern recall and hardware realization via FPGA, aiming toward energy-efficient, biologically plausible computing for real-world signal processing tasks.", "kw": ["Nonlinear dynamics", "Complex networks", "Stochastic mechanics"]}, {"t": "Control of networked nonlinear dynamical systems", "d": "This work focuses on the control of networked dynamical systems, advancing theoretical frameworks to manage complex, interconnected environments. The research spans critical applications from guaranteeing stability and resilience in autonomous systems within nuclear power plants to orchestrating decentralized coordination and collective behavior in swarm drones. This work bridges rigorous dynamic control theory with real-world autonomous safety and scalability.", "kw": ["Nonlinear dynamics", "Complex networks", "Stochastic mechanics"]}, {"t": "Climate dynamics", "img": "assets/projects-hd/elnino.jpg", "g": "#4f46e5,#8257d1", "d": "The El Niño–Southern Oscillation is modelled as a complex network of geographical locations, whose clustering shifts ahead of La Niña.", "fit": "cover", "bg": "#161232"}, {"t": "Phase synchronization", "img": "assets/projects-hd/kura.jpg", "g": "#4f46e5,#231f5c", "d": "Trainable oscillatory neural networks — Kuramoto, Hopf, FitzHugh–Nagumo — model brain rhythms and neuronal synchronization.", "fit": "cover", "bg": "#161232"}];
+  const esc = t => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  const grads = ['#4f46e5,#231f5c', '#6d3fbf,#231f5c', '#4f46e5,#8257d1', '#8257d1,#231f5c', '#6d3fbf,#8257d1'];
+  const visual = (p, i) => `<div class="p-4 sm:shrink-0 sm:p-5 sm:pr-0">` + (p.img
+    ? `<div class="aspect-square w-full overflow-hidden rounded-xl ring-1 ring-indigo-950/10 sm:w-64" style="background:${p.bg}">
+         <img src="${encodeURI(p.img)}" alt="Concept picture for ${esc(p.t)}" class="h-full w-full ${p.fit === 'cover' ? 'object-cover' : 'object-contain'} transition duration-500 group-hover:scale-105" loading="lazy" /></div>`
+    : `<div class="grid aspect-square w-full place-items-center rounded-xl sm:w-64" style="background:linear-gradient(135deg,${grads[i % grads.length]})">
+         <svg viewBox="0 0 80 80" class="h-20 w-20 text-mist/25" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 56 34 22 52 48 68 18M34 22 24 66M52 48 40 68"/><g fill="currentColor" stroke="none"><circle cx="14" cy="56" r="4"/><circle cx="34" cy="22" r="4"/><circle cx="52" cy="48" r="4"/><circle cx="68" cy="18" r="4"/><circle cx="24" cy="66" r="4"/><circle cx="40" cy="68" r="4"/></g></svg></div>`) + `</div>`;
+  const pub = p => !p.pub ? '' : p.pub.url
+    ? `<a href="${esc(p.pub.url)}" target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1 text-xs font-600 text-indigo-700 hover:text-gold-600">Publication <span aria-hidden="true">↗</span></a>`
+    : `<div class="mt-3 text-xs leading-relaxed text-indigo-950/55"><span class="font-600 text-indigo-950/70">Publications</span>${p.pub.text.map(x => `<p class="mt-0.5">${esc(x)}</p>`).join('')}</div>`;
+  document.getElementById('projectGrid').innerHTML = projects.map((p, i) => `
+    <article class="reveal group flex flex-col overflow-hidden rounded-2xl border border-indigo-950/10 bg-white shadow-sm transition hover:shadow-md sm:flex-row">
+      ${visual(p, i)}
+      <div class="flex min-w-0 flex-1 flex-col p-5 sm:p-6">
+        <h3 class="font-display text-xl font-600 leading-snug text-indigo-900">${esc(p.t)}</h3>
+        <p class="mt-3 text-sm leading-relaxed text-indigo-950/75">${esc(p.d)}</p>
+        ${pub(p)}
+        <div class="mt-auto flex flex-wrap gap-1.5 pt-4">
+          ${(p.kw || []).map(k => `<span class="rounded-full bg-indigo-50 px-2.5 py-1 text-[11px] font-500 text-indigo-700">${esc(k)}</span>`).join('')}
+        </div>
       </div>
     </article>`).join('');
 

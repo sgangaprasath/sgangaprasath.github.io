@@ -319,54 +319,163 @@
     };
   }
 
-  /* ---- Data science & scientific ML: a small network learning a curve ---- */
+  /* ---- Scientific ML: a VAE encoder compressing images onto a latent manifold ---- */
   function learn() {
-    const r = rng(31), H = 14, n = 26, xs = [], ys = [];
-    const target = x => Math.sin(2.6 * x) * Math.exp(-0.4 * x * x);
-    for (let i = 0; i < n; i++) { const x = -1.6 + 3.2 * i / (n - 1); xs.push(x); ys.push(target(x) + 0.06 * gauss(r)); }
-    let W1, b1, W2, b2, mom, loss = 1, it = 0, hold = 0;
-    function init() {
-      W1 = []; b1 = []; W2 = []; b2 = 0;
-      for (let j = 0; j < H; j++) { W1.push(1.6 * gauss(r)); b1.push(1.2 * gauss(r)); W2.push(0.3 * gauss(r)); }
-      mom = new Array(3 * H + 1).fill(0); it = 0; hold = 0;
+    // A black-and-white image goes in. Convolution and dense layers compress it
+    // to a mean mu and spread sigma; a sample z = mu + sigma * eps lands on a
+    // two-dimensional latent plane, where images of the same kind sit together.
+    const N = 16, T = 6.2, ORDER = [1, 0, 3, 2];          // ring, spiral, wake, cross
+    const MU = [[-0.95, 0.70], [0.95, 0.80], [-0.85, -0.85], [1.0, -0.75]];
+    const SD = [[0.34, 0.19], [0.30, 0.21], [0.36, 0.19], [0.30, 0.21]];
+    const ROT = [0.6, -0.5, -0.3, 0.9];
+    const r = rng(31);
+    const clamp = (x, a, b) => Math.min(b, Math.max(a, x));
+    const sm = x => { x = clamp(x, 0, 1); return x * x * (3 - 2 * x); };
+    const mix = (a, b, t) => a + (b - a) * t;
+    const hash = (a, b) => { const v = Math.sin((a + 1) * 12.9898 + (b + 1) * 78.233) * 43758.5453; return v - Math.floor(v); };
+
+    function sample(k) {
+      const a = gauss(r) * SD[k][0], b = gauss(r) * SD[k][1], c = Math.cos(ROT[k]), s = Math.sin(ROT[k]);
+      return [clamp(MU[k][0] + a * c - b * s, -2.15, 2.15), clamp(MU[k][1] + a * s + b * c, -2.15, 2.15)];
     }
-    init();
-    const fwd = x => { let o = b2; for (let j = 0; j < H; j++) o += W2[j] * Math.tanh(W1[j] * x + b1[j]); return o; };
-    function sgd() {
-      const gW1 = new Array(H).fill(0), gb1 = new Array(H).fill(0), gW2 = new Array(H).fill(0);
-      let gb2 = 0, L = 0;
-      for (let i = 0; i < n; i++) {
-        const hs = []; let o = b2;
-        for (let j = 0; j < H; j++) { hs[j] = Math.tanh(W1[j] * xs[i] + b1[j]); o += W2[j] * hs[j]; }
-        const e = o - ys[i]; L += e * e;
-        gb2 += e;
-        for (let j = 0; j < H; j++) { gW2[j] += e * hs[j]; const d = e * W2[j] * (1 - hs[j] * hs[j]); gW1[j] += d * xs[i]; gb1[j] += d; }
+    const cloud = MU.map((_, k) => Array.from({ length: 36 }, () => sample(k)));
+
+    // Input images: a ring, a spiral (vortex), a vortex street and a cross
+    function image(k) {
+      const jx = (r() - 0.5) * 0.24, jy = (r() - 0.5) * 0.24, rot = (r() - 0.5) * 0.6, sc = 0.92 + r() * 0.22;
+      const co = Math.cos(rot), si = Math.sin(rot), g = new Uint8Array(N * N);
+      for (let j = 0; j < N; j++) for (let i = 0; i < N; i++) {
+        const x = ((i + 0.5) / N * 2 - 1 - jx) / sc, y = ((j + 0.5) / N * 2 - 1 - jy) / sc;
+        const xr = co * x + si * y, yr = -si * x + co * y, rr = Math.hypot(xr, yr), th = Math.atan2(yr, xr);
+        let on = false;
+        if (k === 0) on = Math.abs(rr - 0.62) < 0.15;
+        else if (k === 1) { const u = rr / 0.31 - th / TAU; on = rr < 0.92 && rr > 0.1 && (u - Math.floor(u)) < 0.45; }
+        else if (k === 2) {
+          for (let m = 0; m < 5; m++) { const dx = xr - (-0.8 + m * 0.4), dy = yr - (m % 2 ? 0.34 : -0.34); if (dx * dx + dy * dy < 0.03) { on = true; break; } }
+        } else on = (Math.abs(xr) < 0.14 && Math.abs(yr) < 0.86) || (Math.abs(yr) < 0.14 && Math.abs(xr) < 0.86);
+        if (r() < 0.01) on = !on;                          // a little pixel noise
+        g[j * N + i] = on ? 1 : 0;
       }
-      const lr = 0.02, mu = 0.9, k = 2 / n;
-      for (let j = 0; j < H; j++) {
-        mom[j] = mu * mom[j] - lr * k * gW1[j]; W1[j] += mom[j];
-        mom[H + j] = mu * mom[H + j] - lr * k * gb1[j]; b1[j] += mom[H + j];
-        mom[2 * H + j] = mu * mom[2 * H + j] - lr * k * gW2[j]; W2[j] += mom[2 * H + j];
-      }
-      mom[3 * H] = mu * mom[3 * H] - lr * k * gb2; b2 += mom[3 * H];
-      loss = L / n; it++;
+      return g;
     }
+    const pool = (a, n) => {
+      const m = n / 2, o = new Float32Array(m * m);
+      for (let j = 0; j < m; j++) for (let i = 0; i < m; i++)
+        o[j * m + i] = (a[2 * j * n + 2 * i] + a[2 * j * n + 2 * i + 1] + a[(2 * j + 1) * n + 2 * i] + a[(2 * j + 1) * n + 2 * i + 1]) / 4;
+      return o;
+    };
+
+    let cycle = -1, t = 0, cur = null;
+    function next() {
+      cycle++;
+      const k = ORDER[cycle % 4], img = image(k), f1 = pool(img, N), f2 = pool(f1, N / 2);
+      const mu = sample(k), s = [0.16 + 0.06 * r(), 0.16 + 0.06 * r()];
+      const z = [mu[0] + s[0] * gauss(r), mu[1] + s[1] * gauss(r)];
+      const act = n => Array.from({ length: n }, (_, i) => clamp(0.25 + 0.75 * hash(k + 3 * n, i) + (r() - 0.5) * 0.2, 0, 1));
+      cur = { k, img, f1, f2, mu, s, z, dense: act(6), ms: act(4) };
+    }
+    next();
+
     return {
-      step() {
-        // Slow enough to watch the fit improve; restart a while after it settles.
-        for (let s = 0; s < 6; s++) sgd();
-        if (loss < 0.006 || it > 5000) { hold++; if (hold > 240) init(); }
-      },
+      step() { t += 1 / 60; if (t >= T) { t = 0; next(); } },
       draw(g, w, h) {
         clear(g, w, h);
-        const X = u => w * (0.08 + 0.84 * (u + 1.6) / 3.2), Y = v => h * (0.5 - 0.36 * v);
-        g.fillStyle = C.ink;
-        for (let i = 0; i < n; i++) { g.beginPath(); g.arc(X(xs[i]), Y(ys[i]), 1.7, 0, TAU); g.fill(); }
-        g.strokeStyle = C.gold; g.lineWidth = 1.4; g.beginPath();
-        for (let k = 0; k <= 100; k++) { const u = -1.6 + 3.2 * k / 100; k ? g.lineTo(X(u), Y(fwd(u))) : g.moveTo(X(u), Y(fwd(u))); }
-        g.stroke();
+        const fo = clamp((T - t) / 0.5, 0, 1);               // fade at the end of each cycle
+        const pk = c => 0.45 + 0.3 * c;                      // when the wave reaches stage c
+        const on = c => sm((t - pk(c) + 0.15) / 0.25) * fo;
+        const pulse = c => Math.exp(-Math.pow((t - pk(c)) / 0.2, 2));
+        const cyE = 0.32 * h, s = 0.25 * w, ix = 0.04 * w, iy = cyE - s / 2;
+
+        // Encoder funnel
+        const x0 = 0.30 * w, x1 = 0.85 * w, hs = s / 2 + 7, he = 0.11 * h;
+        g.strokeStyle = C.faint; g.lineWidth = 1;
+        g.beginPath(); g.moveTo(x0, cyE - hs); g.lineTo(x1, cyE - he); g.lineTo(x1, cyE + he); g.lineTo(x0, cyE + hs); g.closePath(); g.stroke();
+
+        // Input image (black and white)
+        g.globalAlpha = sm(t / 0.3) * fo;
+        g.fillStyle = '#06050f'; g.fillRect(ix, iy, s, s);
+        g.fillStyle = C.ink; const p = s / N;
+        for (let j = 0; j < N; j++) for (let i = 0; i < N; i++) if (cur.img[j * N + i]) g.fillRect(ix + i * p, iy + j * p, p + 0.4, p + 0.4);
+        g.globalAlpha = 1;
+        g.strokeStyle = C.dim; g.strokeRect(ix, iy, s, s);
+
+        // Convolution stages: stacked feature maps, pooled from the image
+        const slab = (cx, side, n, map, a) => {
+          const x = cx - side / 2, y = cyE - side / 2, q = side / n;
+          g.strokeStyle = C.dim; g.fillStyle = C.bg;
+          [2, 1].forEach(o => { g.fillRect(x + o * 4, y - o * 4, side, side); g.strokeRect(x + o * 4, y - o * 4, side, side); });
+          g.fillRect(x, y, side, side);
+          for (let j = 0; j < n; j++) for (let i = 0; i < n; i++) {
+            g.fillStyle = 'rgba(245,245,251,' + (a * 0.85 * Math.sqrt(map[j * n + i])).toFixed(3) + ')';
+            g.fillRect(x + i * q, y + j * q, q + 0.3, q + 0.3);
+          }
+          g.strokeStyle = 'rgba(188,194,239,' + (0.3 + 0.5 * a).toFixed(3) + ')'; g.strokeRect(x, y, side, side);
+        };
+        const c1x = 0.39 * w, s1 = 0.12 * w, c2x = 0.545 * w, s2 = 0.085 * w;
+
+        // Wires between stages, brightened as the signal passes
+        const wire = (ax, ay, bx, by, a) => { g.strokeStyle = 'rgba(188,194,239,' + a.toFixed(3) + ')'; g.beginPath(); g.moveTo(ax, ay); g.lineTo(bx, by); g.stroke(); };
+        const gap = 0.062 * h, gd = 0.048 * h, dx = 0.65 * w, mx = 0.73 * w, zx = 0.82 * w;
+        const dN = cur.dense.map((_, i) => [dx, cyE + (i - 2.5) * gd]);
+        const mN = cur.ms.map((_, i) => [mx, cyE + (i - 1.5) * gap]);
+        const zN = [[zx, cyE - 0.5 * gap], [zx, cyE + 0.5 * gap]];
+        g.lineWidth = 1;
+        wire(ix + s, iy, c1x - s1 / 2, cyE - s1 / 2, 0.1 + 0.5 * pulse(0.5));
+        wire(ix + s, iy + s, c1x - s1 / 2, cyE + s1 / 2, 0.1 + 0.5 * pulse(0.5));
+        wire(c1x + s1 / 2 + 8, cyE - s1 / 2 - 8, c2x - s2 / 2, cyE - s2 / 2, 0.1 + 0.5 * pulse(1.5));
+        wire(c1x + s1 / 2, cyE + s1 / 2, c2x - s2 / 2, cyE + s2 / 2, 0.1 + 0.5 * pulse(1.5));
+        dN.forEach(d => wire(c2x + s2 / 2 + 8, cyE, d[0], d[1], 0.07 + 0.12 * on(3) + 0.5 * pulse(2.5)));
+        dN.forEach(d => mN.forEach(m => wire(d[0], d[1], m[0], m[1], 0.05 + 0.08 * on(4) + 0.4 * pulse(3.5))));
+        [[0, 0], [2, 0], [1, 1], [3, 1]].forEach(([m, z]) => wire(mN[m][0], mN[m][1], zN[z][0], zN[z][1], 0.08 + 0.12 * on(5) + 0.5 * pulse(4.5)));
+
+        slab(c1x, s1, N / 2, cur.f1, on(1)); slab(c2x, s2, N / 4, cur.f2, on(2));
+
+        // Dense layer, mean and spread, and the sampled z
+        const node = (pt, col, a, rad) => {
+          g.fillStyle = 'rgba(' + col + ',' + clamp(a, 0, 1).toFixed(3) + ')';
+          g.beginPath(); g.arc(pt[0], pt[1], rad, 0, TAU); g.fill();
+          g.strokeStyle = C.dim; g.beginPath(); g.arc(pt[0], pt[1], rad, 0, TAU); g.stroke();
+        };
+        const rad = Math.max(2.2, 0.014 * w);
+        dN.forEach((d, i) => node(d, '245,245,251', cur.dense[i] * on(3), rad));
+        mN.forEach((m, i) => node(m, i < 2 ? '220,174,67' : '157,123,224', cur.ms[i] * on(4), rad));
+        zN.forEach(z => node(z, '220,174,67', on(5), rad * 1.2));
+
+        // Latent manifold
+        const ps = Math.min(0.30 * w, 0.30 * h), pcx = zx, pcy = 0.64 * h + ps / 2, px = pcx - ps / 2, py = pcy - ps / 2, sc = ps / 2 / 2.4;
+        const P = z => [pcx + z[0] * sc, pcy - z[1] * sc];
+        g.strokeStyle = C.dim; g.strokeRect(px, py, ps, ps);
+        g.strokeStyle = C.faint;
+        g.beginPath(); g.moveTo(pcx, py); g.lineTo(pcx, py + ps); g.moveTo(px, pcy); g.lineTo(px + ps, pcy); g.stroke();
+        g.setLineDash([2, 3]);
+        [1, 2].forEach(u => { g.beginPath(); g.arc(pcx, pcy, u * sc, 0, TAU); g.stroke(); });
+        g.setLineDash([]);
+        g.fillStyle = C.dim;
+        cloud.forEach(c => c.forEach(z => { const q = P(z); g.beginPath(); g.arc(q[0], q[1], 0.9, 0, TAU); g.fill(); }));
+        const ga = 0.8 * sm((t - 2.4) / 0.4) * fo;
+        g.fillStyle = 'rgba(220,174,67,' + ga.toFixed(3) + ')';
+        cloud[cur.k].forEach(z => { const q = P(z); g.beginPath(); g.arc(q[0], q[1], 1.1, 0, TAU); g.fill(); });
+
+        // Sample flies from z to its place on the manifold
+        const zp = P(cur.z), mp = P(cur.mu), u = sm((t - 2.0) / 0.5), landed = t > 2.5;
+        if (u > 0) {
+          g.strokeStyle = 'rgba(220,174,67,' + (0.5 * fo).toFixed(3) + ')'; g.setLineDash([2, 3]);
+          g.beginPath(); g.moveTo(zx, cyE + 0.5 * gap + rad); g.lineTo(zp[0], zp[1]); g.stroke(); g.setLineDash([]);
+        }
+        if (u > 0 && !landed) {
+          g.fillStyle = C.ink; g.beginPath(); g.arc(mix(zx, zp[0], u), mix(cyE + 0.5 * gap, zp[1], u), 1.8, 0, TAU); g.fill();
+        }
+        if (landed) {
+          const a = sm((t - 2.5) / 0.2) * fo, v = clamp((t - 2.5) / 0.9, 0, 1);
+          g.strokeStyle = 'rgba(157,123,224,' + a.toFixed(3) + ')'; g.setLineDash([2, 2]);
+          g.beginPath(); g.ellipse(mp[0], mp[1], cur.s[0] * sc, cur.s[1] * sc, 0, 0, TAU); g.stroke(); g.setLineDash([]);
+          g.strokeStyle = 'rgba(220,174,67,' + (0.8 * (1 - v) * fo).toFixed(3) + ')';
+          g.beginPath(); g.arc(zp[0], zp[1], 2.5 + 7 * v, 0, TAU); g.stroke();
+          g.globalAlpha = a; g.fillStyle = C.ink; g.beginPath(); g.arc(zp[0], zp[1], 2.1, 0, TAU); g.fill();
+          g.strokeStyle = C.gold; g.beginPath(); g.arc(zp[0], zp[1], 2.1, 0, TAU); g.stroke(); g.globalAlpha = 1;
+        }
       },
-      readout: () => 'loss ' + loss.toFixed(3),
+      readout: () => t > 2.5 ? 'z = (' + cur.z[0].toFixed(2) + ', ' + cur.z[1].toFixed(2) + ')' : 'encoding…',
     };
   }
 
